@@ -452,20 +452,34 @@ const Footer = () => {
           <p className="text-gray-400 text-sm md:text-base">
 
             © 2026 Vrundawan Celebration &
-            Resort. All Rights Reserved.
+            Resort | All Rights Reserved.
 
           </p>
 
-          <p
-            className="
-            text-gray-500
-            mt-3
-            text-xs
-            sm:text-sm"
-          >
-            Designed & Developed By
-            Your Company Name
-          </p>
+        <p
+  className="
+    text-gray-500
+    mt-3
+    text-xs
+    sm:text-sm"
+>
+  Designed & Developed By{" "}
+  <a
+    href="https://www.advertisingandbrandingmarketing.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      text-[#D4AF37]
+      font-bold
+      tracking-wide
+      hover:text-[#F3D98B]
+      transition-colors
+      duration-300
+    "
+  >
+    Advertising Branding & Marketing
+  </a>
+</p>
 
         </div>
 
