@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const MobileBottomBar = () => {
   return (
-    <div className="fixed bottom-3 left-0 right-0 z-[9999] flex justify-center lg:hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-[9999] flex justify-center lg:hidden pb-0">
 
       <div
         className="
@@ -15,7 +15,7 @@ const MobileBottomBar = () => {
           border border-[#D4AF37]/40
           shadow-[0_15px_40px_rgba(0,0,0,0.25)]
           px-3
-          py-2
+          py-1
         "
       >
 
@@ -28,7 +28,7 @@ const MobileBottomBar = () => {
             className="
             group
             flex flex-col items-center justify-center
-            py-2
+            py-1
             rounded-2xl
             hover:bg-[#0F2D1D]/5
             transition

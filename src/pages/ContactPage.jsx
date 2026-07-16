@@ -37,9 +37,15 @@ const ContactPage = () => {
       return;
     }
 
-    const text = `Hello Vrundawan Celebration & Resort! 🌿%0A%0AI would like to enquire about a booking.%0A%0A*Name:* ${quickForm.name}%0A*Phone:* ${quickForm.phone}%0A*Message:* ${quickForm.message || "-"}`;
+    const text =
+      `Hello Vrundawan Celebration & Resort! 🌿\n\n` +
+      `I would like to enquire about a booking.\n\n` +
+      `*Name:* ${quickForm.name}\n` +
+      `*Phone:* ${quickForm.phone}\n` +
+      `*Message:* ${quickForm.message || "-"}`;
 
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank");
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   // Detailed enquiry form (unchanged, at the bottom)
@@ -64,9 +70,18 @@ const ContactPage = () => {
       return;
     }
 
-    const text = `Hello Vrundawan Celebration & Resort! 🌿%0A%0AI would like to enquire about a booking.%0A%0A*Name:* ${formData.name}%0A*Phone:* ${formData.phone}%0A*Event Type:* ${formData.eventType || "-"}%0A*Guest Count:* ${formData.guests || "-"}%0A*Preferred Date:* ${formData.date || "-"}%0A*Message:* ${formData.message || "-"}`;
+    const text =
+      `Hello Vrundawan Celebration & Resort! 🌿\n\n` +
+      `I would like to enquire about a booking.\n\n` +
+      `*Name:* ${formData.name}\n` +
+      `*Phone:* ${formData.phone}\n` +
+      `*Event Type:* ${formData.eventType || "-"}\n` +
+      `*Guest Count:* ${formData.guests || "-"}\n` +
+      `*Preferred Date:* ${formData.date || "-"}\n` +
+      `*Message:* ${formData.message || "-"}`;
 
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank");
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   const contactInfo = [
@@ -268,8 +283,7 @@ const ContactPage = () => {
                     className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 py-3.5 font-semibold text-[#143D28] shadow-[0_12px_28px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-[1.02] self-start"
                   >
                     <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700" />
-                    <MessageCircle size={18} className="relative" />
-                    <span className="relative">Send via WhatsApp</span>
+                    <span className="relative">Send </span>
                   </button>
                 </form>
               </div>

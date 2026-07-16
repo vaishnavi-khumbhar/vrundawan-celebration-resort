@@ -71,7 +71,7 @@ const Loader = () => {
             <img
               src={logo}
               alt="Vrundawan Logo"
-              className="relative w-28 h-28 md:w-32 md:h-32 rounded-full object-cover border-2 border-[#D4AF37] shadow-[0_0_25px_rgba(212,175,55,0.5)]"
+              className="relative w-30 h-30 md:w-32 md:h-32 rounded-full object-cover border-2 border-[#D4AF37] shadow-[0_0_25px_rgba(212,175,55,0.5)]"
             />
           </motion.div>
         </div>
