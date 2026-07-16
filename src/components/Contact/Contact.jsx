@@ -82,7 +82,7 @@ Thank you 🙏`;
   };
 
   return (
-    <section className="py-24 bg-[#FAF7F2] relative overflow-hidden" id="contact">
+    <section className="py-15 bg-[#FAF7F2] relative overflow-hidden" id="contact">
 
       {/* Ambient background accents */}
       <div className="pointer-events-none absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4AF37]/5 blur-3xl" />
@@ -260,7 +260,7 @@ Thank you 🙏`;
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mt-24 text-center relative bg-white rounded-[40px] py-16 px-6 shadow-xl border border-[#143D28]/5"
+          className="mt-15 text-center relative bg-white rounded-[40px] py-16 px-6 shadow-xl border border-[#143D28]/5"
         >
           <div className="pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl" />
 
@@ -273,21 +273,34 @@ Thank you 🙏`;
             in person.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-5 mt-10 relative">
-            <button className="group inline-flex items-center gap-2 bg-[#143D28] text-white
-              px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20
-              transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              <Phone size={18} />
-              Call Now
-            </button>
+         <div className="flex flex-wrap justify-center gap-5 mt-10 relative">
+  {/* Call Button */}
+  <a
+    href="tel:+918180877750"
+    className="group inline-flex items-center gap-2 bg-[#143D28] text-white
+      px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20
+      transition-all duration-300 hover:scale-105 hover:shadow-xl"
+  >
+    <Phone size={18} />
+    Call Now
+  </a>
 
-            <button className="group inline-flex items-center gap-2 bg-[#D4AF37] text-[#143D28]
-              px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#D4AF37]/30
-              transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              <MessageCircle size={18} />
-              WhatsApp Now
-            </button>
-          </div>
+  {/* WhatsApp Button */}
+  <a
+    href={`https://wa.me/918180877750?text=${encodeURIComponent(
+      "Hello, I would like to enquire about Vrundawan Celebration & Resort."
+    )}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group inline-flex items-center gap-2 bg-[#D4AF37] text-[#143D28]
+      px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#D4AF37]/30
+      transition-all duration-300 hover:scale-105 hover:shadow-xl"
+  >
+    <MessageCircle size={18} />
+    WhatsApp Now
+  </a>
+</div>
+
         </motion.div>
 
       </div>

@@ -3,63 +3,64 @@ import { motion } from "framer-motion";
 import {
   MapPin,
   HeartHandshake,
-  Waves,
-  Trees,
-  Building2,
-  ParkingCircle,
-  BriefcaseBusiness,
+  Hotel,
+  Car,
+  Briefcase,
   UtensilsCrossed,
+  Trees,
+  WavesLadder,
 } from "lucide-react";
 
 const WhyChooseUs = () => {
   const features = [
-    {
-      icon: <MapPin size={32} />,
-      title: "Prime Location",
-      desc: "Located on Latur-Ambejogai Road.",
-    },
-
-   {
-  icon: <Trees size={32} />,
-  title: "Majara River View",
-  desc: "Scenic and peaceful surroundings.",
-},
   {
-    icon: <HeartHandshake size={32} />, // Wedding
+    icon: <MapPin size={32} strokeWidth={2.2} />,
+    title: "Prime Location",
+    desc: "Located on Latur–Ambejogai Road.",
+  },
+
+  {
+    icon: <Trees size={32} strokeWidth={2.2} />,
+    title: "Majara River View",
+    desc: "Scenic and peaceful surroundings.",
+  },
+
+  {
+    icon: <HeartHandshake size={32} strokeWidth={2.2} />,
     title: "Wedding Destination",
     desc: "Perfect venue for grand celebrations.",
   },
 
   {
-  icon: <Waves size={32} />,
-  title: "Swimming Pool",
-  desc: "Relax and enjoy luxury amenities.",
-},
+    icon: <WavesLadder size={32} strokeWidth={2.2} />,
+    title: "Swimming Pool",
+    desc: "Relax and enjoy luxury amenities.",
+  },
 
-    {
-      icon: <Building2 size={32} />,
-      title: "Resort Stay",
-      desc: "Premium rooms for comfortable stays.",
-    },
+  {
+    icon: <Hotel size={32} strokeWidth={2.2} />,
+    title: "Resort Stay",
+    desc: "Premium rooms for comfortable stays.",
+  },
 
-    {
-      icon: <ParkingCircle size={32} />,
-      title: "Spacious Parking",
-      desc: "Ample parking space for all guests.",
-    },
+  {
+    icon: <Car size={32} strokeWidth={2.2} />,
+    title: "Spacious Parking",
+    desc: "Ample parking space for all guests.",
+  },
 
-    {
-      icon: <BriefcaseBusiness size={32} />,
-      title: "Corporate Events",
-      desc: "Ideal destination for business gatherings.",
-    },
+  {
+    icon: <Briefcase size={32} strokeWidth={2.2} />,
+    title: "Corporate Events",
+    desc: "Ideal destination for business gatherings.",
+  },
 
-    {
-      icon: <UtensilsCrossed size={32} />,
-      title: "Delicious Food",
-      desc: "Authentic and freshly prepared meals.",
-    },
-  ];
+  {
+    icon: <UtensilsCrossed size={32} strokeWidth={2.2} />,
+    title: "Delicious Food",
+    desc: "Authentic and freshly prepared meals.",
+  },
+];
 
   return (
     <section
@@ -176,31 +177,31 @@ const WhyChooseUs = () => {
               {/* Icon — bigger, in a gold gradient badge with ring */}
 
               <div className="relative flex justify-center mb-6">
-                <div
-                  className="
-                  relative
-                  w-20
-                  h-20
-                  rounded-2xl
-                  flex
-                  items-center
-                  justify-center
-                  bg-gradient-to-br
-                  from-[#D4AF37]
-                  to-[#a8842a]
-                  text-[#143D28]
-                  shadow-lg
-                  shadow-[#D4AF37]/30
-                  ring-1
-                  ring-[#D4AF37]/40
-                  rotate-3
-                  group-hover:rotate-0
-                  group-hover:scale-110
-                  transition-all
-                  duration-300"
-                >
-                  {item.icon}
-                </div>
+               <div
+  className="
+    relative
+    w-20
+    h-20
+    rounded-2xl
+    flex
+    items-center
+    justify-center
+    bg-gradient-to-br
+    from-[#D4AF37]
+    via-[#E9C75B]
+    to-[#B88A1A]
+    text-[#143D28]
+    shadow-[0_12px_30px_rgba(212,175,55,0.35)]
+    ring-2
+    ring-[#F4E4A1]/40
+    group-hover:scale-110
+    group-hover:-translate-y-1
+    transition-all
+    duration-300
+  "
+>
+  {item.icon}
+</div>
               </div>
 
 

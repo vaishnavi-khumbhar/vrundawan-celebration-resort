@@ -2,11 +2,12 @@ import { motion } from "framer-motion";
 import * as CountUpModule from "react-countup";
 
 import aboutImage from "../assets/about/about.avif";
-
+import { Phone, MessageCircle } from "lucide-react";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import Counters from "../components/Counters/Counters";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Contact from "../components/Contact/Contact";
+import InnerBanner from "../components/InnerBanner";
 
 const CountUp =
   CountUpModule.default?.default ||
@@ -16,10 +17,18 @@ const CountUp =
 const AboutPage = () => {
   return (
     <>
+
+    <InnerBanner
+        badge="About Us"
+        title="Welcome To Vrundawan"
+        subtitle="Experience luxury, celebration and nature together at one of the finest wedding and resort destinations in Latur."
+        currentPage="About"
+      />
+
       {/* इथे About component ऐवजी तुझा पूर्ण About section paste कर */}
-      <section className="py-24 bg-[#FAF7F2] overflow-hidden">
+      <section className="py-10 bg-[#FAF7F2] overflow-hidden">
        <section
-      className="py-24 bg-[#FAF7F2] overflow-hidden"
+      className="py-10 bg-[#FAF7F2] overflow-hidden"
       id="about"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
@@ -30,9 +39,7 @@ const AboutPage = () => {
             About Us
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-bold mt-4 text-[#143D28]">
-            Welcome To Vrundawan
-          </h2>
+         
 
           <p className="text-gray-600 max-w-3xl mx-auto mt-5">
             Experience luxury, celebration, and nature together at one of the
@@ -98,11 +105,7 @@ const AboutPage = () => {
             </div>
 
             {/* Button */}
-            <button
-              className="mt-10 bg-[#D4AF37] text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition duration-300"
-            >
-              Explore More
-            </button>
+            
           </motion.div>
         </div>
 
@@ -143,9 +146,56 @@ const AboutPage = () => {
       </section>
 
       <WhyChooseUs />
+      
+      <section>
+  {/* CTA Banner */}
+  <motion.div
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.6 }}
+    className="mt-0 text-center relative bg-white rounded-[40px] py-16 px-6 shadow-xl border border-[#143D28]/5"
+  >
+    <div className="pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl" />
+
+    <h2 className="text-4xl font-bold text-[#143D28] relative">
+      Book Your Site Visit Today
+    </h2>
+
+    <p className="text-gray-600 mt-5 relative">
+      Visit Vrundawan Celebration &amp; Resort and experience luxury in person.
+    </p>
+
+    <div className="flex flex-wrap justify-center gap-5 mt-10 relative">
+      
+      {/* Call Button */}
+      <a
+        href="tel:+919876543210"
+        className="group inline-flex items-center gap-2 bg-[#143D28] text-white
+        px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20
+        transition-all duration-300 hover:scale-105 hover:shadow-xl"
+      >
+        <Phone size={18} />
+        Call Now
+      </a>
+
+      {/* WhatsApp Button */}
+      <a
+        href="https://wa.me/919876543210?text=Hello%20Vrundawan%20Celebration%20%26%20Resort,%20I%20would%20like%20to%20enquire%20about%20your%20wedding%20venue,%20resort%20stay%20and%20event%20packages."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group inline-flex items-center gap-2 bg-[#D4AF37] text-[#143D28]
+        px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#D4AF37]/30
+        transition-all duration-300 hover:scale-105 hover:shadow-xl"
+      >
+        <MessageCircle size={18} />
+        WhatsApp Now
+      </a>
+
+    </div>
+  </motion.div>
+</section>
       <Counters />
-      <Testimonials />
-      <Contact />
     </>
   );
 };

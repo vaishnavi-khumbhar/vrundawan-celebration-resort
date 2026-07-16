@@ -4,7 +4,6 @@ import logo from "../../assets/logo/logo.jpeg";
 const Loader = () => {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0F2D1D] overflow-hidden">
-
       {/* Background Glow */}
       <div className="absolute w-[500px] h-[500px] rounded-full bg-[#D4AF37]/20 blur-[130px]" />
       <div className="absolute -top-20 -left-20 w-[300px] h-[300px] rounded-full bg-[#143D28]/60 blur-[110px]" />
@@ -35,9 +34,7 @@ const Loader = () => {
 
       {/* Loader Container */}
       <div className="relative flex flex-col items-center px-6">
-
         <div className="relative flex items-center justify-center">
-
           {/* Outer thin static ring */}
           <div className="absolute w-60 h-60 rounded-full border border-[#D4AF37]/20" />
 
@@ -79,15 +76,37 @@ const Loader = () => {
           </motion.div>
         </div>
 
-        {/* Welcome Text */}
+        {/* Decorative divider above text */}
+        <motion.div
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={{ opacity: 1, scaleX: 1 }}
+          transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
+          className="mt-10 md:mt-12 flex items-center gap-2"
+        >
+          <span className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37]" />
+          <span className="h-[1px] w-16 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent" />
+          <span className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37]" />
+        </motion.div>
+
+        {/* Welcome Text — pushed further down, with glow + subtle breathing scale */}
         <motion.h2
-          initial={{ opacity: 0, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.5,
-            duration: 0.8,
+          initial={{ opacity: 0, y: 20 }}
+          animate={{
+            opacity: 1,
+            y: 0,
+            scale: [1, 1.03, 1],
           }}
-          className="mt-8 font-serif font-bold text-3xl md:text-4xl text-center tracking-wide bg-gradient-to-r from-[#F3D98B] via-[#D4AF37] to-[#F3D98B] bg-clip-text text-transparent bg-[length:200%_auto] animate-[shimmer_3s_linear_infinite]"
+          transition={{
+            opacity: { delay: 0.6, duration: 0.8 },
+            y: { delay: 0.6, duration: 0.8 },
+            scale: {
+              delay: 1.4,
+              duration: 2.5,
+              repeat: Infinity,
+              ease: "easeInOut",
+            },
+          }}
+          className="relative mt-6 md:mt-8 font-serif font-bold text-3xl md:text-5xl text-center tracking-wide bg-gradient-to-r from-[#F3D98B] via-[#D4AF37] to-[#F3D98B] bg-clip-text text-transparent bg-[length:200%_auto] animate-[shimmer_3s_linear_infinite] drop-shadow-[0_0_25px_rgba(212,175,55,0.35)]"
           style={{ fontFamily: "'Cormorant Garamond', 'Playfair Display', serif" }}
         >
           Welcome to Vrundawan
@@ -98,20 +117,20 @@ const Loader = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
-            delay: 1,
+            delay: 1.1,
             duration: 0.8,
           }}
-          className="flex items-center gap-3 mt-3"
+          className="flex items-center gap-3 mt-4 md:mt-5"
         >
           <span className="h-[1px] w-6 bg-[#D4AF37]/60" />
-          <p className="text-white/90 text-sm md:text-base tracking-[0.3em] uppercase font-light">
+          <p className="text-white/90 text-sm md:text-base tracking-[0.35em] uppercase font-light">
             Celebration &amp; Resort
           </p>
           <span className="h-[1px] w-6 bg-[#D4AF37]/60" />
         </motion.div>
 
         {/* Loading bar */}
-        <div className="mt-10 w-48 h-[3px] bg-white/10 rounded-full overflow-hidden">
+        <div className="mt-10 md:mt-12 w-52 md:w-56 h-[3px] bg-white/10 rounded-full overflow-hidden shadow-inner">
           <motion.div
             initial={{ x: "-100%" }}
             animate={{ x: "100%" }}

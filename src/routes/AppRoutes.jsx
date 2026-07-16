@@ -8,10 +8,14 @@ import AboutPage from "../pages/AboutPage";
 import ServicesPage from "../pages/ServicesPage";
 import GalleryPage from "../pages/GalleryPage";
 import ContactPage from "../pages/ContactPage";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+
+import MobileBottomBar from "../components/MobileBottomBar/MobileBottomBar";
 
 const AppRoutes = () => {
   return (
     <>
+     <ScrollToTop />
       <Navbar />
 
       <Routes>
@@ -22,6 +26,7 @@ const AppRoutes = () => {
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
 
+ <MobileBottomBar />
       <Footer />
     </>
   );

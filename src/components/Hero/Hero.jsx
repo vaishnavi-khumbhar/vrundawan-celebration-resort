@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 
@@ -124,68 +124,72 @@ const Hero = () => {
  <div className="mt-8 flex flex-nowrap sm:flex-wrap items-center gap-3">
 
   {/* Book Venue */}
-  <button
+  {/* Book Venue */}
+<Link
+  to="/contact"
+  className="
+    group relative overflow-hidden
+    w-1/2 sm:w-auto
+    rounded-full
+    bg-gradient-to-r
+    from-[#C99A1A]
+    via-[#D4AF37]
+    to-[#F3D98B]
+    px-4 sm:px-8
+    py-3 sm:py-4
+    text-sm sm:text-base
+    font-semibold
+    text-[#143D28]
+    shadow-[0_15px_35px_rgba(212,175,55,0.35)]
+    transition-all duration-500
+    hover:-translate-y-1
+    hover:scale-105
+    hover:shadow-[0_20px_45px_rgba(212,175,55,0.55)]
+    inline-flex items-center justify-center
+  "
+>
+  <span
     className="
-      group relative overflow-hidden
-      w-1/2 sm:w-auto
-      rounded-full
+      absolute inset-0
+      -translate-x-full
       bg-gradient-to-r
-      from-[#C99A1A]
-      via-[#D4AF37]
-      to-[#F3D98B]
-      px-4 sm:px-8
-      py-3 sm:py-4
-      text-sm sm:text-base
-      font-semibold
-      text-[#143D28]
-      shadow-[0_15px_35px_rgba(212,175,55,0.35)]
-      transition-all duration-500
-      hover:-translate-y-1
-      hover:scale-105
-      hover:shadow-[0_20px_45px_rgba(212,175,55,0.55)]
+      from-transparent
+      via-white/40
+      to-transparent
+      group-hover:translate-x-full
+      transition-transform
+      duration-700
     "
-  >
-    <span
-      className="
-        absolute inset-0
-        -translate-x-full
-        bg-gradient-to-r
-        from-transparent
-        via-white/40
-        to-transparent
-        group-hover:translate-x-full
-        transition-transform
-        duration-700
-      "
-    />
-    <span className="relative z-10">Book Venue</span>
-  </button>
+  />
+  <span className="relative z-10">Book Venue</span>
+</Link>
 
-  {/* Explore Resort */}
-  <button
-    className="
-      group relative overflow-hidden
-      w-1/2 sm:w-auto
-      rounded-full
-      border border-[#D4AF37]/70
-      bg-white/10
-      backdrop-blur-md
-      px-4 sm:px-8
-      py-3 sm:py-4
-      text-sm sm:text-base
-      font-semibold
-      text-white
-      transition-all duration-500
-      hover:-translate-y-1
-      hover:bg-[#143D28]
-      hover:border-[#D4AF37]
-      hover:text-[#D4AF37]
-      hover:shadow-[0_15px_35px_rgba(20,61,40,0.45)]
-    "
-  >
-    <span className="relative z-10">Explore Resort</span>
-  </button>
-
+{/* Explore Resort */}
+<Link
+  to="/about"
+  className="
+    group relative overflow-hidden
+    w-1/2 sm:w-auto
+    rounded-full
+    border border-[#D4AF37]/70
+    bg-white/10
+    backdrop-blur-md
+    px-4 sm:px-8
+    py-3 sm:py-4
+    text-sm sm:text-base
+    font-semibold
+    text-white
+    transition-all duration-500
+    hover:-translate-y-1
+    hover:bg-[#143D28]
+    hover:border-[#D4AF37]
+    hover:text-[#D4AF37]
+    hover:shadow-[0_15px_35px_rgba(20,61,40,0.45)]
+    inline-flex items-center justify-center
+  "
+>
+  <span className="relative z-10">Explore Resort</span>
+</Link>
 </div>
                   </motion.div>
 

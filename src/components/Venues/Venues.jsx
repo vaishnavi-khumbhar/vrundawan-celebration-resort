@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-              import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import banquet from "../../assets/venues/banquet.jpg";
 import lawn from "../../assets/venues/lawn.jpg";

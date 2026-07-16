@@ -35,24 +35,9 @@ const About = () => {
           style={{ fontFamily: "'Cormorant Garamond', 'Playfair Display', serif" }}
         >
           Welcome To{" "}
-          <span className="relative inline-block text-[#D4AF37]">
-            Vrundawan
-            <svg
-              className="absolute left-0 -bottom-2 w-full"
-              height="10"
-              viewBox="0 0 200 10"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M0,6 Q50,0 100,6 T200,6"
-                fill="none"
-                stroke="#D4AF37"
-                strokeWidth="3"
-                strokeLinecap="round"
-                opacity="0.5"
-              />
-            </svg>
-          </span>
+          <span className="text-[#D4AF37]">
+  Vrundawan
+</span>
           <br className="hidden sm:block" /> Celebration &amp; Resort
         </motion.h2>
 

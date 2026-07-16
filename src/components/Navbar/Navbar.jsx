@@ -3,7 +3,7 @@ import { Menu, X, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../../assets/logo/logo.jpeg";
 import { NavLink } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scroll, setScroll] = useState(false);
@@ -140,19 +140,24 @@ const Navbar = () => {
 
             </a>
 
-            <button
-              className="bg-[#D4AF37]
-              text-black
-              px-6 py-3
-              rounded-full
-              font-semibold
-              shadow-[0_6px_20px_rgba(212,175,55,0.35)]
-              hover:scale-105
-              hover:shadow-[0_6px_25px_rgba(212,175,55,0.55)]
-              transition-all duration-300"
-            >
-              Book Venue
-            </button>
+           <Link
+  to="/contact"
+  className="inline-block"
+>
+  <button
+    className="bg-[#D4AF37]
+    text-black
+    px-6 py-3
+    rounded-full
+    font-semibold
+    shadow-[0_6px_20px_rgba(212,175,55,0.35)]
+    hover:scale-105
+    hover:shadow-[0_6px_25px_rgba(212,175,55,0.55)]
+    transition-all duration-300"
+  >
+    Book Venue
+  </button>
+</Link>
 
           </div>
 
@@ -261,6 +266,11 @@ const Navbar = () => {
         )}
 
       </AnimatePresence>
+
+
+
+
+      
 
     </nav>
   );
