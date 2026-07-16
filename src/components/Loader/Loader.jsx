@@ -4,6 +4,7 @@ import logo from "../../assets/logo/logo.jpeg";
 const Loader = () => {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0F2D1D] overflow-hidden">
+
       {/* Background Glow */}
       <div className="absolute w-[500px] h-[500px] rounded-full bg-[#D4AF37]/20 blur-[130px]" />
       <div className="absolute -top-20 -left-20 w-[300px] h-[300px] rounded-full bg-[#143D28]/60 blur-[110px]" />
@@ -34,7 +35,9 @@ const Loader = () => {
 
       {/* Loader Container */}
       <div className="relative flex flex-col items-center px-6">
+
         <div className="relative flex items-center justify-center">
+
           {/* Outer thin static ring */}
           <div className="absolute w-60 h-60 rounded-full border border-[#D4AF37]/20" />
 
@@ -60,77 +63,88 @@ const Loader = () => {
             className="absolute w-44 h-44 rounded-full border-2 border-t-transparent border-r-transparent border-b-[#F3D98B]/50 border-l-[#F3D98B]/50"
           />
 
-          {/* Logo badge */}
-          <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
-            className="relative z-10"
-          >
-            <div className="absolute inset-0 rounded-full bg-[#D4AF37]/40 blur-xl scale-110" />
-            <img
-              src={logo}
-              alt="Vrundawan Logo"
-              className="relative w-30 h-30 md:w-32 md:h-32 rounded-full object-cover border-2 border-[#D4AF37] shadow-[0_0_25px_rgba(212,175,55,0.5)]"
-            />
-          </motion.div>
-        </div>
+         {/* Logo badge */}
+<motion.div
+  initial={{ scale: 0, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1 }}
+  transition={{ duration: 0.7, ease: "easeOut" }}
+  className="relative z-10"
+>
+  <div className="absolute inset-0 rounded-full bg-[#D4AF37]/40 blur-2xl scale-125" />
 
-        {/* Decorative divider above text */}
-        <motion.div
-          initial={{ opacity: 0, scaleX: 0 }}
-          animate={{ opacity: 1, scaleX: 1 }}
-          transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
-          className="mt-10 md:mt-12 flex items-center gap-2"
-        >
-          <span className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37]" />
-          <span className="h-[1px] w-16 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent" />
-          <span className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37]" />
-        </motion.div>
+  <img
+    src={logo}
+    alt="Vrundawan Logo"
+    className="
+      relative
+      w-36
+      h-36
+      md:w-44
+      md:h-44
+      rounded-full
+      object-cover
+      border-[3px]
+      border-[#D4AF37]
+      shadow-[0_0_40px_rgba(212,175,55,0.55)]
+    "
+  />
+</motion.div>
+</div>
 
-        {/* Welcome Text — pushed further down, with glow + subtle breathing scale */}
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{
-            opacity: 1,
-            y: 0,
-            scale: [1, 1.03, 1],
-          }}
-          transition={{
-            opacity: { delay: 0.6, duration: 0.8 },
-            y: { delay: 0.6, duration: 0.8 },
-            scale: {
-              delay: 1.4,
-              duration: 2.5,
-              repeat: Infinity,
-              ease: "easeInOut",
-            },
-          }}
-          className="relative mt-6 md:mt-8 font-serif font-bold text-3xl md:text-5xl text-center tracking-wide bg-gradient-to-r from-[#F3D98B] via-[#D4AF37] to-[#F3D98B] bg-clip-text text-transparent bg-[length:200%_auto] animate-[shimmer_3s_linear_infinite] drop-shadow-[0_0_25px_rgba(212,175,55,0.35)]"
-          style={{ fontFamily: "'Cormorant Garamond', 'Playfair Display', serif" }}
-        >
-          Welcome to Vrundawan
-        </motion.h2>
+        {/* Welcome Text */}
+       <motion.h2
+  initial={{ opacity: 0, y: 15 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{
+    delay: 0.5,
+    duration: 0.8,
+  }}
+  className="
+    mt-10
+    translate-y-5
+    font-serif
+    font-bold
+    text-3xl
+    md:text-4xl
+    text-center
+    tracking-wide
+    bg-gradient-to-r
+    from-[#F3D98B]
+    via-[#D4AF37]
+    to-[#F3D98B]
+    bg-clip-text
+    text-transparent
+    bg-[length:200%_auto]
+    animate-[shimmer_3s_linear_infinite]
+  "
+  style={{
+    fontFamily: "'Cormorant Garamond', 'Playfair Display', serif",
+  }}
+>
+  Welcome to Vrundawan
+</motion.h2>
 
         {/* Tagline */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{
-            delay: 1.1,
-            duration: 0.8,
-          }}
-          className="flex items-center gap-3 mt-4 md:mt-5"
-        >
-          <span className="h-[1px] w-6 bg-[#D4AF37]/60" />
-          <p className="text-white/90 text-sm md:text-base tracking-[0.35em] uppercase font-light">
-            Celebration &amp; Resort
-          </p>
-          <span className="h-[1px] w-6 bg-[#D4AF37]/60" />
-        </motion.div>
+       <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{
+    delay: 1,
+    duration: 0.8,
+  }}
+  className="flex items-center justify-center gap-3 mt-6 translate-y-5"
+>
+  <span className="h-[1px] w-8 bg-[#D4AF37]/60" />
+
+  <p className="text-white/90 text-sm md:text-base tracking-[0.3em] uppercase font-light">
+    Celebration &amp; Resort
+  </p>
+
+  <span className="h-[1px] w-8 bg-[#D4AF37]/60" />
+</motion.div>
 
         {/* Loading bar */}
-        <div className="mt-10 md:mt-12 w-52 md:w-56 h-[3px] bg-white/10 rounded-full overflow-hidden shadow-inner">
+        <div className="mt-10 w-48 h-[3px] bg-white/10 rounded-full overflow-hidden">
           <motion.div
             initial={{ x: "-100%" }}
             animate={{ x: "100%" }}
