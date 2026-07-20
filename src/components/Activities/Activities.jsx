@@ -7,8 +7,8 @@ import djnight from "../../assets/activities/djnight.jpg";
 import camping from "../../assets/activities/camping.jpg";
 import hurda from "../../assets/activities/hurdaparty.jpg";
 import bonfire from "../../assets/activities/bonfire.jpg";
-import family from "../../assets/activities/familypicnic.jpg";
-import oneday from "../../assets/activities/onedaypicnic.jpg";
+import pool from "../../assets/activities/pool.jpeg";
+import cricket from "../../assets/activities/cricket.jpg";
 
 const Activities = () => {
   const activities = [
@@ -16,6 +16,18 @@ const Activities = () => {
       image: raindance,
       title: "Rain Dance",
       desc: "Dance to energetic beats and enjoy unforgettable moments.",
+    },
+
+    {
+      image: pool,
+      title: "Swimming Pool",
+      desc: "Relax and refresh in our clean, family-friendly swimming pool.",
+    },
+
+    {
+      image: cricket,
+      title: "Cricket Turf",
+      desc: "Enjoy a friendly match on our open cricket ground with friends and family.",
     },
 
     {
@@ -40,18 +52,6 @@ const Activities = () => {
       image: bonfire,
       title: "Bonfire Experience",
       desc: "Spend magical evenings around a cozy bonfire.",
-    },
-
-    {
-      image: family,
-      title: "Family Picnic",
-      desc: "Create memorable moments with your loved ones.",
-    },
-
-    {
-      image: oneday,
-      title: "One Day Picnic",
-      desc: "Complete one-day outing packages for everyone.",
     },
   ];
 
@@ -299,7 +299,7 @@ const Activities = () => {
   >
     Create unforgettable memories with exciting outdoor
     adventures, fun-filled activities, and relaxing experiences
-    for your friends and family at Vrundawan Celebration & Resort.
+    for your friends and family at हृदय Resort &amp; Agro Tourism.
   </p>
 
   <Link to="/contact">

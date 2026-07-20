@@ -7,9 +7,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
-import hero1 from "../../assets/hero/hero1.jpg";
-import hero2 from "../../assets/hero/hero2.webp";
-import hero3 from "../../assets/hero/hero3.jpg";
+import hero1 from "../../assets/hero/hero1.jpeg";
+import hero2 from "../../assets/hero/hero2.png";
+import hero3 from "../../assets/hero/hero3.jpeg";
 
 const Hero = () => {
   const heroImages = [hero1, hero2, hero3];
@@ -43,7 +43,7 @@ const Hero = () => {
               {/* Background Image */}
               <img
                 src={image}
-                alt="Vrundawan Celebration & Resort"
+                alt="Vrundawan Resort & Agro Tourism"
                 className="w-full h-full object-cover"
               />
 
@@ -59,7 +59,7 @@ const Hero = () => {
 
                 <div className="max-w-7xl mx-auto w-full px-6 sm:px-10 lg:px-16">
 
-                  {/* Eyebrow with number/index */}
+                  {/* Eyebrow with location */}
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -71,7 +71,7 @@ const Hero = () => {
                       className="text-[#D4AF37] font-serif text-sm tracking-[4px] uppercase"
                       style={{ fontFamily: "'Cormorant Garamond', serif" }}
                     >
-                      Latur–Ambejogai Road · Beside Majara River
+                      Mahapur, Tal-Dist. Latur · Chabhe Farm · Manjara Riverside
                     </span>
                   </motion.div>
 
@@ -95,16 +95,15 @@ const Hero = () => {
                     </span>
                   </motion.h1>
 
-                  <motion.p
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: .25, duration: .7 }}
-                    className="mt-2 text-white/80 uppercase tracking-[6px] text-xs sm:text-sm font-light"
-                    style={{ fontFamily: "'Cormorant Garamond', serif" }}
-                  >
-                    Celebration &amp; Resort
-                  </motion.p>
-
+                 <motion.p
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.25, duration: 0.7 }}
+className="mt-2 text-[#E6C66A] uppercase tracking-[6px] text-xs sm:text-sm font-semibold"
+  style={{ fontFamily: "'Cormorant Garamond', serif" }}
+>
+  Resort • Agro Tourism • Picnic Spot • Adventure Park
+</motion.p>
                   {/* Bottom row: description left, buttons right */}
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -112,18 +111,18 @@ const Hero = () => {
                     transition={{ delay: .35, duration: .7 }}
                     className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mt-8 pt-8 border-t border-white/20"
                   >
-                    <p className="text-gray-300 max-w-md text-sm sm:text-base font-light leading-relaxed">
-                      Premium Wedding Venue, Banquet Hall &amp; Resort in
-                      Latur — where every celebration becomes an
-                      unforgettable story.
-                    </p>
+                   <p className="text-gray-300 max-w-xl text-sm sm:text-base font-light leading-relaxed">
+  Experience the perfect blend of Agro Tourism, Family
+  Picnics, School Trips, Swimming Pool, Rain Dance,
+  Adventure Activities, Tent Camping, Hurda Parties and
+  Wedding Celebrations at Latur's most loved riverside
+  destination.
+</p>
 
-                 
 
-  {/* Book Venue */}
+                  {/* Book Venue */}
  <div className="mt-8 flex flex-nowrap sm:flex-wrap items-center gap-3">
 
-  {/* Book Venue */}
   {/* Book Venue */}
 <Link
   to="/contact"
@@ -190,6 +189,8 @@ const Hero = () => {
 >
   <span className="relative z-10">Explore Resort</span>
 </Link>
+
+
 </div>
                   </motion.div>
 

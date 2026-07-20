@@ -3,55 +3,142 @@ import { Link } from "react-router-dom";
 
 const Packages = () => {
   const packages = [
-    {
-      title: "Wedding Package",
-      features: [
-        "Grand Wedding Venue",
-        "Luxury Decoration",
-        "Premium Hospitality",
-        "Customized Catering",
-      ],
-    },
+   {
+title:"Family Picnic Package",
 
-    {
-      title: "One Day Picnic",
-      features: [
-        "Swimming Pool Access",
-        "Rain Dance",
-        "Meals Included",
-        "Fun Activities",
-      ],
-    },
+price:"₹699",
 
-    {
-      title: "Hurda Party",
-      features: [
-        "Traditional Food",
-        "Bonfire Experience",
-        "Music & Entertainment",
-        "Family Gathering",
-      ],
-    },
+unit:"/ Adult",
 
-    {
-      title: "Resort Stay",
-      features: [
-        "Luxury Rooms",
-        "Breakfast Included",
-        "Swimming Pool",
-        "Couple Friendly Stay",
-      ],
-    },
+features:[
 
-    {
-      title: "Corporate Events",
-      features: [
-        "Team Outings",
-        "Conference Setup",
-        "Annual Gathering",
-        "Dinner Packages",
-      ],
-    },
+"Breakfast + Lunch + Evening Tea",
+
+"Swimming Pool Access",
+
+"Rain Dance Included",
+
+"Fun Activities & Games",
+
+"Traditional Maharashtrian Food",
+
+],
+
+},
+
+   {
+title:"School Picnic Package",
+
+price:"₹250",
+
+unit:"Starting Price",
+
+features:[
+
+"Special School Group Discount",
+
+"Breakfast Available",
+
+"Lunch Available",
+
+"Age Wise Pricing",
+
+"Outdoor Activities Included",
+
+],
+
+},
+  
+
+   {
+title:"Day Package",
+
+price:"9 AM - 10:30 PM",
+
+unit:"Full Day",
+
+features:[
+
+"Breakfast Included",
+
+"Lunch Included",
+
+"Tea Included",
+
+"Swimming Pool Access",
+
+"Fun Activities Included",
+
+],
+
+},
+
+   {
+title:"Wedding Package",
+
+price:"Custom Pricing",
+
+unit:"Contact Us",
+
+features:[
+
+"1200 Guest Capacity",
+
+"Grand Lawn Available",
+
+"Decoration Available",
+
+"Food Arrangement",
+
+"Premium Wedding Services",
+
+],
+
+},
+   {
+title:"Camping Package",
+
+price:"Custom",
+
+unit:"Per Group",
+
+features:[
+
+"Tent Camping",
+
+"Bonfire Experience",
+
+"Breakfast Included",
+
+"Night Stay Available",
+
+"Swimming Pool Access",
+
+],
+
+},
+{
+title:"Corporate & Group Package",
+
+price:"Custom",
+
+unit:"Contact Us",
+
+features:[
+
+"Corporate Events",
+
+"Family Gatherings",
+
+"Team Outings",
+
+"School Tours",
+
+"Customized Packages",
+
+]
+
+}
   ];
 
   return (
@@ -70,12 +157,11 @@ const Packages = () => {
           </p>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-white mt-4">
-            Our Premium Packages
+Family Picnic & Event Packages
           </h2>
 
           <p className="text-gray-300 mt-5 max-w-3xl mx-auto">
-            Customized packages designed for weddings,
-            celebrations, family outings and corporate events.
+           Choose from our specially curated packages for Family Picnics, School Tours, Weddings, Camping and Corporate Events.
           </p>
 
         </div>
@@ -119,11 +205,17 @@ const Packages = () => {
               </h3>
 
 
-              {/* Custom Package */}
+              {/* Price */}
 
-              <p className="text-white mt-3 font-medium">
+              <p className="text-white mt-3 font-medium flex items-baseline gap-2">
 
-                Customized Package Available
+                <span className="text-3xl font-bold text-[#F5E6A9]">
+                  {item.price}
+                </span>
+
+                <span className="text-sm text-gray-300">
+                  {item.unit || "Enquire For Pricing"}
+                </span>
 
               </p>
 
@@ -216,7 +308,7 @@ const Packages = () => {
 
   {/* Description */}
   <p className="relative z-10 mt-6 max-w-2xl mx-auto text-gray-600 text-lg leading-8">
-    Whether you're planning a wedding, corporate event, birthday,
+    Whether you're planning a wedding, school trip, hurda party,
     picnic or private celebration, our team will create a package
     tailored to your needs and budget.
   </p>

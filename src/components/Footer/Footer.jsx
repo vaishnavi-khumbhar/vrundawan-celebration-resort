@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import {
   Phone,
   Mail,
@@ -11,6 +13,14 @@ import {
 } from "react-icons/fa";
 
 import logo from "../../assets/logo/logo.jpeg";
+
+const quickLinks = [
+  { label: "Home", to: "/" },
+  { label: "About", to: "/about" },
+  { label: "Services", to: "/services" },
+  { label: "Gallery", to: "/gallery" },
+  { label: "Contact", to: "/contact" },
+];
 
 const Footer = () => {
   return (
@@ -37,7 +47,8 @@ const Footer = () => {
         {/* Logo */}
 
         <div className="text-center">
-          <div
+          <Link
+            to="/"
             className="
             flex
             flex-col
@@ -67,7 +78,7 @@ const Footer = () => {
             >
               <img
                 src={logo}
-                alt="Vrundawan Celebration & Resort Logo"
+                alt="Vrundawan Resort & Agro Tourism Logo"
                 className="
                 w-full
                 h-full
@@ -96,7 +107,7 @@ const Footer = () => {
               </p>
             </div>
 
-          </div>
+          </Link>
         </div>
 
 
@@ -140,11 +151,10 @@ const Footer = () => {
               max-w-xs
               md:max-w-none"
             >
-              Premium Wedding Venue,
-              Resort Stay, Family Picnic,
-              Corporate Events and
-              unforgettable celebrations
-              in Latur.
+              A riverside farm resort near Latur offering
+              wedding venues, resort stays, adventure park,
+              camping bonfires and unforgettable
+              celebrations.
             </p>
 
           </div>
@@ -178,10 +188,10 @@ const Footer = () => {
               md:items-start"
             >
 
-              {["Home", "About", "Services", "Gallery", "Contact"].map(
-                (link, i) => (
-                  <li
-                    key={i}
+              {quickLinks.map((link, i) => (
+                <li key={i}>
+                  <Link
+                    to={link.to}
                     className="
                     flex
                     items-center
@@ -194,10 +204,10 @@ const Footer = () => {
                     hover:translate-x-1"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]/70" />
-                    {link}
-                  </li>
-                )
-              )}
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
 
             </ul>
 
@@ -237,23 +247,26 @@ const Footer = () => {
                 "Grand Lawn",
                 "Resort Stay",
                 "Swimming Pool",
-                "Corporate Events",
+                "Adventure Park",
+                "Camping & Bonfire",
               ].map((service, i) => (
-                <li
-                  key={i}
-                  className="
-                  flex
-                  items-center
-                  gap-2
-                  text-gray-300
-                  cursor-pointer
-                  transition-all
-                  duration-300
-                  hover:text-[#D4AF37]
-                  hover:translate-x-1"
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]/70" />
-                  {service}
+                <li key={i}>
+                  <Link
+                    to="/services"
+                    className="
+                    flex
+                    items-center
+                    gap-2
+                    text-gray-300
+                    cursor-pointer
+                    transition-all
+                    duration-300
+                    hover:text-[#D4AF37]
+                    hover:translate-x-1"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]/70" />
+                    {service}
+                  </Link>
                 </li>
               ))}
 
@@ -292,28 +305,36 @@ const Footer = () => {
               md:items-start"
             >
 
-              <div className="flex items-center gap-3 group">
-                <div className="w-9 h-9 shrink-0 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D4AF37] group-hover:text-[#143D28] transition">
-                  <Phone size={16} />
-                </div>
-                <p className="text-gray-300">+91 81808 77750</p>
-              </div>
-
-
-              <div className="flex items-center gap-3 group">
-                <div className="w-9 h-9 shrink-0 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D4AF37] group-hover:text-[#143D28] transition">
-                  <Phone size={16} />
-                </div>
-                <p className="text-gray-300">+91 80874 15366</p>
-              </div>
-
-
-              <div className="flex items-center gap-3 group">
+              <a href="tel:+919405400914" className="flex items-center gap-3 group">
                 <div className="w-9 h-9 shrink-0 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D4AF37] group-hover:text-[#143D28] transition">
                   <Phone size={16} />
                 </div>
                 <p className="text-gray-300">+91 94054 00914</p>
-              </div>
+              </a>
+
+
+              <a href="tel:+918180877750" className="flex items-center gap-3 group">
+                <div className="w-9 h-9 shrink-0 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D4AF37] group-hover:text-[#143D28] transition">
+                  <Phone size={16} />
+                </div>
+                <p className="text-gray-300">+91 81808 77750</p>
+              </a>
+
+
+              <a href="tel:+918208000157" className="flex items-center gap-3 group">
+                <div className="w-9 h-9 shrink-0 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D4AF37] group-hover:text-[#143D28] transition">
+                  <Phone size={16} />
+                </div>
+                <p className="text-gray-300">+91 82080 00157</p>
+              </a>
+
+
+              <a href="tel:+917588026214" className="flex items-center gap-3 group">
+                <div className="w-9 h-9 shrink-0 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D4AF37] group-hover:text-[#143D28] transition">
+                  <Phone size={16} />
+                </div>
+                <p className="text-gray-300">+91 75880 26214</p>
+              </a>
 
 
               <div className="flex items-center gap-3 group">
@@ -367,7 +388,7 @@ const Footer = () => {
             whitespace-normal
             md:whitespace-nowrap"
           >
-            Latur-Ambejogai Road, Beside Majara River, Mahapur, Taluka & District Latur, Maharashtra.
+            Chabhe Farm, Latur-Ambajogai Road, Beside Manjara River, Mahapur, Taluka & District Latur, Maharashtra.
           </p>
 
         </div>
@@ -451,8 +472,8 @@ const Footer = () => {
 
           <p className="text-gray-400 text-sm md:text-base">
 
-            © 2026 Vrundawan Celebration &
-            Resort | All Rights Reserved.
+            © 2026 Vrundawan Resort &
+            Agro Tourism | All Rights Reserved.
 
           </p>
 

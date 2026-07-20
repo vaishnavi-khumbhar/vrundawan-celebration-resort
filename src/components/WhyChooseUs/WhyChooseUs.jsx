@@ -4,11 +4,12 @@ import {
   MapPin,
   HeartHandshake,
   Hotel,
-  Car,
-  Briefcase,
+  Tent,
+  Ruler,
   UtensilsCrossed,
   Trees,
   WavesLadder,
+  Rocket,
 } from "lucide-react";
 
 const WhyChooseUs = () => {
@@ -16,19 +17,19 @@ const WhyChooseUs = () => {
   {
     icon: <MapPin size={32} strokeWidth={2.2} />,
     title: "Prime Location",
-    desc: "Located on Latur–Ambejogai Road.",
+    desc: "Mahapur, Chabhe Farm — just 6 km from Latur city on Latur–Ambajogai Road.",
   },
 
   {
     icon: <Trees size={32} strokeWidth={2.2} />,
-    title: "Majara River View",
-    desc: "Scenic and peaceful surroundings.",
+    title: "Manjara River View",
+    desc: "Nature-rich riverside setting along the Manjara river.",
   },
 
   {
     icon: <HeartHandshake size={32} strokeWidth={2.2} />,
     title: "Wedding Destination",
-    desc: "Perfect venue for grand celebrations.",
+    desc: "Perfect venue for grand celebrations & pre-wedding shoots.",
   },
 
   {
@@ -40,25 +41,31 @@ const WhyChooseUs = () => {
   {
     icon: <Hotel size={32} strokeWidth={2.2} />,
     title: "Resort Stay",
-    desc: "Premium rooms for comfortable stays.",
+    desc: "Premium AC rooms & tent camping for comfortable stays.",
   },
 
   {
-    icon: <Car size={32} strokeWidth={2.2} />,
-    title: "Spacious Parking",
-    desc: "Ample parking space for all guests.",
+    icon: <Rocket size={32} strokeWidth={2.2} />,
+    title: "Adventure Park",
+    desc: "Fun-filled rides and activities for kids.",
   },
 
   {
-    icon: <Briefcase size={32} strokeWidth={2.2} />,
-    title: "Corporate Events",
-    desc: "Ideal destination for business gatherings.",
+    icon: <Tent size={32} strokeWidth={2.2} />,
+    title: "Camping & Bonfire",
+    desc: "Evening bonfire nights with tent camping by the river.",
   },
 
   {
     icon: <UtensilsCrossed size={32} strokeWidth={2.2} />,
-    title: "Delicious Food",
-    desc: "Authentic and freshly prepared meals.",
+    title: "Farm-Fresh Food",
+    desc: "Authentic meals, hurda parties & seasonal corn festival treats.",
+  },
+
+  {
+    icon: <Ruler size={32} strokeWidth={2.2} />,
+    title: "17,000 Sq.ft. Lawn",
+    desc: "A grand spacious lawn for large gatherings & events.",
   },
 ];
 
@@ -101,9 +108,9 @@ const WhyChooseUs = () => {
             max-w-3xl
             mx-auto"
           >
-            Experience luxury, celebration, and
-            hospitality at one of the most beautiful
-            destinations in Latur.
+            Experience nature, celebration, and warm
+            hospitality at one of Latur's most beautiful
+            riverside resort &amp; agro tourism destinations.
           </p>
 
         </div>

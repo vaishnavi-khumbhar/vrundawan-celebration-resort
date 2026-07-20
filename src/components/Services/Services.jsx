@@ -18,6 +18,9 @@ import oneday from "../../assets/services/oneday.jpg";
 import corporate from "../../assets/services/corporate.jpg";
 import bonfire from "../../assets/services/bonfire.jpg";
 import food from "../../assets/services/food.jpg";
+// TODO: replace these two with actual photos once available
+import adventurepark from "../../assets/services/rain.jpg";
+import sportszone from "../../assets/services/camping.jpg";
 
 const Services = () => {
 
@@ -38,7 +41,7 @@ const Services = () => {
     {
       image: lawn,
       title: "Grand Lawn",
-      desc: "Spacious outdoor celebration venue."
+      desc: "17,000 sq.ft. spacious outdoor celebration venue."
     },
 
     {
@@ -57,6 +60,18 @@ const Services = () => {
       image: pool,
       title: "Swimming Pool",
       desc: "Relax and refresh yourself."
+    },
+
+    {
+      image: adventurepark,
+      title: "Adventure Park",
+      desc: "Exciting rides & activities for kids."
+    },
+
+    {
+      image: sportszone,
+      title: "Sports Zone",
+      desc: "Cricket turf & badminton hall for fun matches."
     },
 
     {
@@ -80,7 +95,7 @@ const Services = () => {
     {
       image: hurda,
       title: "Hurda Party",
-      desc: "Authentic Maharashtrian experience."
+      desc: "Authentic Maharashtrian farm experience."
     },
 
     {
@@ -97,8 +112,8 @@ const Services = () => {
 
     {
       image: corporate,
-      title: "Corporate Events",
-      desc: "Professional event arrangements."
+      title: "Group & Corporate Events",
+      desc: "Professional arrangements for group bookings."
     },
 
     {
@@ -110,7 +125,7 @@ const Services = () => {
     {
       image: food,
       title: "Dinner & Breakfast",
-      desc: "Delicious food with hospitality."
+      desc: "Delicious farm-fresh food with hospitality."
     },
 
   ];
@@ -148,9 +163,9 @@ const Services = () => {
             className="mt-5 text-gray-600
             max-w-3xl mx-auto"
           >
-            From weddings and celebrations to luxury
-            stays and unforgettable experiences,
-            Vrundawan has everything you need.
+            From weddings and celebrations to farm-stay
+            adventures and luxury comfort, Vrundawan Resort
+            &amp; Agro Tourism has everything you need.
           </p>
 
         </div>

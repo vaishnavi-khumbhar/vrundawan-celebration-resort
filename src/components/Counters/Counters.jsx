@@ -2,10 +2,10 @@ import * as CountUpModule from "react-countup";
 import { motion } from "framer-motion";
 import {
   Trees,
-  Building2,
-  UtensilsCrossed,
+  Waves,
+  Tent,
   Sparkles,
-  CalendarDays,
+  MapPin,
   Award,
 } from "lucide-react";
 
@@ -17,31 +17,31 @@ const CountUp = CountUpModule.default?.default || CountUpModule.default || Count
 const Counters = () => {
   const stats = [
     {
-      number: 2500,
+      number: 17000,
       suffix: "+",
       title: "Grand Lawn",
-      subtitle: "Guest Capacity",
+      subtitle: "Sq.Ft. Open Venue",
       icon: <Trees size={26} />,
     },
     {
-      number: 1200,
-      suffix: "+",
-      title: "Mangal Karyalay",
-      subtitle: "Guest Capacity",
-      icon: <Building2 size={26} />,
+      number: 6,
+      suffix: " KM",
+      title: "Prime Location",
+      subtitle: "From Latur City",
+      icon: <MapPin size={26} />,
     },
     {
-      number: 200,
-      suffix: "+",
-      title: "Banquet Hall",
-      subtitle: "Guest Capacity",
-      icon: <UtensilsCrossed size={26} />,
+      number: 1,
+      suffix: "",
+      title: "Swimming Pool",
+      subtitle: "Family Friendly",
+      icon: <Waves size={26} />,
     },
     {
       number: 15,
       suffix: "+",
       title: "Premium",
-      subtitle: "Experiences",
+      subtitle: "Activities & Experiences",
       icon: <Sparkles size={26} />,
     },
     {
@@ -49,7 +49,7 @@ const Counters = () => {
       suffix: "",
       title: "Celebration",
       subtitle: "Days Open",
-      icon: <CalendarDays size={26} />,
+      icon: <Tent size={26} />,
     },
     {
       number: 100,
@@ -72,7 +72,7 @@ const Counters = () => {
         {/* Heading */}
         <div className="text-center">
           <p className="uppercase tracking-[5px] text-[#D4AF37] font-semibold">
-            Vrundawan By The Numbers
+           Vrundawan Resort By The Numbers
           </p>
 
           <h2 className="text-white text-4xl lg:text-5xl font-bold mt-4">

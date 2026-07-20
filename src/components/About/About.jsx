@@ -1,7 +1,22 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const chips = ["Weddings", "Banquet Hall", "Grand Lawn", "Resort Stay"];
+const chips = [
+  "Swimming Pool",
+  "Rain Dance",
+  "Tent Camping",
+  "Bonfire Experience",
+  "DJ Night",
+  "Hurda Party",
+  "Wedding Venue",
+  "Grand Lawn",
+  "Family Picnic",
+  "Corporate Events",
+  "School Trips",
+  "Agro Tourism",
+  "Luxury Resort Stay",
+  "Traditional Village Experience",
+];
 
 const About = () => {
   return (
@@ -38,7 +53,7 @@ const About = () => {
           <span className="text-[#D4AF37]">
   Vrundawan
 </span>
-          <br className="hidden sm:block" /> Celebration &amp; Resort
+          <br className="hidden sm:block" />  Resort &amp; Agro Tourism
         </motion.h2>
 
         {/* Short Description */}
@@ -56,72 +71,68 @@ const About = () => {
           and luxurious stays.
         </motion.p>
 
+
+
+
         {/* Feature chips — quick visual scan, no extra prose needed */}
-        <motion.div
+       
+     <motion.div
   initial={{ opacity: 0, y: 15 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.3, duration: 0.6 }}
-  className="mt-10 flex flex-wrap items-center justify-center gap-4"
+  className="relative mt-10 overflow-hidden"
 >
-  {chips.map((chip, index) => (
-    <motion.span
-      key={chip}
-      initial={{ opacity: 0, scale: 0.9 }}
-      whileInView={{ opacity: 1, scale: 1 }}
-      transition={{
-        delay: index * 0.08,
-        duration: 0.4,
-      }}
-      whileHover={{
-        y: -4,
-        scale: 1.05,
-      }}
-      className="
-        group
-        relative
-        overflow-hidden
-        rounded-full
-        px-6
-        py-3
-        text-sm
-        font-medium
-        tracking-wide
-        text-[#143D28]
-        bg-gradient-to-r
-        from-[#FFF8E7]
-        via-[#F8E7B5]
-        to-[#FFF8E7]
-        border
-        border-[#D4AF37]/40
-        shadow-[0_8px_20px_rgba(212,175,55,0.15)]
-        transition-all
-        duration-500
-        hover:border-[#D4AF37]
-        hover:shadow-[0_10px_30px_rgba(212,175,55,0.35)]
-      "
-    >
-      {/* Shine Effect */}
+  <div className="flex w-max animate-marquee gap-4">
+    {[...chips, ...chips].map((chip, index) => (
       <span
+        key={index}
         className="
-          absolute
-          top-0
-          -left-full
-          h-full
-          w-1/2
-          bg-white/40
-          skew-x-[-20deg]
+          group
+          relative
+          overflow-hidden
+          rounded-full
+          px-6
+          py-3
+          whitespace-nowrap
+          text-sm
+          font-medium
+          tracking-wide
+          text-[#143D28]
+          bg-gradient-to-r
+          from-[#FFF8E7]
+          via-[#F8E7B5]
+          to-[#FFF8E7]
+          border
+          border-[#D4AF37]/40
+          shadow-[0_8px_20px_rgba(212,175,55,0.15)]
           transition-all
-          duration-700
-          group-hover:left-[130%]
+          duration-500
+          hover:border-[#D4AF37]
+          hover:shadow-[0_10px_30px_rgba(212,175,55,0.35)]
         "
-      />
+      >
+        <span
+          className="
+            absolute
+            top-0
+            -left-full
+            h-full
+            w-1/2
+            bg-white/40
+            skew-x-[-20deg]
+            transition-all
+            duration-700
+            group-hover:left-[130%]
+          "
+        />
 
-      <span className="relative z-10 flex items-center gap-2">
-        <span className="w-2 h-2 rounded-full bg-[#D4AF37]" />
-        {chip}
+        <span className="relative z-10 flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-[#D4AF37]" />
+          {chip}
+        </span>
       </span>
-    </motion.span>
-  ))}
+    ))}
+  </div>
 </motion.div>
 
 

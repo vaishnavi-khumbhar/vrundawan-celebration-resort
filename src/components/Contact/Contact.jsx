@@ -16,17 +16,17 @@ const contactInfo = [
   {
     icon: <Phone size={22} />,
     label: "Call Us",
-    value: "+91 98765 43210",
+    value: "+91 94054 00914",
   },
   {
     icon: <Mail size={22} />,
     label: "Email Us",
-    value: "info@vrundawanresort.com",
+    value: "info@vrundawan.com",
   },
   {
     icon: <MapPin size={22} />,
     label: "Visit Us",
-    value: "Latur–Ambejogai Road, Latur",
+    value: "Chabhe Farm, Latur–Ambajogai Road, Mahapur, Latur",
   },
 ];
 
@@ -49,7 +49,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const message = `🏡 *NEW ENQUIRY - VRUNDAWAN CELEBRATION & RESORT*
+    const message = `🏡 *NEW ENQUIRY - VRUNDAWAN RESORT & AGRO TOURISM*
 
 ━━━━━━━━━━━━━━━━━━━━
 
@@ -68,7 +68,7 @@ ${form.message}
 Thank you 🙏`;
 
     window.open(
-      `https://wa.me/918087415366?text=${encodeURIComponent(message)}`,
+      `https://wa.me/919405400914?text=${encodeURIComponent(message)}`,
       "_blank"
     );
 
@@ -269,14 +269,14 @@ Thank you 🙏`;
           </h2>
 
           <p className="text-gray-600 mt-5 relative">
-            Visit Vrundawan Celebration &amp; Resort and experience luxury
+            Visit Vrundawan Resort &amp; Agro Tourism and experience nature
             in person.
           </p>
 
          <div className="flex flex-wrap justify-center gap-5 mt-10 relative">
   {/* Call Button */}
   <a
-    href="tel:+918180877750"
+    href="tel:+919405400914"
     className="group inline-flex items-center gap-2 bg-[#143D28] text-white
       px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20
       transition-all duration-300 hover:scale-105 hover:shadow-xl"
@@ -287,8 +287,8 @@ Thank you 🙏`;
 
   {/* WhatsApp Button */}
   <a
-    href={`https://wa.me/918180877750?text=${encodeURIComponent(
-      "Hello, I would like to enquire about Vrundawan Celebration & Resort."
+    href={`https://wa.me/919405400914?text=${encodeURIComponent(
+      "Hello, I would like to enquire about Vrundawan Resort & Agro Tourism."
     )}`}
     target="_blank"
     rel="noopener noreferrer"

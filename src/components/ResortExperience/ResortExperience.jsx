@@ -1,245 +1,171 @@
+import { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Play, Pause } from "lucide-react";
 
-import "swiper/css";
+import video1 from "../../assets/hero/video1.mp4";
+import video2 from "../../assets/hero/video2.mp4";
 
-import room1 from "../../assets/resort/room1.jpg";
-import room2 from "../../assets/resort/room2.jpg";
-import pool from "../../assets/resort/pool.jpg";
-import bonfire from "../../assets/resort/bonfire.jpg";
-import breakfast from "../../assets/resort/breakfast.jpg";
+const Hero = () => {
+  const videos = [video1, video2];
+  const videoRefs = useRef([]);
+  const [playingIndex, setPlayingIndex] = useState(null);
 
-const ResortExperience = () => {
-  const images = [
-    room1,
-    room2,
-    pool,
-    bonfire,
-    breakfast,
-  ];
+  const togglePlay = (index) => {
+    const vid = videoRefs.current[index];
+    if (!vid) return;
+
+    if (playingIndex === index) {
+      // Pause the currently playing video
+      vid.pause();
+      setPlayingIndex(null);
+    } else {
+      // Pause any other video, then play this one with sound on
+      videoRefs.current.forEach((v, i) => {
+        if (v && i !== index) {
+          v.pause();
+          v.muted = true;
+        }
+      });
+      vid.muted = false;
+      vid.play().catch(() => {});
+      setPlayingIndex(index);
+    }
+  };
 
   return (
     <section
-      className="py-15 bg-[#143D28]"
-      id="resort"
+      className="relative w-full py-10 sm:py-16 px-4 sm:px-8"
+      id="home"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-10">
+      {/* Themed background - matches site's dark green gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#143D28] via-[#0F2E1D] to-[#0B2417] rounded-none sm:rounded-3xl sm:mx-6" />
 
-        {/* Heading */}
+      {/* Decorative glow accents */}
+      <div className="pointer-events-none absolute -top-10 left-1/4 h-[250px] w-[250px] rounded-full bg-[#D4AF37]/10 blur-[100px]" />
+      <div className="pointer-events-none absolute -bottom-10 right-1/4 h-[250px] w-[250px] rounded-full bg-[#D4AF37]/10 blur-[100px]" />
 
-        <div className="text-center">
-
-          <p
-            className="
-            text-[#D4AF37]
-            uppercase
-            tracking-[5px]
-            font-semibold"
-          >
-            Resort Experience
+      {/* Heading */}
+      <motion.div
+        initial={{ opacity: 0, y: -15 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="relative z-10 flex flex-col items-center text-center mb-6 sm:mb-10 pt-6 sm:pt-4"
+      >
+        <div className="flex items-center gap-2 mb-3">
+          <span className="h-px w-8 bg-[#D4AF37]/60" />
+          <p className="text-[11px] sm:text-xs tracking-[3px] text-[#D4AF37] uppercase font-semibold">
+            Watch &amp; Explore
           </p>
-
-          <h2
-            className="
-            text-4xl
-            lg:text-5xl
-            font-bold
-            text-white
-            mt-4"
-          >
-            Luxury, Comfort & Nature
-          </h2>
-
-          <p
-            className="
-            text-gray-300
-            mt-5
-            max-w-3xl
-            mx-auto"
-          >
-            Enjoy premium stays, relaxing amenities,
-            and unforgettable experiences amidst
-            nature and luxury.
-          </p>
-
+          <span className="h-px w-8 bg-[#D4AF37]/60" />
         </div>
+        <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
+          A Glimpse of <span className="text-[#D4AF37]">Nature &amp; Luxury</span>
+        </h2>
+        <p className="mt-3 max-w-md sm:max-w-xl text-sm sm:text-base text-gray-300">
+          Tap a video to play with sound and feel the beauty of Champe Farm, Latur
+        </p>
+      </motion.div>
 
-
-        {/* Resort Slider */}
-
-        <div className="mt-10">
-
-          <Swiper
-            modules={[Autoplay]}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            loop={true}
-            spaceBetween={30}
-            slidesPerView={1}
-          >
-
-            {images.map((img, index) => (
-
-              <SwiperSlide key={index}>
-
-                <img
-                  src={img}
-                  alt="resort"
-                  className="
-                  w-full
-                  h-[400px]
-                  object-cover
-                  rounded-[30px]"
-                />
-
-              </SwiperSlide>
-
-            ))}
-
-          </Swiper>
-
-        </div>
-
-
-
-        {/* Features */}
-
-        <div
-          className="
+      {/* Videos */}
+      <div
+        className="
+          relative z-10
           grid
-          grid-cols-1
-          md:grid-cols-2
-          lg:grid-cols-3
-          gap-8
-          mt-10"
-        >
-
-          {/* Card */}
-
-          {[
-            "Luxury Resort Rooms",
-            "Swimming Pool Access",
-            "Couple Friendly Stay",
-            "Bonfire Experience",
-            "Dinner & Breakfast",
-            "Peaceful Nature View",
-          ].map((item, index) => (
-
-           <motion.div
-  key={index}
-  initial={{ opacity: 0, y: 50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{
-    duration: 0.5,
-    delay: index * 0.1,
-  }}
-  whileHover={{
-    y: -12,
-    scale: 1.03,
-  }}
-  className="
-    group
-    relative
-    overflow-hidden
-    rounded-3xl
-    p-8
-    text-center
-    bg-gradient-to-br
-    from-[#0E2A1D]
-    via-[#143D28]
-    to-[#1E4B34]
-    border border-[#D4AF37]/20
-    shadow-[0_15px_40px_rgba(0,0,0,0.35)]
-    transition-all duration-500
-    hover:border-[#D4AF37]
-    hover:shadow-[0_20px_50px_rgba(212,175,55,0.25)]
-  "
->
-  {/* Golden Glow */}
-  <div
-    className="
-      absolute
-      -top-12
-      -right-12
-      h-28
-      w-28
-      rounded-full
-      bg-[#D4AF37]/20
-      blur-3xl
-      opacity-0
-      group-hover:opacity-100
-      transition-all duration-500
-    "
-  />
-
-  {/* Bottom Accent Line */}
-  <div
-    className="
-      absolute
-      bottom-0
-      left-0
-      h-1
-      w-0
-      bg-[#D4AF37]
-      group-hover:w-full
-      transition-all duration-500
-    "
-  />
-
-  <h3
-    className="
-      relative
-      z-10
-      text-[#F5E6A9]
-      text-xl
-      font-semibold
-      tracking-wide
-      group-hover:text-white
-      transition-colors duration-300
-    "
-  >
-    {item}
-  </h3>
-</motion.div>
-
-          ))}
-
+          grid-cols-2
+          gap-3 sm:gap-10
+          max-w-3xl sm:max-w-5xl
+          mx-auto
+          pb-6 sm:pb-4
+        "
+      >
+        {/* Center divider between the two videos */}
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center w-px">
+          <span className="flex-1 w-px bg-gradient-to-b from-transparent via-[#D4AF37]/70 to-transparent" />
+          <span className="my-1.5 sm:my-2 h-2 w-2 sm:h-2.5 sm:w-2.5 rotate-45 bg-[#D4AF37] shadow-[0_0_10px_rgba(212,175,55,0.6)]" />
+          <span className="flex-1 w-px bg-gradient-to-b from-transparent via-[#D4AF37]/70 to-transparent" />
         </div>
 
+        {videos.map((src, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: index * 0.15 }}
+            className="
+              relative
+              w-full
+              max-w-[230px] sm:max-w-[420px]
+              mx-auto
+             h-[300px]
+sm:h-[420px]
+lg:h-[520px]
+              rounded-2xl
+              overflow-hidden
+              cursor-pointer
+              group
+              bg-black
+              border-2 border-[#D4AF37]/50
+              shadow-[0_15px_35px_rgba(0,0,0,0.5)]
+              transition-all duration-500
+              hover:border-[#D4AF37]
+              hover:-translate-y-1.5
+              hover:shadow-[0_20px_45px_rgba(212,175,55,0.3)]
+            "
+            onClick={() => togglePlay(index)}
+          >
+            <video
+              ref={(el) => (videoRefs.current[index] = el)}
+              src={src}
+              loop
+              muted={playingIndex !== index}
+              playsInline
+              className="h-full w-full object-cover"
+            />
 
-        {/* CTA Button */}
+            {/* Overlay */}
+            <div
+              className={`
+                absolute inset-0
+                bg-gradient-to-t from-black/60 via-transparent to-black/10
+                transition-opacity duration-300
+                ${playingIndex === index ? "opacity-30" : "opacity-70"}
+              `}
+            />
 
-        <div className="text-center mt-15">
+            {/* Center Play / Pause button */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div
+                className="
+                  flex items-center justify-center
+                  h-11 w-11 sm:h-14 sm:w-14
+                  rounded-full
+                  bg-[#D4AF37]
+                  shadow-[0_8px_20px_rgba(212,175,55,0.5)]
+                  transition-transform duration-300
+                  group-hover:scale-110
+                "
+              >
+                {playingIndex === index ? (
+                  <Pause className="h-4 w-4 sm:h-6 sm:w-6 text-black" fill="black" />
+                ) : (
+                  <Play className="h-4 w-4 sm:h-6 sm:w-6 text-black ml-0.5" fill="black" />
+                )}
+              </div>
+            </div>
 
-         <Link to="/contact">
-  <button
-    className="
-      bg-[#D4AF37]
-      text-black
-      px-10
-      py-4
-      rounded-full
-      font-semibold
-      shadow-[0_10px_30px_rgba(212,175,55,0.35)]
-      transition-all
-      duration-300
-      hover:scale-105
-      hover:shadow-[0_15px_40px_rgba(212,175,55,0.55)]
-    "
-  >
-    Book Your Stay
-  </button>
-</Link>
-
-        </div>
-
+            {/* Bottom label strip */}
+            <div className="absolute bottom-0 left-0 right-0 px-3 py-2 bg-gradient-to-t from-black/70 to-transparent">
+              <p className="text-[10px] sm:text-xs tracking-[2px] text-[#F5E6A9] uppercase">
+                {index === 0 ? "Resort Tour" : "Farm Experience"}
+              </p>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </section>
   );
 };
 
-export default ResortExperience;
+export default Hero;

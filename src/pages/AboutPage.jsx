@@ -9,6 +9,8 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Contact from "../components/Contact/Contact";
 import InnerBanner from "../components/InnerBanner";
 
+import { FaUsers, FaHeart, FaCampground, FaGlassCheers } from "react-icons/fa";
+
 const CountUp =
   CountUpModule.default?.default ||
   CountUpModule.default ||
@@ -74,73 +76,135 @@ const AboutPage = () => {
             </h3>
 
             <p className="mt-6 text-gray-600 leading-8">
-              Located beside the scenic Majara River on Latur–Ambejogai Road,
-              Vrundawan Celebration & Resort offers a perfect blend of luxury,
-              hospitality, and unforgettable experiences.
-              Whether you're planning a grand wedding, family celebration,
-              one-day picnic, corporate event, or weekend getaway, Vrundawan
-              has everything under one roof.
+              Located beside the serene Manjara River at Mahapur,
+just 6 KM from Latur city, Vrundawan Resort & Agro
+Tourism is a perfect destination Family Picnics,
+School & College Trips, Wedding Celebrations,
+Corporate Events and unforgettable village experiences.
+<br></br><br></br>
+From Swimming Pool and Rain Dance to Tent Camping,
+Hurda Parties, Adventure Activities and Premium
+Wedding Venues, Vrundawan offers everything you
+need for a memorable getaway under one roof.
             </p>
 
-            <div className="mt-8 space-y-4">
-              <div className="flex items-center gap-3">
-                <span className="text-[#D4AF37] text-xl">✔</span>
-                <p>Luxury Wedding Destination</p>
-              </div>
+           <div className="mt-8 space-y-4">
 
-              <div className="flex items-center gap-3">
-                <span className="text-[#D4AF37] text-xl">✔</span>
-                <p>Swimming Pool & Resort Stay</p>
-              </div>
+  <div className="flex items-center gap-3">
+    <span className="text-[#D4AF37] text-xl">✔</span>
+    <p>Premium Agro Tourism & Resort Experience</p>
+  </div>
 
-              <div className="flex items-center gap-3">
-                <span className="text-[#D4AF37] text-xl">✔</span>
-                <p>Corporate Events & Family Picnics</p>
-              </div>
+  <div className="flex items-center gap-3">
+    <span className="text-[#D4AF37] text-xl">✔</span>
+    <p>Swimming Pool, Rain Dance & Adventure Activities</p>
+  </div>
 
-              <div className="flex items-center gap-3">
-                <span className="text-[#D4AF37] text-xl">✔</span>
-                <p>Grand Lawn & Mangal Karyalay</p>
-              </div>
-            </div>
+  <div className="flex items-center gap-3">
+    <span className="text-[#D4AF37] text-xl">✔</span>
+    <p>Family Picnics, School Trips & Corporate Events</p>
+  </div>
 
+  <div className="flex items-center gap-3">
+    <span className="text-[#D4AF37] text-xl">✔</span>
+    <p>Grand Lawn, Banquet Hall & Wedding Celebrations</p>
+  </div>
+
+  <div className="flex items-center gap-3">
+    <span className="text-[#D4AF37] text-xl">✔</span>
+    <p>Tent Camping, Bonfire Night & Hurda Party Experiences</p>
+  </div>
+
+  <div className="flex items-center gap-3">
+    <span className="text-[#D4AF37] text-xl">✔</span>
+    <p>Traditional Village Food & Nature's Riverside Ambience</p>
+  </div>
+
+</div>
             {/* Button */}
             
           </motion.div>
         </div>
 
         {/* Counter Cards */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
+       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg text-center">
-            <h3 className="text-4xl font-bold text-[#D4AF37]">
-              <CountUp end={2500} duration={3} />+
-            </h3>
-            <p className="mt-3">Guest Capacity</p>
-          </div>
+  {[
+    {
+      icon: <FaUsers />,
+      value: 2500,
+      suffix: "+",
+      title: "Guest Capacity",
+    },
+    {
+      icon: <FaHeart />,
+      value: 1200,
+      suffix: "+",
+      title: "Wedding Capacity",
+    },
+    {
+      icon: <FaCampground />,
+      value: 15,
+      suffix: "+",
+      title: "Activities",
+    },
+    {
+      icon: <FaGlassCheers />,
+      value: 100,
+      suffix: "+",
+      title: "Happy Events",
+    },
+  ].map((item, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.15 }}
+      whileHover={{ y: -10, scale: 1.04 }}
+      className="
+        group
+        relative
+        overflow-hidden
+        rounded-[28px]
+        border
+        border-[#D4AF37]/25
+        bg-white/80
+        backdrop-blur-lg
+        p-8
+        text-center
+        shadow-[0_20px_50px_rgba(20,61,40,0.08)]
+        transition-all
+        duration-500
+        hover:border-[#D4AF37]
+        hover:shadow-[0_25px_60px_rgba(212,175,55,0.25)]
+      "
+    >
+      {/* Glow */}
+      <div className="absolute -top-16 -right-16 w-36 h-36 rounded-full bg-[#D4AF37]/10 blur-3xl group-hover:bg-[#D4AF37]/20 transition-all duration-500" />
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg text-center">
-            <h3 className="text-4xl font-bold text-[#D4AF37]">
-              <CountUp end={1200} duration={3} />+
-            </h3>
-            <p className="mt-3">Wedding Capacity</p>
-          </div>
+      {/* Icon */}
+      <div className="relative z-10 w-16 h-16 mx-auto mb-5 rounded-full bg-gradient-to-br from-[#D4AF37] to-[#F4D87A] flex items-center justify-center text-[#143D28] text-2xl shadow-lg">
+        {item.icon}
+      </div>
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg text-center">
-            <h3 className="text-4xl font-bold text-[#D4AF37]">
-              <CountUp end={15} duration={3} />+
-            </h3>
-            <p className="mt-3">Activities</p>
-          </div>
+      {/* Number */}
+      <h3 className="relative z-10 text-4xl lg:text-5xl font-bold text-[#143D28]">
+        <CountUp end={item.value} duration={3} />
+        <span className="text-[#D4AF37]">{item.suffix}</span>
+      </h3>
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg text-center">
-            <h3 className="text-4xl font-bold text-[#D4AF37]">
-              <CountUp end={100} duration={3} />+
-            </h3>
-            <p className="mt-3">Happy Events</p>
-          </div>
+      {/* Divider */}
+      <div className="relative z-10 w-12 h-1 rounded-full bg-[#D4AF37] mx-auto my-4"></div>
+
+      {/* Title */}
+      <p className="relative z-10 text-gray-600 font-medium tracking-wide">
+        {item.title}
+      </p>
+    </motion.div>
+  ))}
 
         </div>
+
       </div>
     </section>
       </section>

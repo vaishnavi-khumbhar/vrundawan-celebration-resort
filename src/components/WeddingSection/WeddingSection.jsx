@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 
 import { Link } from "react-router-dom";
 
-import weddingBanner from "../../assets/wedding-section/wedding-banne.jpg";
+import weddingBanner from "../../assets/wedding-section/wedding-banne.jpeg";
 
 const WeddingSection = () => {
   return (
@@ -25,7 +25,7 @@ const WeddingSection = () => {
 
       {/* Dark Overlay */}
 
-      <div className="absolute inset-0 bg-black/85" />
+      <div className="absolute inset-0 bg-black/70" />
 
       {/* Golden Glow */}
 
@@ -122,7 +122,7 @@ const WeddingSection = () => {
           nature, and unforgettable hospitality.
           Experience elegant decorations, spacious
           venues, and premium services at Vrundawan
-          Celebration & Resort.
+          Resort &amp; Agro Tourism.
         </motion.p>
 
         {/* Highlights */}
@@ -146,7 +146,7 @@ const WeddingSection = () => {
             rounded-full
             text-white"
           >
-            2500 Guest Capacity
+            17,000 Sq.ft. Lawn
           </span>
 
           <span
@@ -238,7 +238,7 @@ const WeddingSection = () => {
   </button>
 </Link>
 
-            <a href="tel:8087415366">
+            <a href="tel:+919405400914">
     <button
       className="
         group

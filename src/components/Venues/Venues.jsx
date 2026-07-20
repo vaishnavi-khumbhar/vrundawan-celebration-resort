@@ -1,31 +1,31 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import banquet from "../../assets/venues/banquet.jpg";
 import lawn from "../../assets/venues/lawn.jpg";
-import mangal from "../../assets/venues/mangal.jpg";
+import ground from "../../assets/venues/ground.jpg";
+import camping from "../../assets/venues/camping.jpg";
 
 const Venues = () => {
   const venues = [
     {
-      image: banquet,
-      title: "Banquet Hall",
-      guests: "200 Guests",
-      desc: "Perfect for birthdays, engagements, receptions and private celebrations.",
-    },
-
-    {
       image: lawn,
       title: "Grand Lawn",
-      guests: "2500 Guests",
-      desc: "Luxury outdoor venue for grand weddings and large celebrations.",
+      guests: "17,000 sq.ft",
+      desc: "Spacious open-air lawn on the banks of Manjra River — perfect for grand weddings, receptions and large celebrations.",
     },
 
     {
-      image: mangal,
-      title: "Mangal Karyalay",
-      guests: "1200 Guests",
-      desc: "Traditional and elegant wedding venue for unforgettable moments.",
+      image: ground,
+      title: "Open Function Ground",
+      guests: "500+ Guests",
+      desc: "Ideal for haldi, sangeet, birthdays, engagements and family functions amidst nature.",
+    },
+
+    {
+      image: camping,
+      title: "Camping & Bonfire Zone",
+      guests: "Tent Stay",
+      desc: "Enjoy an unforgettable night under the stars with camping tents, bonfire and music.",
     },
   ];
 
@@ -47,7 +47,7 @@ const Venues = () => {
             tracking-[5px]
             font-semibold"
           >
-            Event Venues
+            Our Venues
           </p>
 
           <h2
@@ -58,7 +58,7 @@ const Venues = () => {
             text-[#143D28]
             mt-4"
           >
-            Elegant Spaces For Every Celebration
+            Spaces For Every Celebration
           </h2>
 
           <p
@@ -68,8 +68,9 @@ const Venues = () => {
             mx-auto
             mt-5"
           >
-            From intimate gatherings to grand wedding celebrations,
-            we offer luxurious and spacious venues tailored for every occasion.
+            From intimate family gatherings to grand weddings and lively
+            camping nights, Vrundawan Resort offers the perfect setting for
+            every occasion.
           </p>
 
         </div>
