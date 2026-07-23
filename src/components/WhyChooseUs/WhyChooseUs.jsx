@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
   {
     icon: <MapPin size={32} strokeWidth={2.2} />,
     title: "Prime Location",
-    desc: "Mahapur, Chabhe Farm — just 6 km from Latur city on Latur–Ambajogai Road.",
+    desc: "Mahapur, Chame Farm — just 6 km from Latur city on Latur–Ambajogai Road.",
   },
 
   {

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 // Images
 
 import raindance from "../../assets/activities/raindance.jpg";
-import djnight from "../../assets/activities/djnight.jpg";
-import camping from "../../assets/activities/camping.jpg";
-import hurda from "../../assets/activities/hurdaparty.jpg";
-import bonfire from "../../assets/activities/bonfire.jpg";
+import djnight from "../../assets/services/5.jpg";
+import camping from "../../assets/services/6.jpg";
+import hurda from "../../assets/services/20.jpeg";
+import bonfire from "../../assets/services/10.jpg";
 import pool from "../../assets/activities/pool.jpeg";
 import cricket from "../../assets/activities/cricket.jpg";
 

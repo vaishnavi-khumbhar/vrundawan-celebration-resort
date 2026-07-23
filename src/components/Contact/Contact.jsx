@@ -49,7 +49,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const message = `🏡 *NEW ENQUIRY - VRUNDAWAN RESORT & AGRO TOURISM*
+    const message = ` *NEW ENQUIRY - VRUNDAWAN RESORT & AGRO TOURISM*
 
 ━━━━━━━━━━━━━━━━━━━━
 
@@ -57,18 +57,18 @@ const Contact = () => {
 
 📞 *Mobile:* ${form.phone}
 
-🎉 *Event Type:* ${form.event}
+ *Event Type:* ${form.event}
 
 👥 *Guest Count:* ${form.guests}
 
-💬 *Message:*
+ *Message:*
 ${form.message}
 
 ━━━━━━━━━━━━━━━━━━━━
 Thank you 🙏`;
 
     window.open(
-      `https://wa.me/919405400914?text=${encodeURIComponent(message)}`,
+      `https://wa.me/918180877750?text=${encodeURIComponent(message)}`,
       "_blank"
     );
 
@@ -276,7 +276,7 @@ Thank you 🙏`;
          <div className="flex flex-wrap justify-center gap-5 mt-10 relative">
   {/* Call Button */}
   <a
-    href="tel:+919405400914"
+    href="tel:+918180877750"
     className="group inline-flex items-center gap-2 bg-[#143D28] text-white
       px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20
       transition-all duration-300 hover:scale-105 hover:shadow-xl"
@@ -287,7 +287,7 @@ Thank you 🙏`;
 
   {/* WhatsApp Button */}
   <a
-    href={`https://wa.me/919405400914?text=${encodeURIComponent(
+    href={`https://wa.me/918180877750?text=${encodeURIComponent(
       "Hello, I would like to enquire about Vrundawan Resort & Agro Tourism."
     )}`}
     target="_blank"

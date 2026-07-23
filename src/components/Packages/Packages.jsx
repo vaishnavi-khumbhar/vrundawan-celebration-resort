@@ -53,7 +53,7 @@ features:[
    {
 title:"Day Package",
 
-price:"9 AM - 10:30 PM",
+price:"9:30 AM - 5 PM",
 
 unit:"Full Day",
 

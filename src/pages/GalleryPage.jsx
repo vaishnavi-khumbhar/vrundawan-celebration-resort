@@ -2,17 +2,24 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import Testimonials from "../components/Testimonials/Testimonials";
-import Contact from "../components/Contact/Contact";
+import service1 from "../assets/services/1.jpg";
+import service2 from "../assets/services/2.jpg";
+import service3 from "../assets/services/3.jpg";
+import service4 from "../assets/services/4.jpg";
+import service5 from "../assets/services/5.jpg";
+import service6 from "../assets/services/6.jpg";
+import service7 from "../assets/services/7.jpg";
+import service8 from "../assets/services/8.jpg";
+import service9 from "../assets/services/9.jpg";
+import service10 from "../assets/services/10.jpg";
+import service11 from "../assets/services/11.jpg";
+import service13 from "../assets/services/13.jpg";
 
-import gallery1 from "../assets/gallery/gallery1.jpg";
-import gallery2 from "../assets/gallery/gallery2.jpg";
-import gallery3 from "../assets/gallery/gallery3.jpg";
-import gallery4 from "../assets/gallery/gallery4.jpg";
-import gallery5 from "../assets/gallery/gallery5.jpg";
-import gallery6 from "../assets/gallery/gallery6.jpg";
-import gallery7 from "../assets/gallery/gallery7.jpg";
-import gallery8 from "../assets/gallery/gallery8.jpg";
+import service20 from "../assets/services/20.jpeg";
+import service21 from "../assets/services/21.jpeg";
+import service22 from "../assets/services/22.jpeg";
+
+import pool from "../assets/services/pool.jpeg";
 
 import InnerBanner from "../components/InnerBanner";
 
@@ -20,23 +27,119 @@ const GalleryPage = () => {
   const [active, setActive] = useState("All");
 
   const images = [
-    { image: gallery1, category: "Wedding" },
-    { image: gallery2, category: "Resort" },
-    { image: gallery3, category: "Swimming" },
-    { image: gallery4, category: "Events" },
-    { image: gallery5, category: "Picnic" },
-    { image: gallery6, category: "Wedding" },
-    { image: gallery7, category: "Family Picnic" },
-    { image: gallery8, category: "Hurda Party" },
-  ];
 
+{
+ image: service1,
+ category:"Wedding",
+ title:"Grand Lawn"
+},
+
+{
+ image: service2,
+ category:"Wedding",
+ title:"Mangal Karyalay"
+},
+
+{
+ image: service3,
+ category:"Resort",
+ title:"Resort Rooms"
+},
+
+{
+ image: pool,
+ category:"Swimming",
+ title:"Swimming Pool"
+},
+
+{
+ image: service4,
+ category:"Events",
+ title:"Rain Dance"
+},
+
+{
+ image: service5,
+ category:"Events",
+ title:"DJ Night"
+},
+
+{
+ image: service6,
+ category:"Resort",
+ title:"Camping"
+},
+
+{
+ image: service7,
+ category:"Picnic",
+ title:"Family Picnic"
+},
+
+{
+ image: service8,
+ category:"Picnic",
+ title:"One Day Picnic"
+},
+
+{
+ image: service9,
+ category:"Events",
+ title:"Corporate Events"
+},
+
+{
+ image: service10,
+ category:"Events",
+ title:"Bonfire"
+},
+
+{
+ image: service11,
+ category:"Activities",
+ title:"Adventure Park"
+},
+
+{
+ image: service13,
+ category:"Activities",
+ title:"Sports Zone"
+},
+
+{
+ image: service20,
+ category:"Events",
+ title:"Hurda Party"
+},
+
+{
+ image: service21,
+ category:"Picnic",
+ title:"Family Experience"
+},
+
+{
+ image: service22,
+ category:"Food",
+ title:"Food Experience"
+}
+
+];
   const filteredImages =
     active === "All"
       ? images
       : images.filter((item) => item.category === active);
 
-  const filters = ["All", "Wedding", "Resort", "Swimming", "Picnic", "Events"];
-
+const filters = [
+"All",
+"Wedding",
+"Resort",
+"Swimming",
+"Picnic",
+"Events",
+"Activities",
+"Food"
+];
   return (
     <>
       <InnerBanner
@@ -49,8 +152,7 @@ const GalleryPage = () => {
       {/* ================= Gallery Section ================= */}
 
       <section className="py-14 sm:py-16 md:py-20 bg-[#FAF7F2]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-          {/* Heading */}
+<div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">          {/* Heading */}
           <div className="text-center">
             <p className="text-[#D4AF37] uppercase tracking-[3px] sm:tracking-[4px] text-sm font-semibold">
               Gallery
@@ -98,35 +200,35 @@ const GalleryPage = () => {
           </div>
 
           {/* Gallery */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 mt-12 sm:mt-16 md:mt-20">
-            {filteredImages.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-                whileHover={{ y: -8 }}
-                className="relative overflow-hidden rounded-[16px] sm:rounded-[24px] md:rounded-[30px] group shadow-lg sm:shadow-2xl"
-              >
-                <img
-                  src={item.image}
-                  alt={item.category}
-                  className="h-[160px] sm:h-[260px] md:h-[330px] w-full object-cover transition duration-700 group-hover:scale-110"
-                />
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
+  {filteredImages.map((item, index) => (
 
-                {/* Gradient overlay — always faintly visible so badge stays readable, deepens on hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/5 to-transparent opacity-70 group-hover:opacity-100 transition duration-500" />
 
-                {/* Category badge — always visible, sits safely inside the rounded card, no clipping */}
-                <div className="absolute bottom-0 left-0 right-0 p-2.5 sm:p-4 md:p-6">
-                  <span className="inline-block px-2.5 sm:px-3 py-1 rounded-full bg-[#D4AF37] text-[#143D28] text-[10px] sm:text-xs font-semibold shadow-md">
-                    {item.category}
-                  </span>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+
+   <motion.div
+  key={index}
+  whileHover={{ y: -8 }}
+  className="group relative bg-white rounded-[30px] p-3 shadow-xl overflow-hidden"
+>
+    <div className="bg-[#FAF7F2] rounded-[22px] overflow-hidden flex items-center justify-center p-2">
+  <img
+    src={item.image}
+    alt={item.category}
+    className="w-full h-auto max-h-[280px] object-contain transition-transform duration-700 group-hover:scale-105"
+  />
+</div>
+
+      <div className="absolute inset-3 rounded-[22px] bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+
+      <div className="absolute bottom-8 left-8">
+        <span className="px-4 py-2 rounded-full bg-[#D4AF37] text-[#143D28] font-semibold text-sm">
+          {item.category}
+        </span>
+      </div>
+    </motion.div>
+  ))}
+</div>
+
 
           {/* CTA */}
           <div className="relative overflow-hidden mt-16 sm:mt-20 md:mt-24 rounded-[24px] sm:rounded-[32px] md:rounded-[40px] bg-gradient-to-br from-[#143D28] via-[#1B5138] to-[#0E2A1C] p-8 sm:p-10 md:p-12 text-center shadow-[0_25px_60px_rgba(20,61,40,.45)]">

@@ -18,7 +18,7 @@ import InnerBanner from "../components/InnerBanner";
 const WHATSAPP_NUMBER = "918180877750"; // country code + number, no + or spaces
 
 const ContactPage = () => {
-  // Quick side-form (in place of the old cards grid)
+  // Quick side-form (in place of the old cards grid) 
   const [quickForm, setQuickForm] = useState({
     name: "",
     phone: "",
@@ -283,7 +283,7 @@ const ContactPage = () => {
                     className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 py-3.5 font-semibold text-[#143D28] shadow-[0_12px_28px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-[1.02] self-start"
                   >
                     <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700" />
-                    <span className="relative">Send </span>
+                    <span className="relative">Submit </span>
                   </button>
                 </form>
               </div>
@@ -435,7 +435,7 @@ const ContactPage = () => {
                 >
                   <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700" />
                   <MessageCircle size={20} className="relative" />
-                  <span className="relative">Send Enquiry on WhatsApp</span>
+                  <span className="relative">Send Enquiry</span>
                 </button>
 
                 <p className="mt-3 text-gray-400 text-xs sm:text-sm">
@@ -444,6 +444,7 @@ const ContactPage = () => {
               </div>
             </form>
           </div>
+
 
           {/* CTA Banner */}
           <div className="mt-16 sm:mt-20 md:mt-24 text-center">

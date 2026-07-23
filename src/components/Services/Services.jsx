@@ -3,40 +3,28 @@ import { Link } from "react-router-dom";
 
 // Images
 
-import wedding from "../../assets/services/wedding.jpg";
-import banquet from "../../assets/services/banquet.jpg";
-import lawn from "../../assets/services/lawn.jpg";
-import mangal from "../../assets/services/mangal.jpg";
-import room from "../../assets/services/room.jpg";
-import pool from "../../assets/services/pool.jpg";
-import rain from "../../assets/services/rain.jpg";
-import dj from "../../assets/services/dj.jpg";
-import camping from "../../assets/services/camping.jpg";
-import hurda from "../../assets/services/hurda.jpg";
-import picnic from "../../assets/services/picnic.jpg";
-import oneday from "../../assets/services/oneday.jpg";
-import corporate from "../../assets/services/corporate.jpg";
-import bonfire from "../../assets/services/bonfire.jpg";
-import food from "../../assets/services/food.jpg";
+import lawn from "../../assets/services/1.jpg";
+import mangal from "../../assets/services/2.jpg";
+import room from "../../assets/services/3.jpg";
+import pool from "../../assets/services/pool.jpeg";
+import rain from "../../assets/services/4.jpg";
+import dj from "../../assets/services/5.jpg";
+import camping from "../../assets/services/6.jpg";
+import hurda from "../../assets/services/20.jpeg";
+import picnic from "../../assets/services/21.jpeg";
+import oneday from "../../assets/services/8.jpg";
+import corporate from "../../assets/services/9.jpg";
+import bonfire from "../../assets/services/10.jpg";
+import food from "../../assets/services/22.jpeg";
 // TODO: replace these two with actual photos once available
-import adventurepark from "../../assets/services/rain.jpg";
-import sportszone from "../../assets/services/camping.jpg";
+import adventurepark from "../../assets/services/11.jpg";
+import sportszone from "../../assets/services/13.jpg";
 
 const Services = () => {
 
   const services = [
 
-    {
-      image: wedding,
-      title: "Wedding Venue",
-      desc: "Celebrate your dream wedding."
-    },
-
-    {
-      image: banquet,
-      title: "Banquet Hall",
-      desc: "Perfect for private celebrations."
-    },
+  
 
     {
       image: lawn,
@@ -186,50 +174,52 @@ const Services = () => {
           {services.map((item, index) => (
 
             <motion.div
-
-              key={index}
-
-              initial={{ opacity: 0, y: 50 }}
-
-              whileInView={{
-                opacity: 1,
-                y: 0,
-              }}
-
-              transition={{
-                duration: .5,
-                delay: index * .05,
-              }}
-
-              whileHover={{
-                y: -10,
-              }}
-
-              className="relative
-              rounded-3xl
-              overflow-hidden
-              shadow-xl
-              group"
-
-            >
-
+  key={index}
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{
+    duration: 0.5,
+    delay: index * 0.05,
+  }}
+  whileHover={{ y: -10 }}
+  className="
+    relative
+    w-[90%]
+    sm:w-[95%]
+    md:w-full
+    mx-auto
+    rounded-3xl
+    overflow-hidden
+    shadow-xl
+    group
+    bg-white
+  "
+>
               {/* Image */}
 
-              <img
+             <div className="bg-[#f8f8f8] flex items-center justify-center overflow-hidden">
 
-                src={item.image}
-                alt={item.title}
+  <img
+    src={item.image}
+    alt={item.title}
+    className="
+      w-[88%]
+      sm:w-[92%]
+      md:w-full
+      h-[220px]
+      sm:h-[260px]
+      md:h-[300px]
+      lg:h-[340px]
+      object-contain
+      transition-transform
+      duration-700
+      group-hover:scale-105
+      mx-auto
+      p-2
+    "
+  />
 
-                className="
-                w-full
-                h-[380px]
-                object-cover
-                group-hover:scale-110
-                transition duration-700"
-
-              />
-
-
+</div>
 
               {/* Overlay */}
 

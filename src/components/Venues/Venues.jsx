@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import lawn from "../../assets/venues/lawn.jpg";
+import lawn from "../../assets/venues/lawn1.jpg";
 import ground from "../../assets/venues/ground.jpg";
+
 import camping from "../../assets/venues/camping.jpg";
 
 const Venues = () => {
@@ -102,25 +103,38 @@ const Venues = () => {
               }}
 
               className="
-              overflow-hidden
-              rounded-[30px]
-              shadow-2xl
-              group
-              relative"
+             relative
+overflow-hidden
+rounded-[24px]
+shadow-xl
+group
+bg-white
+w-full
+max-w-[420px]
+mx-auto"
             >
 
               {/* Image */}
 
-              <img
-                src={venue.image}
-                alt={venue.title}
-                className="
-                w-full
-                h-[550px]
-                object-cover
-                group-hover:scale-110
-                transition duration-700"
-              />
+             <div className="overflow-hidden">
+
+<img
+src={venue.image}
+alt={venue.title}
+className="
+w-full
+aspect-[4/5]
+sm:aspect-[4/5]
+lg:h-[500px]
+object-cover
+object-center
+transition-transform
+duration-700
+group-hover:scale-105
+"
+/>
+
+</div>
 
               {/* Gradient Overlay */}
 

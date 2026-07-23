@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import * as CountUpModule from "react-countup";
 
-import aboutImage from "../assets/about/about.avif";
+import aboutImage from "../assets/about/about.jpeg";
 import { Phone, MessageCircle } from "lucide-react";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import Counters from "../components/Counters/Counters";
@@ -245,7 +245,7 @@ need for a memorable getaway under one roof.
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/919876543210?text=Hello%20Vrundawan%20Celebration%20%26%20Resort,%20I%20would%20like%20to%20enquire%20about%20your%20wedding%20venue,%20resort%20stay%20and%20event%20packages."
+        href="https://wa.me/918180877750?text=Hello%20Vrundawan%20Celebration%20%26%20Resort,%20I%20would%20like%20to%20enquire%20about%20your%20wedding%20venue,%20resort%20stay%20and%20event%20packages."
         target="_blank"
         rel="noopener noreferrer"
         className="group inline-flex items-center gap-2 bg-[#D4AF37] text-[#143D28]
