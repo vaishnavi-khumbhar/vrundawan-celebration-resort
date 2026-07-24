@@ -18,6 +18,14 @@ import service13 from "../assets/services/13.jpg";
 import service20 from "../assets/services/20.jpeg";
 import service21 from "../assets/services/21.jpeg";
 import service22 from "../assets/services/22.jpeg";
+import service23 from "../assets/services/BanquetHall.jpg";
+import service24 from "../assets/services/24.jpeg";
+import service25 from "../assets/services/25.jpg";
+import service26 from "../assets/services/5.jpg";
+import service27 from "../assets/services/26.png";
+import service28 from "../assets/services/28.png";
+
+
 
 import pool from "../assets/services/pool.jpeg";
 
@@ -75,6 +83,28 @@ const GalleryPage = () => {
  category:"Picnic",
  title:"Family Picnic"
 },
+{
+ image: service25,
+ category:"Picnic",
+ title:"Picnic"
+},
+
+{
+ image: service26,
+ category:"Activities",
+ title:"Activities"
+},
+{
+ image: service27,
+ category:"Food",
+ title:"Food"
+},
+{
+ image: service28,
+ category:"Food",
+ title:"Food"
+},
+
 
 {
  image: service8,
@@ -122,7 +152,20 @@ const GalleryPage = () => {
  image: service22,
  category:"Food",
  title:"Food Experience"
-}
+},
+
+{
+    image: service23,
+    category: "Wedding",
+    title: "Premium Banquet Hall",
+  },
+{
+    image: service24,
+    category: "Resort",
+    title: "Our Resort",
+  },
+
+
 
 ];
   const filteredImages =

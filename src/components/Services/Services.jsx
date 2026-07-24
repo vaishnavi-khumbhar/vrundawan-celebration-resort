@@ -19,13 +19,18 @@ import food from "../../assets/services/22.jpeg";
 // TODO: replace these two with actual photos once available
 import adventurepark from "../../assets/services/11.jpg";
 import sportszone from "../../assets/services/13.jpg";
+import banquetHall from "../../assets/services/BanquetHall.jpg";
+
 
 const Services = () => {
 
   const services = [
 
-  
-
+     {
+    image: banquetHall,
+    title: "Premium Banquet Hall",
+    desc: "Elegant indoor banquet hall with a seating capacity of 200 guests for weddings, receptions, and special events.",
+  },
     {
       image: lawn,
       title: "Grand Lawn",
