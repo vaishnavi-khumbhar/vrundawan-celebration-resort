@@ -28,12 +28,17 @@ import bonfire from "../assets/services/10.jpg";
 import food from "../assets/services/22.jpeg";
 import adventurepark from "../assets/services/11.jpg";
 import sportszone from "../assets/services/13.jpg";
+import banquetHall from "../assets/services/BanquetHall.jpg";
 
 
 
   const services = [
 
-
+{
+      image: banquetHall,
+      title: " Banqut Hall",
+      desc: "Our banquet Hall."
+    },
     {
       image: lawn,
       title: "Grand Lawn",
