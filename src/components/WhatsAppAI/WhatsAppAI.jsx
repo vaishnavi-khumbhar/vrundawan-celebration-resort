@@ -73,10 +73,10 @@ const WhatsAppAI = () => {
   }, [open]);
 
   const sendWhatsApp = (type) => {
-    const message = `🏡 Hello Vrundawan Celebration & Resort,
+    const message = ` Hello Vrundawan Celebration & Resort,
 
 I am interested in:
-👉 ${type}
+ ${type}
 
 Please share complete details, availability and pricing.
 
