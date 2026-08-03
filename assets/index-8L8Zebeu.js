@@ -264,12 +264,14 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             hover:shadow-[0_8px_20px_rgba(212,175,55,0.4)]\r
             transition-all\r
             duration-300`,children:(0,X.jsx)(Pm,{size:18})})]}),(0,X.jsxs)(`div`,{className:`\r
-          border-t\r
-          border-white/10\r
-          mt-8\r
-          pt-2\r
-          text-center\r
-          px-4`,children:[(0,X.jsx)(`p`,{className:`text-gray-400 text-sm md:text-base`,children:`© 2026 Vrundawan Resort & Agro Tourism | All Rights Reserved.`}),(0,X.jsxs)(`p`,{className:`\r
+    border-t\r
+    border-white/10\r
+    mt-8\r
+    pt-2\r
+    pb-20\r
+    md:pb-0\r
+    text-center\r
+    px-4`,children:[(0,X.jsx)(`p`,{className:`text-gray-400 text-sm md:text-base`,children:`© 2026 Vrundawan Resort & Agro Tourism | All Rights Reserved.`}),(0,X.jsxs)(`p`,{className:`\r
     text-gray-500\r
     mt-3\r
     text-xs\r
