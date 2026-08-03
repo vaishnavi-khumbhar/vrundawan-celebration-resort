@@ -460,15 +460,17 @@ const Footer = () => {
 
         {/* Bottom */}
 
-        <div
-          className="
-          border-t
-          border-white/10
-          mt-8
-          pt-2
-          text-center
-          px-4"
-        >
+       <div
+  className="
+    border-t
+    border-white/10
+    mt-8
+    pt-2
+    pb-20
+    md:pb-0
+    text-center
+    px-4"
+>
 
           <p className="text-gray-400 text-sm md:text-base">
 
