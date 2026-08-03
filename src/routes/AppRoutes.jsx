@@ -11,6 +11,7 @@ import ContactPage from "../pages/ContactPage";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 import MobileBottomBar from "../components/MobileBottomBar/MobileBottomBar";
+import WhatsAppAI from "../components/WhatsAppAI/WhatsAppAI";
 
 const AppRoutes = () => {
   return (
@@ -27,6 +28,8 @@ const AppRoutes = () => {
       </Routes>
 
  <MobileBottomBar />
+       <WhatsAppAI />
+
       <Footer />
     </>
   );

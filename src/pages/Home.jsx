@@ -13,7 +13,6 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Packages from "../components/Packages/Packages";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
-import WhatsAppAI from "../components/WhatsAppAI/WhatsAppAI";
 
 const Home = () => {
   return (
@@ -31,7 +30,6 @@ const Home = () => {
       <Testimonials />
       <Packages />
       <Contact />
-      <WhatsAppAI />
     </>
   );
 };
