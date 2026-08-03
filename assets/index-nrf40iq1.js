@@ -1095,7 +1095,223 @@ Thank you 🙏`;window.open(`https://wa.me/918180877750?text=${encodeURIComponen
       px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20\r
       transition-all duration-300 hover:scale-105 hover:shadow-xl`,children:[(0,X.jsx)(em,{size:18}),`Call Now`]}),(0,X.jsxs)(`a`,{href:`https://wa.me/918180877750?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Vrundawan%20Resort%20%26%20Agro%20Tourism.`,target:`_blank`,rel:`noopener noreferrer`,className:`group inline-flex items-center gap-2 bg-[#D4AF37] text-[#143D28]\r
       px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#D4AF37]/30\r
-      transition-all duration-300 hover:scale-105 hover:shadow-xl`,children:[(0,X.jsx)(Zp,{size:18}),`WhatsApp Now`]})]})]})]})]})},yv=({size:e=28})=>(0,X.jsx)(`svg`,{width:e,height:e,viewBox:`0 0 32 32`,fill:`currentColor`,xmlns:`http://www.w3.org/2000/svg`,children:(0,X.jsx)(`path`,{d:`M16.004 0C7.166 0 0 7.163 0 16c0 2.82.738 5.566 2.14 7.982L0 32l8.223-2.116A15.93 15.93 0 0 0 16.004 32C24.84 32 32 24.837 32 16S24.84 0 16.004 0Zm0 29.09c-2.5 0-4.943-.672-7.075-1.943l-.508-.301-4.878 1.256 1.303-4.754-.331-.489A13.03 13.03 0 0 1 2.91 16c0-7.216 5.874-13.09 13.094-13.09 7.216 0 13.086 5.874 13.086 13.09 0 7.219-5.87 13.09-13.086 13.09Zm7.17-9.803c-.393-.196-2.324-1.146-2.684-1.277-.36-.131-.622-.196-.884.196-.262.393-1.014 1.277-1.243 1.539-.229.262-.458.295-.851.098-.393-.196-1.658-.61-3.16-1.949-1.168-1.042-1.957-2.329-2.186-2.722-.229-.393-.024-.605.172-.8.177-.176.393-.458.59-.687.196-.229.262-.393.393-.655.131-.262.065-.491-.033-.687-.098-.196-.884-2.13-1.211-2.918-.319-.766-.643-.662-.884-.674-.229-.01-.491-.012-.753-.012-.262 0-.687.098-1.047.491-.36.393-1.374 1.343-1.374 3.276s1.407 3.801 1.603 4.063c.196.262 2.769 4.229 6.71 5.929.937.405 1.669.647 2.239.828.941.3 1.798.257 2.475.156.755-.113 2.324-.95 2.652-1.868.327-.917.327-1.703.229-1.868-.098-.164-.36-.262-.753-.458Z`})}),bv=[{label:`Wedding Booking`,icon:Gp},{label:`Banquet Hall`,icon:Vp},{label:`Family Picnic`,icon:lm},{label:`Swimming Pool`,icon:mm},{label:`Corporate Event`,icon:Bp},{label:`Resort Stay`,icon:qp},{label:`Tent Camping`,icon:cm},{label:`Hurda Party`,icon:gm}],xv=`vrundawan-open-whatsapp-assistant`,Sv=()=>{let[e,t]=(0,w.useState)(!1);(0,w.useEffect)(()=>{let e=()=>t(!0);return window.addEventListener(xv,e),()=>window.removeEventListener(xv,e)},[]),(0,w.useEffect)(()=>(e&&window.innerWidth<640?document.body.style.overflow=`hidden`:document.body.style.overflow=``,()=>{document.body.style.overflow=``}),[e]);let n=e=>{let t=` Hello Vrundawan Celebration & Resort,
+      transition-all duration-300 hover:scale-105 hover:shadow-xl`,children:[(0,X.jsx)(Zp,{size:18}),`WhatsApp Now`]})]})]})]})]})},yv=()=>(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(E_,{}),(0,X.jsx)(O_,{}),(0,X.jsx)(k_,{}),(0,X.jsx)(K_,{}),(0,X.jsx)(J_,{}),(0,X.jsx)(Q_,{}),(0,X.jsx)(tv,{}),(0,X.jsx)(av,{}),(0,X.jsx)(sv,{}),(0,X.jsx)(dv,{}),(0,X.jsx)(hv,{}),(0,X.jsx)(gv,{}),(0,X.jsx)(vv,{})]}),bv=`/vrundawan-celebration-resort/assets/about-D6YDuTWU.jpeg`,xv=`/vrundawan-celebration-resort/assets/b2-Dt30KyjN.jpg`,Sv=({badge:e,title:t,subtitle:n,currentPage:r})=>(0,X.jsxs)(`section`,{className:`relative min-h-[85vh] sm:min-h-[90vh] md:h-[95vh] overflow-hidden`,style:{backgroundImage:`url(${xv})`,backgroundSize:`cover`,backgroundPosition:`center`},children:[(0,X.jsx)(`div`,{className:`absolute inset-0 bg-[#04231c]/70 mix-blend-multiply`}),(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-b from-[#04231c]/90 via-[#04231c]/60 to-[#04231c]/80`}),(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60`}),(0,X.jsx)(`div`,{className:`absolute top-0 left-1/4 w-60 sm:w-80 md:w-[30rem] h-60 sm:h-80 md:h-[30rem] bg-[#D4AF37]/10 rounded-full blur-[80px] md:blur-[140px] -translate-y-1/3`}),(0,X.jsx)(`div`,{className:`absolute bottom-0 right-1/4 w-48 sm:w-72 md:w-96 h-48 sm:h-72 md:h-96 bg-emerald-400/10 rounded-full blur-[70px] md:blur-[120px]`}),(0,X.jsxs)(`div`,{className:`absolute top-20 left-3 right-3 bottom-4 sm:top-24 sm:left-6 sm:right-6 sm:bottom-6 md:top-28 md:left-10 md:right-10 md:bottom-10`,children:[(0,X.jsx)(`div`,{className:`absolute inset-0 border border-[#D4AF37]/25 rounded-xl sm:rounded-2xl pointer-events-none`}),(0,X.jsx)(`div`,{className:`relative h-full flex items-center justify-center py-8 sm:py-10`,children:(0,X.jsxs)(Q.div,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.7,ease:`easeOut`},className:`max-w-3xl px-4 sm:px-8 md:px-12 text-center flex flex-col items-center`,children:[(0,X.jsxs)(`span`,{className:`inline-flex items-center gap-2 px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-full border border-[#D4AF37]/60 text-[#D4AF37] tracking-[2px] sm:tracking-[4px] uppercase text-[10px] sm:text-xs md:text-sm font-semibold bg-[#D4AF37]/5 backdrop-blur-sm whitespace-nowrap`,children:[(0,X.jsx)(`span`,{className:`w-1.5 h-1.5 rounded-full bg-[#D4AF37] animate-pulse shrink-0`}),e]}),(0,X.jsx)(`h1`,{className:`mt-4 sm:mt-6 text-3xl sm:text-4xl md:text-6xl font-serif font-bold text-white leading-[1.15] sm:leading-[1.1] px-1`,children:t}),(0,X.jsxs)(`div`,{className:`mt-4 sm:mt-6 flex items-center justify-center gap-2 sm:gap-3`,children:[(0,X.jsx)(`span`,{className:`w-8 sm:w-14 h-[2px] bg-[#D4AF37]`}),(0,X.jsx)(`span`,{className:`w-1.5 h-1.5 sm:w-2 sm:h-2 rotate-45 bg-[#D4AF37]`}),(0,X.jsx)(`span`,{className:`w-8 sm:w-14 h-[2px] bg-[#D4AF37]`})]}),(0,X.jsx)(`p`,{className:`mt-4 sm:mt-6 text-sm sm:text-lg md:text-xl text-gray-200 leading-6 sm:leading-8 max-w-[22rem] sm:max-w-2xl mx-auto`,children:n}),(0,X.jsxs)(`div`,{className:`mt-6 sm:mt-8 flex items-center justify-center gap-2 sm:gap-3 text-white/90 text-sm sm:text-lg`,children:[(0,X.jsx)(Mn,{to:`/`,className:`hover:text-[#D4AF37] transition-colors`,children:`Home`}),(0,X.jsx)(`span`,{className:`text-[#D4AF37]`,children:`/`}),(0,X.jsx)(`span`,{className:`text-[#D4AF37] font-semibold`,children:r})]})]})})]})]}),Cv=lv.default?.default||lv.default||lv,wv=()=>(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Sv,{badge:`About Us`,title:`Welcome To Vrundawan`,subtitle:`Experience luxury, celebration and nature together at one of the finest wedding and resort destinations in Latur.`,currentPage:`About`}),(0,X.jsx)(`section`,{className:`py-10 bg-[#FAF7F2] overflow-hidden`,children:(0,X.jsx)(`section`,{className:`py-10 bg-[#FAF7F2] overflow-hidden`,id:`about`,children:(0,X.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6 lg:px-10`,children:[(0,X.jsxs)(`div`,{className:`text-center mb-16`,children:[(0,X.jsx)(`p`,{className:`text-[#D4AF37] uppercase tracking-[4px] font-semibold`,children:`About Us`}),(0,X.jsx)(`p`,{className:`text-gray-600 max-w-3xl mx-auto mt-5`,children:`Experience luxury, celebration, and nature together at one of the finest wedding and resort destinations in Latur.`})]}),(0,X.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-16 items-center`,children:[(0,X.jsx)(Q.div,{initial:{opacity:0,x:-60},whileInView:{opacity:1,x:0},transition:{duration:.7},children:(0,X.jsx)(`img`,{src:bv,alt:`about`,className:`rounded-3xl shadow-2xl w-full object-cover hover:scale-105 transition duration-500`})}),(0,X.jsxs)(Q.div,{initial:{opacity:0,x:60},whileInView:{opacity:1,x:0},transition:{duration:.7},children:[(0,X.jsx)(`h3`,{className:`text-3xl lg:text-4xl font-bold text-[#143D28]`,children:`Premium Wedding Venue, Banquet Hall & Resort`}),(0,X.jsxs)(`p`,{className:`mt-6 text-gray-600 leading-8`,children:[`Located beside the serene Manjara River at Mahapur, just 6 KM from Latur city, Vrundawan Resort & Agro Tourism is a perfect destination Family Picnics, School & College Trips, Wedding Celebrations, Corporate Events and unforgettable village experiences.`,(0,X.jsx)(`br`,{}),(0,X.jsx)(`br`,{}),`From Swimming Pool and Rain Dance to Tent Camping, Hurda Parties, Adventure Activities and Premium Wedding Venues, Vrundawan offers everything you need for a memorable getaway under one roof.`]}),(0,X.jsxs)(`div`,{className:`mt-8 space-y-4`,children:[(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Premium Agro Tourism & Resort Experience`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Swimming Pool, Rain Dance & Adventure Activities`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Family Picnics, School Trips & Corporate Events`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Grand Lawn, Banquet Hall & Wedding Celebrations`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Tent Camping, Bonfire Night & Hurda Party Experiences`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Traditional Village Food & Nature's Riverside Ambience`})]})]})]})]}),(0,X.jsx)(`div`,{className:`grid grid-cols-2 lg:grid-cols-4 gap-6 mt-20`,children:[{icon:(0,X.jsx)(Im,{}),value:2500,suffix:`+`,title:`Guest Capacity`},{icon:(0,X.jsx)(Lm,{}),value:1200,suffix:`+`,title:`Wedding Capacity`},{icon:(0,X.jsx)(zm,{}),value:15,suffix:`+`,title:`Activities`},{icon:(0,X.jsx)(Rm,{}),value:100,suffix:`+`,title:`Happy Events`}].map((e,t)=>(0,X.jsxs)(Q.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{delay:t*.15},whileHover:{y:-10,scale:1.04},className:`\r
+        group\r
+        relative\r
+        overflow-hidden\r
+        rounded-[28px]\r
+        border\r
+        border-[#D4AF37]/25\r
+        bg-white/80\r
+        backdrop-blur-lg\r
+        p-8\r
+        text-center\r
+        shadow-[0_20px_50px_rgba(20,61,40,0.08)]\r
+        transition-all\r
+        duration-500\r
+        hover:border-[#D4AF37]\r
+        hover:shadow-[0_25px_60px_rgba(212,175,55,0.25)]\r
+      `,children:[(0,X.jsx)(`div`,{className:`absolute -top-16 -right-16 w-36 h-36 rounded-full bg-[#D4AF37]/10 blur-3xl group-hover:bg-[#D4AF37]/20 transition-all duration-500`}),(0,X.jsx)(`div`,{className:`relative z-10 w-16 h-16 mx-auto mb-5 rounded-full bg-gradient-to-br from-[#D4AF37] to-[#F4D87A] flex items-center justify-center text-[#143D28] text-2xl shadow-lg`,children:e.icon}),(0,X.jsxs)(`h3`,{className:`relative z-10 text-4xl lg:text-5xl font-bold text-[#143D28]`,children:[(0,X.jsx)(Cv,{end:e.value,duration:3}),(0,X.jsx)(`span`,{className:`text-[#D4AF37]`,children:e.suffix})]}),(0,X.jsx)(`div`,{className:`relative z-10 w-12 h-1 rounded-full bg-[#D4AF37] mx-auto my-4`}),(0,X.jsx)(`p`,{className:`relative z-10 text-gray-600 font-medium tracking-wide`,children:e.title})]},t))})]})})}),(0,X.jsx)(k_,{}),(0,X.jsx)(`section`,{children:(0,X.jsxs)(Q.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.6},className:`mt-0 text-center relative bg-white rounded-[40px] py-16 px-6 shadow-xl border border-[#143D28]/5`,children:[(0,X.jsx)(`div`,{className:`pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`h2`,{className:`text-4xl font-bold text-[#143D28] relative`,children:`Book Your Site Visit Today`}),(0,X.jsx)(`p`,{className:`text-gray-600 mt-5 relative`,children:`Visit Vrundawan Celebration & Resort and experience luxury in person.`}),(0,X.jsxs)(`div`,{className:`flex flex-wrap justify-center gap-5 mt-10 relative`,children:[(0,X.jsxs)(`a`,{href:`tel:+919876543210`,className:`group inline-flex items-center gap-2 bg-[#143D28] text-white\r
+        px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20\r
+        transition-all duration-300 hover:scale-105 hover:shadow-xl`,children:[(0,X.jsx)(em,{size:18}),`Call Now`]}),(0,X.jsxs)(`a`,{href:`https://wa.me/918180877750?text=Hello%20Vrundawan%20Celebration%20%26%20Resort,%20I%20would%20like%20to%20enquire%20about%20your%20wedding%20venue,%20resort%20stay%20and%20event%20packages.`,target:`_blank`,rel:`noopener noreferrer`,className:`group inline-flex items-center gap-2 bg-[#D4AF37] text-[#143D28]\r
+        px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#D4AF37]/30\r
+        transition-all duration-300 hover:scale-105 hover:shadow-xl`,children:[(0,X.jsx)(Zp,{size:18}),`WhatsApp Now`]})]})]})}),(0,X.jsx)(dv,{})]}),Tv=[{image:G_,title:` Banqut Hall`,desc:`Our banquet Hall.`},{image:A_,title:`Grand Lawn`,desc:`Spacious outdoor celebration venue.`},{image:j_,title:`Mangal Karyalay`,desc:`Traditional wedding destination.`},{image:M_,title:`Resort Rooms`,desc:`Luxury and comfortable stay.`},{image:N_,title:`Swimming Pool`,desc:`Relax and refresh yourself.`},{image:P_,title:`Rain Dance`,desc:`Enjoy music and rain fun.`},{image:F_,title:`DJ Night`,desc:`Party all night with music.`},{image:I_,title:`Tent Camping`,desc:`Experience nature beautifully.`},{image:L_,title:`Hurda Party`,desc:`Authentic Maharashtrian experience.`},{image:R_,title:`Family Picnic`,desc:`Perfect weekend outing.`},{image:z_,title:`One Day Picnic`,desc:`Complete day outing package.`},{image:B_,title:`Corporate Events`,desc:`Professional event arrangements.`},{image:V_,title:`Bonfire Experience`,desc:`Enjoy cozy evenings together.`},{image:H_,title:`Dinner & Breakfast`,desc:`Delicious food with hospitality.`}],Ev=()=>{let[e,t]=(0,w.useState)(null),n=e=>{t(e)};return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Sv,{badge:`Our Services`,title:`Luxury Experiences We Offer`,subtitle:`From grand weddings to corporate events, discover premium services crafted for unforgettable celebrations.`,currentPage:`Services`}),(0,X.jsx)(`section`,{className:`py-15 bg-[#FAF7F2]`,id:`services`,children:(0,X.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6 lg:px-10`,children:[(0,X.jsxs)(`div`,{className:`text-center`,children:[(0,X.jsx)(`p`,{className:`text-[#D4AF37]\r
+            uppercase tracking-[4px]\r
+            font-semibold`,children:`Our Services`}),(0,X.jsx)(`h2`,{className:`text-4xl lg:text-5xl\r
+            font-bold text-[#143D28]\r
+            mt-4`,children:`Premium Experiences Await You`}),(0,X.jsx)(`p`,{className:`mt-5 text-gray-600\r
+            max-w-3xl mx-auto`,children:`From weddings and celebrations to luxury stays and unforgettable experiences, Vrundawan has everything you need.`})]}),(0,X.jsx)(`div`,{className:`grid\r
+          grid-cols-1\r
+          md:grid-cols-2\r
+          lg:grid-cols-3\r
+          gap-8\r
+          mt-20`,children:Tv.map((e,t)=>(0,X.jsxs)(Q.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.5,delay:t*.05},whileHover:{y:-10},className:`relative\r
+              rounded-3xl\r
+              overflow-hidden\r
+              shadow-xl\r
+              group`,children:[(0,X.jsx)(`div`,{className:`bg-[#f8f8f8] flex items-center justify-center`,children:(0,X.jsx)(`img`,{src:e.image,alt:e.title,className:`\r
+      w-full\r
+      h-[260px]\r
+      sm:h-[300px]\r
+      md:h-[340px]\r
+      lg:h-[380px]\r
+      object-contain\r
+      p-2\r
+      transition-transform\r
+      duration-700\r
+      group-hover:scale-105\r
+    `})}),(0,X.jsx)(`div`,{className:`\r
+                absolute inset-0\r
+                bg-gradient-to-t\r
+                from-black\r
+                via-black/40\r
+                to-transparent`}),(0,X.jsxs)(`div`,{className:`\r
+    absolute inset-0\r
+    flex flex-col\r
+    justify-end\r
+    items-center\r
+    text-center\r
+    px-6\r
+    pb-8\r
+    bg-gradient-to-t\r
+    from-black/85\r
+    via-black/35\r
+    to-transparent`,children:[(0,X.jsx)(`h3`,{className:`\r
+      text-white\r
+      text-2xl\r
+      lg:text-3xl\r
+      font-bold\r
+      mb-3`,style:{fontFamily:`'Cormorant Garamond', serif`},children:e.title}),(0,X.jsx)(`p`,{className:`\r
+      text-gray-200\r
+      max-w-sm\r
+      leading-7\r
+      mb-6`,children:e.desc}),(0,X.jsxs)(`button`,{onClick:()=>n(e),className:`\r
+    group\r
+    relative\r
+    inline-flex\r
+    items-center\r
+    gap-2\r
+    overflow-hidden\r
+    rounded-full\r
+    border border-[#D4AF37]\r
+    bg-gradient-to-r\r
+    from-[#D4AF37]\r
+    via-[#E7C45A]\r
+    to-[#D4AF37]\r
+    px-7\r
+    py-3\r
+    font-semibold\r
+    text-[#143D28]\r
+    shadow-[0_12px_30px_rgba(212,175,55,0.35)]\r
+    transition-all\r
+    duration-500\r
+    hover:-translate-y-1\r
+    hover:shadow-[0_18px_40px_rgba(212,175,55,0.55)]\r
+`,children:[(0,X.jsx)(`span`,{className:`\r
+      absolute inset-0\r
+      -translate-x-full\r
+      bg-gradient-to-r\r
+      from-transparent\r
+      via-white/40\r
+      to-transparent\r
+      group-hover:translate-x-full\r
+      transition-transform\r
+      duration-700\r
+    `}),(0,X.jsxs)(`span`,{className:`relative z-10 flex items-center gap-2`,children:[`Show Images`,(0,X.jsxs)(`svg`,{className:`w-5 h-5`,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,children:[(0,X.jsx)(`rect`,{x:`3`,y:`5`,width:`18`,height:`14`,rx:`2`}),(0,X.jsx)(`circle`,{cx:`8`,cy:`10`,r:`1.5`}),(0,X.jsx)(`path`,{d:`M21 16l-5-5-5 5-3-3-5 5`,strokeLinecap:`round`,strokeLinejoin:`round`})]})]})]})]})]},t))})]})}),(0,X.jsx)(J_,{}),(0,X.jsx)(tv,{}),(0,X.jsx)(av,{}),(0,X.jsx)(gv,{}),e&&(0,X.jsx)(`div`,{className:`\r
+      fixed inset-0 z-[999]\r
+      bg-gradient-to-br\r
+      from-black/90\r
+      via-[#143D28]/80\r
+      to-black/90\r
+      backdrop-blur-md\r
+      flex items-center justify-center\r
+      p-4\r
+    `,children:(0,X.jsxs)(Q.div,{initial:{opacity:0,scale:.8,y:40},animate:{opacity:1,scale:1,y:0},exit:{opacity:0},transition:{duration:.4},className:`\r
+relative\r
+w-full\r
+max-w-4xl\r
+bg-white\r
+rounded-[24px]\r
+overflow-hidden\r
+shadow-2xl\r
+max-h-[88vh]\r
+`,children:[(0,X.jsx)(`button`,{onClick:()=>{t(null)},className:`\r
+          absolute\r
+          top-4\r
+          right-4\r
+          w-11\r
+          h-11\r
+          rounded-full\r
+          bg-white\r
+          shadow-lg\r
+          text-2xl\r
+          font-bold\r
+          text-[#143D28]\r
+          hover:bg-red-500\r
+          hover:text-white\r
+          transition\r
+          z-20\r
+        `,children:`×`}),(0,X.jsxs)(`div`,{className:`grid lg:grid-cols-2`,children:[(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(`div`,{className:`bg-[#f7f7f7] flex items-center justify-center p-4`,children:(0,X.jsx)(`img`,{src:e.image,alt:e.title,className:`\r
+      w-full\r
+      max-h-[250px]\r
+      sm:max-h-[350px]\r
+      md:max-h-[450px]\r
+      lg:max-h-[600px]\r
+      object-contain\r
+    `})}),(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-t from-black/50 to-transparent`})]}),(0,X.jsxs)(`div`,{className:`\r
+            flex\r
+            flex-col\r
+            justify-center\r
+            p-6\r
+            sm:p-10\r
+            bg-[#FAF7F2]\r
+          `,children:[(0,X.jsx)(`span`,{className:`\r
+              inline-block\r
+              w-fit\r
+              px-4\r
+              py-2\r
+              rounded-full\r
+              bg-[#D4AF37]/20\r
+              text-[#D4AF37]\r
+              font-semibold\r
+              tracking-[3px]\r
+              uppercase\r
+              text-xs\r
+            `,children:`Premium Service`}),(0,X.jsx)(`h2`,{className:`\r
+              mt-5\r
+              text-3xl\r
+              sm:text-5xl\r
+              font-bold\r
+              text-[#143D28]\r
+            `,style:{fontFamily:`'Cormorant Garamond', serif`},children:e.title}),(0,X.jsx)(`p`,{className:`\r
+              mt-6\r
+              text-gray-600\r
+              leading-8\r
+              text-base\r
+              sm:text-lg\r
+            `,children:e.desc}),(0,X.jsx)(`a`,{href:"https://wa.me/918180877750?text=Hello%20Vrundawan%20Celebration%20%26%20Resort,%20I%20am%20interested%20in%20the%20service%20'${selectedService.title}'.%20Please%20share%20more%20details.",target:`_blank`,rel:`noopener noreferrer`,className:`\r
+    mt-6\r
+    w-fit\r
+    px-8\r
+    py-3\r
+    rounded-full\r
+    bg-[#143D28]\r
+    text-white\r
+    font-semibold\r
+    hover:bg-[#D4AF37]\r
+    hover:text-[#143D28]\r
+    transition-all\r
+    duration-300\r
+  `,children:`Contact Us`})]})]})]})}),(0,X.jsx)(vv,{})]})},Dv=`/vrundawan-celebration-resort/assets/7-jlr5NS7l.jpg`,Ov=`/vrundawan-celebration-resort/assets/24-BH3b5R9r.jpeg`,kv=`/vrundawan-celebration-resort/assets/25-BwB72s9M.jpg`,Av=`/vrundawan-celebration-resort/assets/26-W0LJf-Td.png`,jv=`/vrundawan-celebration-resort/assets/28-BZd8TnZl.png`,Mv=()=>{let[e,t]=(0,w.useState)(`All`),n=[{image:A_,category:`Wedding`,title:`Grand Lawn`},{image:j_,category:`Wedding`,title:`Mangal Karyalay`},{image:M_,category:`Resort`,title:`Resort Rooms`},{image:N_,category:`Swimming`,title:`Swimming Pool`},{image:P_,category:`Events`,title:`Rain Dance`},{image:F_,category:`Events`,title:`DJ Night`},{image:I_,category:`Resort`,title:`Camping`},{image:Dv,category:`Picnic`,title:`Family Picnic`},{image:kv,category:`Picnic`,title:`Picnic`},{image:F_,category:`Activities`,title:`Activities`},{image:Av,category:`Food`,title:`Food`},{image:jv,category:`Food`,title:`Food`},{image:z_,category:`Picnic`,title:`One Day Picnic`},{image:B_,category:`Events`,title:`Corporate Events`},{image:V_,category:`Events`,title:`Bonfire`},{image:U_,category:`Activities`,title:`Adventure Park`},{image:W_,category:`Activities`,title:`Sports Zone`},{image:L_,category:`Events`,title:`Hurda Party`},{image:R_,category:`Picnic`,title:`Family Experience`},{image:H_,category:`Food`,title:`Food Experience`},{image:G_,category:`Wedding`,title:`Premium Banquet Hall`},{image:Ov,category:`Resort`,title:`Our Resort`}],r=e===`All`?n:n.filter(t=>t.category===e);return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Sv,{badge:`Our Gallery`,title:`Moments That Last Forever`,subtitle:`Explore beautiful memories from weddings, receptions, events and celebrations at Vrundawan Resort.`,currentPage:`Gallery`}),(0,X.jsx)(`section`,{className:`py-14 sm:py-16 md:py-20 bg-[#FAF7F2]`,children:(0,X.jsxs)(`div`,{className:`max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10`,children:[`          `,(0,X.jsxs)(`div`,{className:`text-center`,children:[(0,X.jsx)(`p`,{className:`text-[#D4AF37] uppercase tracking-[3px] sm:tracking-[4px] text-sm font-semibold`,children:`Gallery`}),(0,X.jsxs)(`h1`,{className:`mt-4 sm:mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#143D28] px-2`,style:{fontFamily:`'Cormorant Garamond', serif`},children:[`Explore The Beauty Of`,` `,(0,X.jsx)(`span`,{className:`text-[#D4AF37]`,children:`Vrundawan`})]}),(0,X.jsx)(`p`,{className:`mt-4 sm:mt-6 max-w-3xl mx-auto text-sm sm:text-base text-gray-600 leading-7 sm:leading-8 px-2`,children:`Discover unforgettable weddings, celebrations, luxurious stays and beautiful memories created at Vrundawan Celebration & Resort.`})]}),(0,X.jsx)(`div`,{className:`mt-10 sm:mt-14`,children:(0,X.jsx)(`div`,{className:`flex sm:flex-wrap sm:justify-center gap-3 sm:gap-4\r
+              overflow-x-auto sm:overflow-visible pb-2 sm:pb-0\r
+              px-1 -mx-1 sm:mx-0 sm:px-0\r
+              scrollbar-hide`,children:[`All`,`Wedding`,`Resort`,`Swimming`,`Picnic`,`Events`,`Activities`,`Food`].map(n=>(0,X.jsx)(`button`,{onClick:()=>t(n),className:`relative shrink-0 px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold text-sm sm:text-base
+                  transition-all duration-300 border
+                  ${e===n?`bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] text-[#143D28] border-transparent shadow-[0_10px_25px_rgba(212,175,55,0.45)] scale-105`:`bg-white text-[#143D28] border-[#D4AF37]/30 hover:border-[#D4AF37] hover:bg-[#143D28] hover:text-white hover:shadow-lg`}`,children:n},n))})}),(0,X.jsx)(`div`,{className:`grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16`,children:r.map((e,t)=>(0,X.jsxs)(Q.div,{whileHover:{y:-8},className:`group relative bg-white rounded-[30px] p-3 shadow-xl overflow-hidden`,children:[(0,X.jsx)(`div`,{className:`bg-[#FAF7F2] rounded-[22px] overflow-hidden flex items-center justify-center p-2`,children:(0,X.jsx)(`img`,{src:e.image,alt:e.category,className:`w-full h-auto max-h-[280px] object-contain transition-transform duration-700 group-hover:scale-105`})}),(0,X.jsx)(`div`,{className:`absolute inset-3 rounded-[22px] bg-gradient-to-t from-black/50 via-transparent to-transparent`}),(0,X.jsx)(`div`,{className:`absolute bottom-8 left-8`,children:(0,X.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#D4AF37] text-[#143D28] font-semibold text-sm`,children:e.category})})]},t))}),(0,X.jsxs)(`div`,{className:`relative overflow-hidden mt-16 sm:mt-20 md:mt-24 rounded-[24px] sm:rounded-[32px] md:rounded-[40px] bg-gradient-to-br from-[#143D28] via-[#1B5138] to-[#0E2A1C] p-8 sm:p-10 md:p-12 text-center shadow-[0_25px_60px_rgba(20,61,40,.45)]`,children:[(0,X.jsx)(`div`,{className:`absolute -top-20 -left-20 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`div`,{className:`absolute -bottom-20 -right-20 w-80 h-80 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`h2`,{className:`relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-bold px-2`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Capture Your Beautiful Moments`}),(0,X.jsx)(`p`,{className:`relative mt-4 sm:mt-6 text-sm sm:text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-6 sm:leading-8 px-2`,children:`Visit Vrundawan Celebration & Resort and create unforgettable memories with your loved ones.`}),(0,X.jsx)(Mn,{to:`/contact`,children:(0,X.jsxs)(`button`,{className:`group relative overflow-hidden mt-8 sm:mt-10 rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 sm:px-10 py-3.5 sm:py-4 text-sm sm:text-base font-semibold text-[#143D28] shadow-[0_15px_35px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-105`,children:[(0,X.jsx)(`span`,{className:`absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700`}),(0,X.jsx)(`span`,{className:`relative`,children:`Book Your Visit`})]})})]})]})})]})},Nv=`918180877750`,Pv=()=>{let[e,t]=(0,w.useState)({name:``,phone:``,message:``}),n=n=>{t({...e,[n.target.name]:n.target.value})},r=t=>{if(t.preventDefault(),!e.name||!e.phone){alert(`Please enter your name and phone number.`);return}let n=`Hello Vrundawan Celebration & Resort! 🌿
+
+I would like to enquire about a booking.
+
+*Name:* ${e.name}\n*Phone:* ${e.phone}\n*Message:* ${e.message||`-`}`,r=`https://wa.me/${Nv}?text=${encodeURIComponent(n)}`;window.open(r,`_blank`,`noopener,noreferrer`)},[i,a]=(0,w.useState)({name:``,phone:``,eventType:``,guests:``,date:``,message:``}),o=e=>{a({...i,[e.target.name]:e.target.value})};return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Sv,{badge:`Get In Touch`,title:`Let's Plan Your Celebration`,subtitle:`Reach out to us for venue bookings, event inquiries or personalized assistance.`,currentPage:`Contact`}),(0,X.jsx)(`section`,{className:`py-14 sm:py-16 md:py-20 bg-[#FAF7F2]`,id:`contact`,children:(0,X.jsxs)(`div`,{className:`max-w-7xl mx-auto px-4 sm:px-6 lg:px-10`,children:[(0,X.jsxs)(`div`,{className:`text-center`,children:[(0,X.jsx)(`p`,{className:`uppercase tracking-[3px] sm:tracking-[5px] text-[#D4AF37] font-semibold text-sm`,children:`Contact Us`}),(0,X.jsx)(`h2`,{className:`text-3xl sm:text-4xl lg:text-5xl font-bold text-[#143D28] mt-4`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Let's Plan Your Celebration`}),(0,X.jsx)(`p`,{className:`text-gray-600 mt-4 sm:mt-5 max-w-2xl mx-auto px-2`,children:`Weddings, Picnics, Corporate Events, Resort Stay and unforgettable memories begin here.`})]}),(0,X.jsxs)(`div`,{className:`mt-12 sm:mt-16 md:mt-20 grid lg:grid-cols-5 gap-6 lg:gap-8 items-stretch`,children:[(0,X.jsx)(`div`,{className:`lg:col-span-2 flex flex-col gap-4 sm:gap-5`,children:[{icon:em,title:`Call Us`,value:`+91 81808 77750`,href:`tel:+918180877750`},{icon:Zp,title:`WhatsApp`,value:`Quick Enquiries`,href:`https://wa.me/${Nv}`},{icon:Jp,title:`Email Us`,value:`info@vrundawan.com`,href:`mailto:info@vrundawan.com`},{icon:Yp,title:`Location`,value:`Latur-Ambejogai Road, Beside Majara River, Mahapur, Taluka & District Latur, Maharashtra.`,href:`https://maps.google.com/?q=Vrundawan+Celebration+Resort+Latur`}].map((e,t)=>{let n=e.icon;return(0,X.jsxs)(Q.a,{href:e.href,target:e.href.startsWith(`http`)?`_blank`:void 0,rel:`noreferrer`,initial:{opacity:0,x:-30},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.5,delay:t*.1},whileHover:{x:6},className:`group relative flex items-center gap-4 bg-white p-4 sm:p-5 rounded-2xl shadow-md hover:shadow-xl overflow-hidden transition-all duration-300`,children:[(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-r from-[#143D28] to-[#1B5138] opacity-0 group-hover:opacity-100 transition-opacity duration-500`}),(0,X.jsx)(`div`,{className:`relative w-12 h-12 sm:w-14 sm:h-14 shrink-0 rounded-full bg-[#D4AF37]/10 group-hover:bg-[#D4AF37]/20 flex items-center justify-center transition-colors duration-500`,children:(0,X.jsx)(n,{size:22,className:`text-[#D4AF37]`})}),(0,X.jsxs)(`div`,{className:`relative text-left`,children:[(0,X.jsx)(`h3`,{className:`font-bold text-xl sm:text-2xl text-[#143D28] group-hover:text-white transition-colors duration-500`,style:{fontFamily:`'Cormorant Garamond', serif`},children:e.title}),(0,X.jsx)(`p`,{className:`text-xs sm:text-sm text-gray-600 group-hover:text-gray-300 transition-colors duration-500 break-words`,children:e.value})]}),(0,X.jsx)(Rp,{size:18,className:`relative ml-auto text-[#D4AF37] opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all duration-500 shrink-0`})]},t)})}),(0,X.jsxs)(Q.div,{initial:{opacity:0,x:30},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.6},className:`lg:col-span-3 relative overflow-hidden rounded-[24px] sm:rounded-[30px] bg-gradient-to-br from-[#143D28] via-[#1B5138] to-[#0E2A1C] p-6 sm:p-8 md:p-10 shadow-[0_20px_50px_rgba(20,61,40,.4)]`,children:[(0,X.jsx)(`div`,{className:`absolute -top-16 -right-16 w-56 h-56 rounded-full bg-[#D4AF37]/10 blur-3xl pointer-events-none`}),(0,X.jsx)(`div`,{className:`absolute -bottom-16 -left-16 w-56 h-56 rounded-full bg-[#D4AF37]/10 blur-3xl pointer-events-none`}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(`span`,{className:`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#D4AF37]/50 text-[#D4AF37] tracking-[2px] uppercase text-[10px] sm:text-xs font-semibold bg-[#D4AF37]/5`,children:`Contact Form`}),(0,X.jsx)(`h3`,{className:`mt-4 text-2xl sm:text-3xl text-white font-bold`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Send Us a Message`}),(0,X.jsx)(`p`,{className:`mt-2 text-gray-300 text-sm`,children:`We'll respond to you on WhatsApp as soon as possible.`}),(0,X.jsxs)(`form`,{onSubmit:r,className:`mt-6 flex flex-col gap-4`,children:[(0,X.jsxs)(`div`,{className:`grid sm:grid-cols-2 gap-4`,children:[(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(dm,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`text`,name:`name`,value:e.name,onChange:n,placeholder:`Your Name`,className:`w-full pl-11 pr-4 py-3.5 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(em,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`tel`,name:`phone`,value:e.phone,onChange:n,placeholder:`Phone Number`,className:`w-full pl-11 pr-4 py-3.5 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]})]}),(0,X.jsx)(`textarea`,{name:`message`,value:e.message,onChange:n,rows:`3`,placeholder:`Your Message`,className:`p-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300 resize-none`}),(0,X.jsxs)(`button`,{type:`submit`,className:`group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 py-3.5 font-semibold text-[#143D28] shadow-[0_12px_28px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-[1.02] self-start`,children:[(0,X.jsx)(`span`,{className:`absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700`}),(0,X.jsx)(`span`,{className:`relative`,children:`Submit `})]})]})]})]})]}),(0,X.jsx)(`div`,{className:`mt-12 sm:mt-16 md:mt-20 relative rounded-[20px] sm:rounded-[30px] overflow-hidden shadow-xl border-4 border-white`,children:(0,X.jsx)(`iframe`,{title:`Vrundawan Celebration & Resort Location`,className:`w-full h-[280px] sm:h-[380px] md:h-[450px]`,src:`https://maps.google.com/maps?q=Latur-Ambejogai%20Road%2C%20Beside%20Majara%20River%2C%20Mahapur%2C%20Taluka%20%26%20District%20Latur%2C%20Maharashtra&t=&z=14&ie=UTF8&iwloc=&output=embed`,loading:`lazy`,referrerPolicy:`no-referrer-when-downgrade`})}),(0,X.jsxs)(`div`,{className:`mt-16 sm:mt-20 md:mt-24 relative overflow-hidden rounded-[24px] sm:rounded-[32px] md:rounded-[40px] bg-gradient-to-br from-[#143D28] via-[#1B5138] to-[#0E2A1C] p-6 sm:p-10 md:p-14 shadow-[0_25px_60px_rgba(20,61,40,.45)]`,children:[(0,X.jsx)(`div`,{className:`absolute -top-24 -left-24 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`div`,{className:`absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsxs)(`div`,{className:`relative text-center`,children:[(0,X.jsx)(`span`,{className:`inline-flex items-center gap-2 px-4 sm:px-5 py-1.5 sm:py-2 rounded-full border border-[#D4AF37]/50 text-[#D4AF37] tracking-[2px] sm:tracking-[3px] uppercase text-[10px] sm:text-xs font-semibold bg-[#D4AF37]/5`,children:`Quick Enquiry`}),(0,X.jsx)(`h2`,{className:`mt-5 text-3xl sm:text-4xl md:text-5xl text-white font-bold`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Tell Us About Your Event`}),(0,X.jsx)(`p`,{className:`mt-3 text-gray-300 text-sm sm:text-base max-w-xl mx-auto`,children:`Fill the details below — we'll get your enquiry directly on WhatsApp for a quick response.`})]}),(0,X.jsxs)(`form`,{onSubmit:e=>{if(e.preventDefault(),!i.name||!i.phone){alert(`Please enter your name and phone number.`);return}let t=`Hello Vrundawan Celebration & Resort! 🌿
+
+I would like to enquire about a booking.
+
+*Name:* ${i.name}\n*Phone:* ${i.phone}\n*Event Type:* ${i.eventType||`-`}\n*Guest Count:* ${i.guests||`-`}\n*Preferred Date:* ${i.date||`-`}\n*Message:* ${i.message||`-`}`,n=`https://wa.me/${Nv}?text=${encodeURIComponent(t)}`;window.open(n,`_blank`,`noopener,noreferrer`)},className:`relative grid sm:grid-cols-2 gap-4 sm:gap-6 mt-10`,children:[(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(dm,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`text`,name:`name`,value:i.name,onChange:o,placeholder:`Your Name`,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(em,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`tel`,name:`phone`,value:i.phone,onChange:o,placeholder:`Phone Number`,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(Qp,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] z-10`}),(0,X.jsxs)(`select`,{name:`eventType`,value:i.eventType,onChange:o,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300 appearance-none cursor-pointer`,children:[(0,X.jsx)(`option`,{value:``,children:`Select Event Type`}),[`Wedding`,`Reception`,`Engagement`,`Birthday Party`,`Corporate Event`,`Family Picnic`,`Hurda Party`,`Resort Stay`,`Other`].map(e=>(0,X.jsx)(`option`,{value:e,children:e},e))]})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(fm,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`number`,name:`guests`,value:i.guests,onChange:o,placeholder:`Approx. Guest Count`,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`})]}),(0,X.jsxs)(`div`,{className:`relative sm:col-span-2`,children:[(0,X.jsx)(Up,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] z-10`}),(0,X.jsx)(`input`,{type:`date`,name:`date`,value:i.date,onChange:o,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`})]}),(0,X.jsx)(`textarea`,{name:`message`,value:i.message,onChange:o,rows:`4`,placeholder:`Tell us more about your event...`,className:`sm:col-span-2 p-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300 resize-none`}),(0,X.jsxs)(`div`,{className:`sm:col-span-2 text-center mt-2`,children:[(0,X.jsxs)(`button`,{type:`submit`,className:`group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 sm:px-10 py-3.5 sm:py-4 font-semibold text-[#143D28] shadow-[0_15px_35px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-105`,children:[(0,X.jsx)(`span`,{className:`absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700`}),(0,X.jsx)(Zp,{size:20,className:`relative`}),(0,X.jsx)(`span`,{className:`relative`,children:`Send Enquiry`})]}),(0,X.jsx)(`p`,{className:`mt-3 text-gray-400 text-xs sm:text-sm`,children:`Clicking this will open WhatsApp with your details filled in.`})]})]})]}),(0,X.jsxs)(`div`,{className:`mt-16 sm:mt-20 md:mt-24 text-center`,children:[(0,X.jsx)(`h2`,{className:`text-2xl sm:text-3xl md:text-4xl font-bold text-[#143D28]`,children:`Book Your Site Visit Today`}),(0,X.jsx)(`p`,{className:`text-gray-600 mt-4 sm:mt-5 max-w-xl mx-auto px-2`,children:`Visit Vrundawan Celebration & Resort and experience luxury in person.`}),(0,X.jsxs)(`div`,{className:`flex flex-wrap justify-center gap-4 sm:gap-5 mt-8 sm:mt-10`,children:[(0,X.jsx)(`a`,{href:`tel:+918180877750`,children:(0,X.jsxs)(`button`,{className:`flex items-center gap-2 bg-[#143D28] text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-full font-semibold text-sm sm:text-base hover:bg-[#0E2A1C] hover:-translate-y-1 transition-all duration-300 shadow-lg`,children:[(0,X.jsx)(em,{size:18}),`Call Now`]})}),(0,X.jsx)(`a`,{href:`https://wa.me/${Nv}`,target:`_blank`,rel:`noreferrer`,children:(0,X.jsxs)(`button`,{className:`flex items-center gap-2 bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] text-[#143D28] px-6 sm:px-8 py-3.5 sm:py-4 rounded-full font-semibold text-sm sm:text-base hover:-translate-y-1 transition-all duration-300 shadow-lg`,children:[(0,X.jsx)(Zp,{size:18}),`WhatsApp Now`]})})]})]})]})})]})},Fv=()=>{let{pathname:e}=ft();return(0,w.useEffect)(()=>{window.scrollTo(0,0)},[e]),null},Iv=`https://maps.google.com/?q=Vrundawan+Celebration+%26+Resort+Mahapur+Latur`,Lv=()=>(0,X.jsxs)(`div`,{className:`lg:hidden fixed bottom-4 left-4 right-20 z-40 flex gap-2`,style:{paddingBottom:`env(safe-area-inset-bottom)`},children:[(0,X.jsxs)(`a`,{href:`tel:+918180877750`,className:`flex-1 flex items-center justify-center gap-2\r
+        py-2 rounded-xl\r
+        bg-gradient-to-b from-[#123522] to-[#0A2016]\r
+        border border-[#D4AF37]/60\r
+        shadow-[0_8px_20px_-6px_rgba(0,0,0,0.6)]\r
+        text-[#F3D98B]\r
+        font-semibold text-[12px]\r
+        active:scale-95\r
+        transition-transform duration-150`,children:[(0,X.jsx)(`span`,{className:`h-8 w-8 rounded-full bg-[#D4AF37] flex items-center justify-center`,children:(0,X.jsx)(em,{size:15,strokeWidth:2.4,className:`text-[#0A2016]`})}),`Call Now`]}),(0,X.jsxs)(`a`,{href:Iv,target:`_blank`,rel:`noopener noreferrer`,className:`flex-1 flex items-center justify-center gap-2\r
+        py-2 rounded-xl\r
+        bg-gradient-to-b from-[#123522] to-[#0A2016]\r
+        border border-[#D4AF37]/60\r
+        shadow-[0_8px_20px_-6px_rgba(0,0,0,0.6)]\r
+        text-[#F3D98B]\r
+        font-semibold text-[12px]\r
+        active:scale-95\r
+        transition-transform duration-150`,children:[(0,X.jsx)(`span`,{className:`h-8 w-8 rounded-full bg-[#D4AF37] flex items-center justify-center`,children:(0,X.jsx)(Yp,{size:15,strokeWidth:2.4,className:`text-[#0A2016]`})}),`Location`]})]}),Rv=({size:e=28})=>(0,X.jsx)(`svg`,{width:e,height:e,viewBox:`0 0 32 32`,fill:`currentColor`,xmlns:`http://www.w3.org/2000/svg`,children:(0,X.jsx)(`path`,{d:`M16.004 0C7.166 0 0 7.163 0 16c0 2.82.738 5.566 2.14 7.982L0 32l8.223-2.116A15.93 15.93 0 0 0 16.004 32C24.84 32 32 24.837 32 16S24.84 0 16.004 0Zm0 29.09c-2.5 0-4.943-.672-7.075-1.943l-.508-.301-4.878 1.256 1.303-4.754-.331-.489A13.03 13.03 0 0 1 2.91 16c0-7.216 5.874-13.09 13.094-13.09 7.216 0 13.086 5.874 13.086 13.09 0 7.219-5.87 13.09-13.086 13.09Zm7.17-9.803c-.393-.196-2.324-1.146-2.684-1.277-.36-.131-.622-.196-.884.196-.262.393-1.014 1.277-1.243 1.539-.229.262-.458.295-.851.098-.393-.196-1.658-.61-3.16-1.949-1.168-1.042-1.957-2.329-2.186-2.722-.229-.393-.024-.605.172-.8.177-.176.393-.458.59-.687.196-.229.262-.393.393-.655.131-.262.065-.491-.033-.687-.098-.196-.884-2.13-1.211-2.918-.319-.766-.643-.662-.884-.674-.229-.01-.491-.012-.753-.012-.262 0-.687.098-1.047.491-.36.393-1.374 1.343-1.374 3.276s1.407 3.801 1.603 4.063c.196.262 2.769 4.229 6.71 5.929.937.405 1.669.647 2.239.828.941.3 1.798.257 2.475.156.755-.113 2.324-.95 2.652-1.868.327-.917.327-1.703.229-1.868-.098-.164-.36-.262-.753-.458Z`})}),zv=[{label:`Wedding Booking`,icon:Gp},{label:`Banquet Hall`,icon:Vp},{label:`Family Picnic`,icon:lm},{label:`Swimming Pool`,icon:mm},{label:`Corporate Event`,icon:Bp},{label:`Resort Stay`,icon:qp},{label:`Tent Camping`,icon:cm},{label:`Hurda Party`,icon:gm}],Bv=`vrundawan-open-whatsapp-assistant`,Vv=()=>{let[e,t]=(0,w.useState)(!1);(0,w.useEffect)(()=>{let e=()=>t(!0);return window.addEventListener(Bv,e),()=>window.removeEventListener(Bv,e)},[]),(0,w.useEffect)(()=>(e&&window.innerWidth<640?document.body.style.overflow=`hidden`:document.body.style.overflow=``,()=>{document.body.style.overflow=``}),[e]);let n=e=>{let t=` Hello Vrundawan Celebration & Resort,
 
 I am interested in:
  ${e}
@@ -1352,220 +1568,4 @@ Thank you.`;window.open(`https://wa.me/918180877750?text=${encodeURIComponent(t)
           background: rgba(244,239,227,0.35);
           margin: 0 auto 10px;
         }
-      `}),e&&(0,X.jsx)(`div`,{className:`vw-overlay`,onClick:()=>t(!1),"aria-hidden":`true`}),(0,X.jsxs)(`div`,{className:`vw-root`,children:[(0,X.jsxs)(`button`,{onClick:()=>t(!e),className:`vw-fab`,"aria-label":e?`Close chat`:`Chat on WhatsApp`,children:[!e&&(0,X.jsx)(`span`,{className:`vw-badge vw-serif`,children:`Ask us`}),e?(0,X.jsx)(_m,{size:26}):(0,X.jsx)(yv,{size:30})]}),e&&(0,X.jsxs)(`div`,{className:`vw-panel`,role:`dialog`,"aria-label":`Vrundawan Assistant`,children:[(0,X.jsxs)(`div`,{className:`vw-header`,children:[(0,X.jsx)(`div`,{className:`vw-handle`}),(0,X.jsxs)(`div`,{className:`vw-header-row`,children:[(0,X.jsxs)(`div`,{children:[(0,X.jsx)(`div`,{className:`vw-title vw-serif`,children:`Vrundawan Assistant`}),(0,X.jsx)(`div`,{className:`vw-sub`,children:`Namaste 🙏 What are you planning today?`}),(0,X.jsxs)(`div`,{className:`vw-online`,children:[(0,X.jsx)(`span`,{className:`vw-dot`}),`Replies within minutes`]})]}),(0,X.jsx)(`button`,{className:`vw-close`,onClick:()=>t(!1),"aria-label":`Close`,children:(0,X.jsx)(_m,{size:16})})]})]}),(0,X.jsxs)(`div`,{className:`vw-body`,children:[bv.map(({label:e,icon:t})=>(0,X.jsxs)(`button`,{onClick:()=>n(e),className:`vw-opt`,children:[(0,X.jsx)(`span`,{className:`vw-opt-icon`,children:(0,X.jsx)(t,{size:16})}),e]},e)),(0,X.jsxs)(`button`,{onClick:()=>n(`Site Visit`),className:`vw-visit vw-row-full`,children:[(0,X.jsx)(Hp,{size:18}),`Book a Site Visit`]}),(0,X.jsxs)(`button`,{onClick:()=>n(`Talk to Manager`),className:`vw-manager vw-row-full`,children:[(0,X.jsx)(fm,{size:18}),`Talk to Manager`]})]}),(0,X.jsx)(`div`,{className:`vw-footer`,children:(0,X.jsxs)(`button`,{onClick:()=>n(`General Enquiry`),className:`vw-cta`,children:[(0,X.jsx)(am,{size:16}),`Continue on WhatsApp`]})})]})]})]})},Cv=()=>(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(E_,{}),(0,X.jsx)(O_,{}),(0,X.jsx)(k_,{}),(0,X.jsx)(K_,{}),(0,X.jsx)(J_,{}),(0,X.jsx)(Q_,{}),(0,X.jsx)(tv,{}),(0,X.jsx)(av,{}),(0,X.jsx)(sv,{}),(0,X.jsx)(dv,{}),(0,X.jsx)(hv,{}),(0,X.jsx)(gv,{}),(0,X.jsx)(vv,{}),(0,X.jsx)(Sv,{})]}),wv=`/vrundawan-celebration-resort/assets/about-D6YDuTWU.jpeg`,Tv=`/vrundawan-celebration-resort/assets/b2-Dt30KyjN.jpg`,Ev=({badge:e,title:t,subtitle:n,currentPage:r})=>(0,X.jsxs)(`section`,{className:`relative min-h-[85vh] sm:min-h-[90vh] md:h-[95vh] overflow-hidden`,style:{backgroundImage:`url(${Tv})`,backgroundSize:`cover`,backgroundPosition:`center`},children:[(0,X.jsx)(`div`,{className:`absolute inset-0 bg-[#04231c]/70 mix-blend-multiply`}),(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-b from-[#04231c]/90 via-[#04231c]/60 to-[#04231c]/80`}),(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60`}),(0,X.jsx)(`div`,{className:`absolute top-0 left-1/4 w-60 sm:w-80 md:w-[30rem] h-60 sm:h-80 md:h-[30rem] bg-[#D4AF37]/10 rounded-full blur-[80px] md:blur-[140px] -translate-y-1/3`}),(0,X.jsx)(`div`,{className:`absolute bottom-0 right-1/4 w-48 sm:w-72 md:w-96 h-48 sm:h-72 md:h-96 bg-emerald-400/10 rounded-full blur-[70px] md:blur-[120px]`}),(0,X.jsxs)(`div`,{className:`absolute top-20 left-3 right-3 bottom-4 sm:top-24 sm:left-6 sm:right-6 sm:bottom-6 md:top-28 md:left-10 md:right-10 md:bottom-10`,children:[(0,X.jsx)(`div`,{className:`absolute inset-0 border border-[#D4AF37]/25 rounded-xl sm:rounded-2xl pointer-events-none`}),(0,X.jsx)(`div`,{className:`relative h-full flex items-center justify-center py-8 sm:py-10`,children:(0,X.jsxs)(Q.div,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.7,ease:`easeOut`},className:`max-w-3xl px-4 sm:px-8 md:px-12 text-center flex flex-col items-center`,children:[(0,X.jsxs)(`span`,{className:`inline-flex items-center gap-2 px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-full border border-[#D4AF37]/60 text-[#D4AF37] tracking-[2px] sm:tracking-[4px] uppercase text-[10px] sm:text-xs md:text-sm font-semibold bg-[#D4AF37]/5 backdrop-blur-sm whitespace-nowrap`,children:[(0,X.jsx)(`span`,{className:`w-1.5 h-1.5 rounded-full bg-[#D4AF37] animate-pulse shrink-0`}),e]}),(0,X.jsx)(`h1`,{className:`mt-4 sm:mt-6 text-3xl sm:text-4xl md:text-6xl font-serif font-bold text-white leading-[1.15] sm:leading-[1.1] px-1`,children:t}),(0,X.jsxs)(`div`,{className:`mt-4 sm:mt-6 flex items-center justify-center gap-2 sm:gap-3`,children:[(0,X.jsx)(`span`,{className:`w-8 sm:w-14 h-[2px] bg-[#D4AF37]`}),(0,X.jsx)(`span`,{className:`w-1.5 h-1.5 sm:w-2 sm:h-2 rotate-45 bg-[#D4AF37]`}),(0,X.jsx)(`span`,{className:`w-8 sm:w-14 h-[2px] bg-[#D4AF37]`})]}),(0,X.jsx)(`p`,{className:`mt-4 sm:mt-6 text-sm sm:text-lg md:text-xl text-gray-200 leading-6 sm:leading-8 max-w-[22rem] sm:max-w-2xl mx-auto`,children:n}),(0,X.jsxs)(`div`,{className:`mt-6 sm:mt-8 flex items-center justify-center gap-2 sm:gap-3 text-white/90 text-sm sm:text-lg`,children:[(0,X.jsx)(Mn,{to:`/`,className:`hover:text-[#D4AF37] transition-colors`,children:`Home`}),(0,X.jsx)(`span`,{className:`text-[#D4AF37]`,children:`/`}),(0,X.jsx)(`span`,{className:`text-[#D4AF37] font-semibold`,children:r})]})]})})]})]}),Dv=lv.default?.default||lv.default||lv,Ov=()=>(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Ev,{badge:`About Us`,title:`Welcome To Vrundawan`,subtitle:`Experience luxury, celebration and nature together at one of the finest wedding and resort destinations in Latur.`,currentPage:`About`}),(0,X.jsx)(`section`,{className:`py-10 bg-[#FAF7F2] overflow-hidden`,children:(0,X.jsx)(`section`,{className:`py-10 bg-[#FAF7F2] overflow-hidden`,id:`about`,children:(0,X.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6 lg:px-10`,children:[(0,X.jsxs)(`div`,{className:`text-center mb-16`,children:[(0,X.jsx)(`p`,{className:`text-[#D4AF37] uppercase tracking-[4px] font-semibold`,children:`About Us`}),(0,X.jsx)(`p`,{className:`text-gray-600 max-w-3xl mx-auto mt-5`,children:`Experience luxury, celebration, and nature together at one of the finest wedding and resort destinations in Latur.`})]}),(0,X.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-16 items-center`,children:[(0,X.jsx)(Q.div,{initial:{opacity:0,x:-60},whileInView:{opacity:1,x:0},transition:{duration:.7},children:(0,X.jsx)(`img`,{src:wv,alt:`about`,className:`rounded-3xl shadow-2xl w-full object-cover hover:scale-105 transition duration-500`})}),(0,X.jsxs)(Q.div,{initial:{opacity:0,x:60},whileInView:{opacity:1,x:0},transition:{duration:.7},children:[(0,X.jsx)(`h3`,{className:`text-3xl lg:text-4xl font-bold text-[#143D28]`,children:`Premium Wedding Venue, Banquet Hall & Resort`}),(0,X.jsxs)(`p`,{className:`mt-6 text-gray-600 leading-8`,children:[`Located beside the serene Manjara River at Mahapur, just 6 KM from Latur city, Vrundawan Resort & Agro Tourism is a perfect destination Family Picnics, School & College Trips, Wedding Celebrations, Corporate Events and unforgettable village experiences.`,(0,X.jsx)(`br`,{}),(0,X.jsx)(`br`,{}),`From Swimming Pool and Rain Dance to Tent Camping, Hurda Parties, Adventure Activities and Premium Wedding Venues, Vrundawan offers everything you need for a memorable getaway under one roof.`]}),(0,X.jsxs)(`div`,{className:`mt-8 space-y-4`,children:[(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Premium Agro Tourism & Resort Experience`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Swimming Pool, Rain Dance & Adventure Activities`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Family Picnics, School Trips & Corporate Events`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Grand Lawn, Banquet Hall & Wedding Celebrations`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Tent Camping, Bonfire Night & Hurda Party Experiences`})]}),(0,X.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,X.jsx)(`span`,{className:`text-[#D4AF37] text-xl`,children:`✔`}),(0,X.jsx)(`p`,{children:`Traditional Village Food & Nature's Riverside Ambience`})]})]})]})]}),(0,X.jsx)(`div`,{className:`grid grid-cols-2 lg:grid-cols-4 gap-6 mt-20`,children:[{icon:(0,X.jsx)(Im,{}),value:2500,suffix:`+`,title:`Guest Capacity`},{icon:(0,X.jsx)(Lm,{}),value:1200,suffix:`+`,title:`Wedding Capacity`},{icon:(0,X.jsx)(zm,{}),value:15,suffix:`+`,title:`Activities`},{icon:(0,X.jsx)(Rm,{}),value:100,suffix:`+`,title:`Happy Events`}].map((e,t)=>(0,X.jsxs)(Q.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{delay:t*.15},whileHover:{y:-10,scale:1.04},className:`\r
-        group\r
-        relative\r
-        overflow-hidden\r
-        rounded-[28px]\r
-        border\r
-        border-[#D4AF37]/25\r
-        bg-white/80\r
-        backdrop-blur-lg\r
-        p-8\r
-        text-center\r
-        shadow-[0_20px_50px_rgba(20,61,40,0.08)]\r
-        transition-all\r
-        duration-500\r
-        hover:border-[#D4AF37]\r
-        hover:shadow-[0_25px_60px_rgba(212,175,55,0.25)]\r
-      `,children:[(0,X.jsx)(`div`,{className:`absolute -top-16 -right-16 w-36 h-36 rounded-full bg-[#D4AF37]/10 blur-3xl group-hover:bg-[#D4AF37]/20 transition-all duration-500`}),(0,X.jsx)(`div`,{className:`relative z-10 w-16 h-16 mx-auto mb-5 rounded-full bg-gradient-to-br from-[#D4AF37] to-[#F4D87A] flex items-center justify-center text-[#143D28] text-2xl shadow-lg`,children:e.icon}),(0,X.jsxs)(`h3`,{className:`relative z-10 text-4xl lg:text-5xl font-bold text-[#143D28]`,children:[(0,X.jsx)(Dv,{end:e.value,duration:3}),(0,X.jsx)(`span`,{className:`text-[#D4AF37]`,children:e.suffix})]}),(0,X.jsx)(`div`,{className:`relative z-10 w-12 h-1 rounded-full bg-[#D4AF37] mx-auto my-4`}),(0,X.jsx)(`p`,{className:`relative z-10 text-gray-600 font-medium tracking-wide`,children:e.title})]},t))})]})})}),(0,X.jsx)(k_,{}),(0,X.jsx)(`section`,{children:(0,X.jsxs)(Q.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.6},className:`mt-0 text-center relative bg-white rounded-[40px] py-16 px-6 shadow-xl border border-[#143D28]/5`,children:[(0,X.jsx)(`div`,{className:`pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`h2`,{className:`text-4xl font-bold text-[#143D28] relative`,children:`Book Your Site Visit Today`}),(0,X.jsx)(`p`,{className:`text-gray-600 mt-5 relative`,children:`Visit Vrundawan Celebration & Resort and experience luxury in person.`}),(0,X.jsxs)(`div`,{className:`flex flex-wrap justify-center gap-5 mt-10 relative`,children:[(0,X.jsxs)(`a`,{href:`tel:+919876543210`,className:`group inline-flex items-center gap-2 bg-[#143D28] text-white\r
-        px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#143D28]/20\r
-        transition-all duration-300 hover:scale-105 hover:shadow-xl`,children:[(0,X.jsx)(em,{size:18}),`Call Now`]}),(0,X.jsxs)(`a`,{href:`https://wa.me/918180877750?text=Hello%20Vrundawan%20Celebration%20%26%20Resort,%20I%20would%20like%20to%20enquire%20about%20your%20wedding%20venue,%20resort%20stay%20and%20event%20packages.`,target:`_blank`,rel:`noopener noreferrer`,className:`group inline-flex items-center gap-2 bg-[#D4AF37] text-[#143D28]\r
-        px-8 py-4 rounded-full font-semibold shadow-lg shadow-[#D4AF37]/30\r
-        transition-all duration-300 hover:scale-105 hover:shadow-xl`,children:[(0,X.jsx)(Zp,{size:18}),`WhatsApp Now`]})]})]})}),(0,X.jsx)(dv,{})]}),kv=[{image:G_,title:` Banqut Hall`,desc:`Our banquet Hall.`},{image:A_,title:`Grand Lawn`,desc:`Spacious outdoor celebration venue.`},{image:j_,title:`Mangal Karyalay`,desc:`Traditional wedding destination.`},{image:M_,title:`Resort Rooms`,desc:`Luxury and comfortable stay.`},{image:N_,title:`Swimming Pool`,desc:`Relax and refresh yourself.`},{image:P_,title:`Rain Dance`,desc:`Enjoy music and rain fun.`},{image:F_,title:`DJ Night`,desc:`Party all night with music.`},{image:I_,title:`Tent Camping`,desc:`Experience nature beautifully.`},{image:L_,title:`Hurda Party`,desc:`Authentic Maharashtrian experience.`},{image:R_,title:`Family Picnic`,desc:`Perfect weekend outing.`},{image:z_,title:`One Day Picnic`,desc:`Complete day outing package.`},{image:B_,title:`Corporate Events`,desc:`Professional event arrangements.`},{image:V_,title:`Bonfire Experience`,desc:`Enjoy cozy evenings together.`},{image:H_,title:`Dinner & Breakfast`,desc:`Delicious food with hospitality.`}],Av=()=>{let[e,t]=(0,w.useState)(null),n=e=>{t(e)};return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Ev,{badge:`Our Services`,title:`Luxury Experiences We Offer`,subtitle:`From grand weddings to corporate events, discover premium services crafted for unforgettable celebrations.`,currentPage:`Services`}),(0,X.jsx)(`section`,{className:`py-15 bg-[#FAF7F2]`,id:`services`,children:(0,X.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6 lg:px-10`,children:[(0,X.jsxs)(`div`,{className:`text-center`,children:[(0,X.jsx)(`p`,{className:`text-[#D4AF37]\r
-            uppercase tracking-[4px]\r
-            font-semibold`,children:`Our Services`}),(0,X.jsx)(`h2`,{className:`text-4xl lg:text-5xl\r
-            font-bold text-[#143D28]\r
-            mt-4`,children:`Premium Experiences Await You`}),(0,X.jsx)(`p`,{className:`mt-5 text-gray-600\r
-            max-w-3xl mx-auto`,children:`From weddings and celebrations to luxury stays and unforgettable experiences, Vrundawan has everything you need.`})]}),(0,X.jsx)(`div`,{className:`grid\r
-          grid-cols-1\r
-          md:grid-cols-2\r
-          lg:grid-cols-3\r
-          gap-8\r
-          mt-20`,children:kv.map((e,t)=>(0,X.jsxs)(Q.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.5,delay:t*.05},whileHover:{y:-10},className:`relative\r
-              rounded-3xl\r
-              overflow-hidden\r
-              shadow-xl\r
-              group`,children:[(0,X.jsx)(`div`,{className:`bg-[#f8f8f8] flex items-center justify-center`,children:(0,X.jsx)(`img`,{src:e.image,alt:e.title,className:`\r
-      w-full\r
-      h-[260px]\r
-      sm:h-[300px]\r
-      md:h-[340px]\r
-      lg:h-[380px]\r
-      object-contain\r
-      p-2\r
-      transition-transform\r
-      duration-700\r
-      group-hover:scale-105\r
-    `})}),(0,X.jsx)(`div`,{className:`\r
-                absolute inset-0\r
-                bg-gradient-to-t\r
-                from-black\r
-                via-black/40\r
-                to-transparent`}),(0,X.jsxs)(`div`,{className:`\r
-    absolute inset-0\r
-    flex flex-col\r
-    justify-end\r
-    items-center\r
-    text-center\r
-    px-6\r
-    pb-8\r
-    bg-gradient-to-t\r
-    from-black/85\r
-    via-black/35\r
-    to-transparent`,children:[(0,X.jsx)(`h3`,{className:`\r
-      text-white\r
-      text-2xl\r
-      lg:text-3xl\r
-      font-bold\r
-      mb-3`,style:{fontFamily:`'Cormorant Garamond', serif`},children:e.title}),(0,X.jsx)(`p`,{className:`\r
-      text-gray-200\r
-      max-w-sm\r
-      leading-7\r
-      mb-6`,children:e.desc}),(0,X.jsxs)(`button`,{onClick:()=>n(e),className:`\r
-    group\r
-    relative\r
-    inline-flex\r
-    items-center\r
-    gap-2\r
-    overflow-hidden\r
-    rounded-full\r
-    border border-[#D4AF37]\r
-    bg-gradient-to-r\r
-    from-[#D4AF37]\r
-    via-[#E7C45A]\r
-    to-[#D4AF37]\r
-    px-7\r
-    py-3\r
-    font-semibold\r
-    text-[#143D28]\r
-    shadow-[0_12px_30px_rgba(212,175,55,0.35)]\r
-    transition-all\r
-    duration-500\r
-    hover:-translate-y-1\r
-    hover:shadow-[0_18px_40px_rgba(212,175,55,0.55)]\r
-`,children:[(0,X.jsx)(`span`,{className:`\r
-      absolute inset-0\r
-      -translate-x-full\r
-      bg-gradient-to-r\r
-      from-transparent\r
-      via-white/40\r
-      to-transparent\r
-      group-hover:translate-x-full\r
-      transition-transform\r
-      duration-700\r
-    `}),(0,X.jsxs)(`span`,{className:`relative z-10 flex items-center gap-2`,children:[`Show Images`,(0,X.jsxs)(`svg`,{className:`w-5 h-5`,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,children:[(0,X.jsx)(`rect`,{x:`3`,y:`5`,width:`18`,height:`14`,rx:`2`}),(0,X.jsx)(`circle`,{cx:`8`,cy:`10`,r:`1.5`}),(0,X.jsx)(`path`,{d:`M21 16l-5-5-5 5-3-3-5 5`,strokeLinecap:`round`,strokeLinejoin:`round`})]})]})]})]})]},t))})]})}),(0,X.jsx)(J_,{}),(0,X.jsx)(tv,{}),(0,X.jsx)(av,{}),(0,X.jsx)(gv,{}),e&&(0,X.jsx)(`div`,{className:`\r
-      fixed inset-0 z-[999]\r
-      bg-gradient-to-br\r
-      from-black/90\r
-      via-[#143D28]/80\r
-      to-black/90\r
-      backdrop-blur-md\r
-      flex items-center justify-center\r
-      p-4\r
-    `,children:(0,X.jsxs)(Q.div,{initial:{opacity:0,scale:.8,y:40},animate:{opacity:1,scale:1,y:0},exit:{opacity:0},transition:{duration:.4},className:`\r
-relative\r
-w-full\r
-max-w-4xl\r
-bg-white\r
-rounded-[24px]\r
-overflow-hidden\r
-shadow-2xl\r
-max-h-[88vh]\r
-`,children:[(0,X.jsx)(`button`,{onClick:()=>{t(null)},className:`\r
-          absolute\r
-          top-4\r
-          right-4\r
-          w-11\r
-          h-11\r
-          rounded-full\r
-          bg-white\r
-          shadow-lg\r
-          text-2xl\r
-          font-bold\r
-          text-[#143D28]\r
-          hover:bg-red-500\r
-          hover:text-white\r
-          transition\r
-          z-20\r
-        `,children:`×`}),(0,X.jsxs)(`div`,{className:`grid lg:grid-cols-2`,children:[(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(`div`,{className:`bg-[#f7f7f7] flex items-center justify-center p-4`,children:(0,X.jsx)(`img`,{src:e.image,alt:e.title,className:`\r
-      w-full\r
-      max-h-[250px]\r
-      sm:max-h-[350px]\r
-      md:max-h-[450px]\r
-      lg:max-h-[600px]\r
-      object-contain\r
-    `})}),(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-t from-black/50 to-transparent`})]}),(0,X.jsxs)(`div`,{className:`\r
-            flex\r
-            flex-col\r
-            justify-center\r
-            p-6\r
-            sm:p-10\r
-            bg-[#FAF7F2]\r
-          `,children:[(0,X.jsx)(`span`,{className:`\r
-              inline-block\r
-              w-fit\r
-              px-4\r
-              py-2\r
-              rounded-full\r
-              bg-[#D4AF37]/20\r
-              text-[#D4AF37]\r
-              font-semibold\r
-              tracking-[3px]\r
-              uppercase\r
-              text-xs\r
-            `,children:`Premium Service`}),(0,X.jsx)(`h2`,{className:`\r
-              mt-5\r
-              text-3xl\r
-              sm:text-5xl\r
-              font-bold\r
-              text-[#143D28]\r
-            `,style:{fontFamily:`'Cormorant Garamond', serif`},children:e.title}),(0,X.jsx)(`p`,{className:`\r
-              mt-6\r
-              text-gray-600\r
-              leading-8\r
-              text-base\r
-              sm:text-lg\r
-            `,children:e.desc}),(0,X.jsx)(`a`,{href:"https://wa.me/918180877750?text=Hello%20Vrundawan%20Celebration%20%26%20Resort,%20I%20am%20interested%20in%20the%20service%20'${selectedService.title}'.%20Please%20share%20more%20details.",target:`_blank`,rel:`noopener noreferrer`,className:`\r
-    mt-6\r
-    w-fit\r
-    px-8\r
-    py-3\r
-    rounded-full\r
-    bg-[#143D28]\r
-    text-white\r
-    font-semibold\r
-    hover:bg-[#D4AF37]\r
-    hover:text-[#143D28]\r
-    transition-all\r
-    duration-300\r
-  `,children:`Contact Us`})]})]})]})}),(0,X.jsx)(vv,{})]})},jv=`/vrundawan-celebration-resort/assets/7-jlr5NS7l.jpg`,Mv=`/vrundawan-celebration-resort/assets/24-BH3b5R9r.jpeg`,Nv=`/vrundawan-celebration-resort/assets/25-BwB72s9M.jpg`,Pv=`/vrundawan-celebration-resort/assets/26-W0LJf-Td.png`,Fv=`/vrundawan-celebration-resort/assets/28-BZd8TnZl.png`,Iv=()=>{let[e,t]=(0,w.useState)(`All`),n=[{image:A_,category:`Wedding`,title:`Grand Lawn`},{image:j_,category:`Wedding`,title:`Mangal Karyalay`},{image:M_,category:`Resort`,title:`Resort Rooms`},{image:N_,category:`Swimming`,title:`Swimming Pool`},{image:P_,category:`Events`,title:`Rain Dance`},{image:F_,category:`Events`,title:`DJ Night`},{image:I_,category:`Resort`,title:`Camping`},{image:jv,category:`Picnic`,title:`Family Picnic`},{image:Nv,category:`Picnic`,title:`Picnic`},{image:F_,category:`Activities`,title:`Activities`},{image:Pv,category:`Food`,title:`Food`},{image:Fv,category:`Food`,title:`Food`},{image:z_,category:`Picnic`,title:`One Day Picnic`},{image:B_,category:`Events`,title:`Corporate Events`},{image:V_,category:`Events`,title:`Bonfire`},{image:U_,category:`Activities`,title:`Adventure Park`},{image:W_,category:`Activities`,title:`Sports Zone`},{image:L_,category:`Events`,title:`Hurda Party`},{image:R_,category:`Picnic`,title:`Family Experience`},{image:H_,category:`Food`,title:`Food Experience`},{image:G_,category:`Wedding`,title:`Premium Banquet Hall`},{image:Mv,category:`Resort`,title:`Our Resort`}],r=e===`All`?n:n.filter(t=>t.category===e);return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Ev,{badge:`Our Gallery`,title:`Moments That Last Forever`,subtitle:`Explore beautiful memories from weddings, receptions, events and celebrations at Vrundawan Resort.`,currentPage:`Gallery`}),(0,X.jsx)(`section`,{className:`py-14 sm:py-16 md:py-20 bg-[#FAF7F2]`,children:(0,X.jsxs)(`div`,{className:`max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10`,children:[`          `,(0,X.jsxs)(`div`,{className:`text-center`,children:[(0,X.jsx)(`p`,{className:`text-[#D4AF37] uppercase tracking-[3px] sm:tracking-[4px] text-sm font-semibold`,children:`Gallery`}),(0,X.jsxs)(`h1`,{className:`mt-4 sm:mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#143D28] px-2`,style:{fontFamily:`'Cormorant Garamond', serif`},children:[`Explore The Beauty Of`,` `,(0,X.jsx)(`span`,{className:`text-[#D4AF37]`,children:`Vrundawan`})]}),(0,X.jsx)(`p`,{className:`mt-4 sm:mt-6 max-w-3xl mx-auto text-sm sm:text-base text-gray-600 leading-7 sm:leading-8 px-2`,children:`Discover unforgettable weddings, celebrations, luxurious stays and beautiful memories created at Vrundawan Celebration & Resort.`})]}),(0,X.jsx)(`div`,{className:`mt-10 sm:mt-14`,children:(0,X.jsx)(`div`,{className:`flex sm:flex-wrap sm:justify-center gap-3 sm:gap-4\r
-              overflow-x-auto sm:overflow-visible pb-2 sm:pb-0\r
-              px-1 -mx-1 sm:mx-0 sm:px-0\r
-              scrollbar-hide`,children:[`All`,`Wedding`,`Resort`,`Swimming`,`Picnic`,`Events`,`Activities`,`Food`].map(n=>(0,X.jsx)(`button`,{onClick:()=>t(n),className:`relative shrink-0 px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold text-sm sm:text-base
-                  transition-all duration-300 border
-                  ${e===n?`bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] text-[#143D28] border-transparent shadow-[0_10px_25px_rgba(212,175,55,0.45)] scale-105`:`bg-white text-[#143D28] border-[#D4AF37]/30 hover:border-[#D4AF37] hover:bg-[#143D28] hover:text-white hover:shadow-lg`}`,children:n},n))})}),(0,X.jsx)(`div`,{className:`grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16`,children:r.map((e,t)=>(0,X.jsxs)(Q.div,{whileHover:{y:-8},className:`group relative bg-white rounded-[30px] p-3 shadow-xl overflow-hidden`,children:[(0,X.jsx)(`div`,{className:`bg-[#FAF7F2] rounded-[22px] overflow-hidden flex items-center justify-center p-2`,children:(0,X.jsx)(`img`,{src:e.image,alt:e.category,className:`w-full h-auto max-h-[280px] object-contain transition-transform duration-700 group-hover:scale-105`})}),(0,X.jsx)(`div`,{className:`absolute inset-3 rounded-[22px] bg-gradient-to-t from-black/50 via-transparent to-transparent`}),(0,X.jsx)(`div`,{className:`absolute bottom-8 left-8`,children:(0,X.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#D4AF37] text-[#143D28] font-semibold text-sm`,children:e.category})})]},t))}),(0,X.jsxs)(`div`,{className:`relative overflow-hidden mt-16 sm:mt-20 md:mt-24 rounded-[24px] sm:rounded-[32px] md:rounded-[40px] bg-gradient-to-br from-[#143D28] via-[#1B5138] to-[#0E2A1C] p-8 sm:p-10 md:p-12 text-center shadow-[0_25px_60px_rgba(20,61,40,.45)]`,children:[(0,X.jsx)(`div`,{className:`absolute -top-20 -left-20 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`div`,{className:`absolute -bottom-20 -right-20 w-80 h-80 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`h2`,{className:`relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-bold px-2`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Capture Your Beautiful Moments`}),(0,X.jsx)(`p`,{className:`relative mt-4 sm:mt-6 text-sm sm:text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-6 sm:leading-8 px-2`,children:`Visit Vrundawan Celebration & Resort and create unforgettable memories with your loved ones.`}),(0,X.jsx)(Mn,{to:`/contact`,children:(0,X.jsxs)(`button`,{className:`group relative overflow-hidden mt-8 sm:mt-10 rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 sm:px-10 py-3.5 sm:py-4 text-sm sm:text-base font-semibold text-[#143D28] shadow-[0_15px_35px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-105`,children:[(0,X.jsx)(`span`,{className:`absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700`}),(0,X.jsx)(`span`,{className:`relative`,children:`Book Your Visit`})]})})]})]})})]})},Lv=`918180877750`,Rv=()=>{let[e,t]=(0,w.useState)({name:``,phone:``,message:``}),n=n=>{t({...e,[n.target.name]:n.target.value})},r=t=>{if(t.preventDefault(),!e.name||!e.phone){alert(`Please enter your name and phone number.`);return}let n=`Hello Vrundawan Celebration & Resort! 🌿
-
-I would like to enquire about a booking.
-
-*Name:* ${e.name}\n*Phone:* ${e.phone}\n*Message:* ${e.message||`-`}`,r=`https://wa.me/${Lv}?text=${encodeURIComponent(n)}`;window.open(r,`_blank`,`noopener,noreferrer`)},[i,a]=(0,w.useState)({name:``,phone:``,eventType:``,guests:``,date:``,message:``}),o=e=>{a({...i,[e.target.name]:e.target.value})};return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Ev,{badge:`Get In Touch`,title:`Let's Plan Your Celebration`,subtitle:`Reach out to us for venue bookings, event inquiries or personalized assistance.`,currentPage:`Contact`}),(0,X.jsx)(`section`,{className:`py-14 sm:py-16 md:py-20 bg-[#FAF7F2]`,id:`contact`,children:(0,X.jsxs)(`div`,{className:`max-w-7xl mx-auto px-4 sm:px-6 lg:px-10`,children:[(0,X.jsxs)(`div`,{className:`text-center`,children:[(0,X.jsx)(`p`,{className:`uppercase tracking-[3px] sm:tracking-[5px] text-[#D4AF37] font-semibold text-sm`,children:`Contact Us`}),(0,X.jsx)(`h2`,{className:`text-3xl sm:text-4xl lg:text-5xl font-bold text-[#143D28] mt-4`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Let's Plan Your Celebration`}),(0,X.jsx)(`p`,{className:`text-gray-600 mt-4 sm:mt-5 max-w-2xl mx-auto px-2`,children:`Weddings, Picnics, Corporate Events, Resort Stay and unforgettable memories begin here.`})]}),(0,X.jsxs)(`div`,{className:`mt-12 sm:mt-16 md:mt-20 grid lg:grid-cols-5 gap-6 lg:gap-8 items-stretch`,children:[(0,X.jsx)(`div`,{className:`lg:col-span-2 flex flex-col gap-4 sm:gap-5`,children:[{icon:em,title:`Call Us`,value:`+91 81808 77750`,href:`tel:+918180877750`},{icon:Zp,title:`WhatsApp`,value:`Quick Enquiries`,href:`https://wa.me/${Lv}`},{icon:Jp,title:`Email Us`,value:`info@vrundawan.com`,href:`mailto:info@vrundawan.com`},{icon:Yp,title:`Location`,value:`Latur-Ambejogai Road, Beside Majara River, Mahapur, Taluka & District Latur, Maharashtra.`,href:`https://maps.google.com/?q=Vrundawan+Celebration+Resort+Latur`}].map((e,t)=>{let n=e.icon;return(0,X.jsxs)(Q.a,{href:e.href,target:e.href.startsWith(`http`)?`_blank`:void 0,rel:`noreferrer`,initial:{opacity:0,x:-30},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.5,delay:t*.1},whileHover:{x:6},className:`group relative flex items-center gap-4 bg-white p-4 sm:p-5 rounded-2xl shadow-md hover:shadow-xl overflow-hidden transition-all duration-300`,children:[(0,X.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-r from-[#143D28] to-[#1B5138] opacity-0 group-hover:opacity-100 transition-opacity duration-500`}),(0,X.jsx)(`div`,{className:`relative w-12 h-12 sm:w-14 sm:h-14 shrink-0 rounded-full bg-[#D4AF37]/10 group-hover:bg-[#D4AF37]/20 flex items-center justify-center transition-colors duration-500`,children:(0,X.jsx)(n,{size:22,className:`text-[#D4AF37]`})}),(0,X.jsxs)(`div`,{className:`relative text-left`,children:[(0,X.jsx)(`h3`,{className:`font-bold text-xl sm:text-2xl text-[#143D28] group-hover:text-white transition-colors duration-500`,style:{fontFamily:`'Cormorant Garamond', serif`},children:e.title}),(0,X.jsx)(`p`,{className:`text-xs sm:text-sm text-gray-600 group-hover:text-gray-300 transition-colors duration-500 break-words`,children:e.value})]}),(0,X.jsx)(Rp,{size:18,className:`relative ml-auto text-[#D4AF37] opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all duration-500 shrink-0`})]},t)})}),(0,X.jsxs)(Q.div,{initial:{opacity:0,x:30},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.6},className:`lg:col-span-3 relative overflow-hidden rounded-[24px] sm:rounded-[30px] bg-gradient-to-br from-[#143D28] via-[#1B5138] to-[#0E2A1C] p-6 sm:p-8 md:p-10 shadow-[0_20px_50px_rgba(20,61,40,.4)]`,children:[(0,X.jsx)(`div`,{className:`absolute -top-16 -right-16 w-56 h-56 rounded-full bg-[#D4AF37]/10 blur-3xl pointer-events-none`}),(0,X.jsx)(`div`,{className:`absolute -bottom-16 -left-16 w-56 h-56 rounded-full bg-[#D4AF37]/10 blur-3xl pointer-events-none`}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(`span`,{className:`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#D4AF37]/50 text-[#D4AF37] tracking-[2px] uppercase text-[10px] sm:text-xs font-semibold bg-[#D4AF37]/5`,children:`Contact Form`}),(0,X.jsx)(`h3`,{className:`mt-4 text-2xl sm:text-3xl text-white font-bold`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Send Us a Message`}),(0,X.jsx)(`p`,{className:`mt-2 text-gray-300 text-sm`,children:`We'll respond to you on WhatsApp as soon as possible.`}),(0,X.jsxs)(`form`,{onSubmit:r,className:`mt-6 flex flex-col gap-4`,children:[(0,X.jsxs)(`div`,{className:`grid sm:grid-cols-2 gap-4`,children:[(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(dm,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`text`,name:`name`,value:e.name,onChange:n,placeholder:`Your Name`,className:`w-full pl-11 pr-4 py-3.5 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(em,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`tel`,name:`phone`,value:e.phone,onChange:n,placeholder:`Phone Number`,className:`w-full pl-11 pr-4 py-3.5 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]})]}),(0,X.jsx)(`textarea`,{name:`message`,value:e.message,onChange:n,rows:`3`,placeholder:`Your Message`,className:`p-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300 resize-none`}),(0,X.jsxs)(`button`,{type:`submit`,className:`group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 py-3.5 font-semibold text-[#143D28] shadow-[0_12px_28px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-[1.02] self-start`,children:[(0,X.jsx)(`span`,{className:`absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700`}),(0,X.jsx)(`span`,{className:`relative`,children:`Submit `})]})]})]})]})]}),(0,X.jsx)(`div`,{className:`mt-12 sm:mt-16 md:mt-20 relative rounded-[20px] sm:rounded-[30px] overflow-hidden shadow-xl border-4 border-white`,children:(0,X.jsx)(`iframe`,{title:`Vrundawan Celebration & Resort Location`,className:`w-full h-[280px] sm:h-[380px] md:h-[450px]`,src:`https://maps.google.com/maps?q=Latur-Ambejogai%20Road%2C%20Beside%20Majara%20River%2C%20Mahapur%2C%20Taluka%20%26%20District%20Latur%2C%20Maharashtra&t=&z=14&ie=UTF8&iwloc=&output=embed`,loading:`lazy`,referrerPolicy:`no-referrer-when-downgrade`})}),(0,X.jsxs)(`div`,{className:`mt-16 sm:mt-20 md:mt-24 relative overflow-hidden rounded-[24px] sm:rounded-[32px] md:rounded-[40px] bg-gradient-to-br from-[#143D28] via-[#1B5138] to-[#0E2A1C] p-6 sm:p-10 md:p-14 shadow-[0_25px_60px_rgba(20,61,40,.45)]`,children:[(0,X.jsx)(`div`,{className:`absolute -top-24 -left-24 w-72 h-72 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsx)(`div`,{className:`absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-[#D4AF37]/10 blur-3xl`}),(0,X.jsxs)(`div`,{className:`relative text-center`,children:[(0,X.jsx)(`span`,{className:`inline-flex items-center gap-2 px-4 sm:px-5 py-1.5 sm:py-2 rounded-full border border-[#D4AF37]/50 text-[#D4AF37] tracking-[2px] sm:tracking-[3px] uppercase text-[10px] sm:text-xs font-semibold bg-[#D4AF37]/5`,children:`Quick Enquiry`}),(0,X.jsx)(`h2`,{className:`mt-5 text-3xl sm:text-4xl md:text-5xl text-white font-bold`,style:{fontFamily:`'Cormorant Garamond', serif`},children:`Tell Us About Your Event`}),(0,X.jsx)(`p`,{className:`mt-3 text-gray-300 text-sm sm:text-base max-w-xl mx-auto`,children:`Fill the details below — we'll get your enquiry directly on WhatsApp for a quick response.`})]}),(0,X.jsxs)(`form`,{onSubmit:e=>{if(e.preventDefault(),!i.name||!i.phone){alert(`Please enter your name and phone number.`);return}let t=`Hello Vrundawan Celebration & Resort! 🌿
-
-I would like to enquire about a booking.
-
-*Name:* ${i.name}\n*Phone:* ${i.phone}\n*Event Type:* ${i.eventType||`-`}\n*Guest Count:* ${i.guests||`-`}\n*Preferred Date:* ${i.date||`-`}\n*Message:* ${i.message||`-`}`,n=`https://wa.me/${Lv}?text=${encodeURIComponent(t)}`;window.open(n,`_blank`,`noopener,noreferrer`)},className:`relative grid sm:grid-cols-2 gap-4 sm:gap-6 mt-10`,children:[(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(dm,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`text`,name:`name`,value:i.name,onChange:o,placeholder:`Your Name`,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(em,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`tel`,name:`phone`,value:i.phone,onChange:o,placeholder:`Phone Number`,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`,required:!0})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(Qp,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] z-10`}),(0,X.jsxs)(`select`,{name:`eventType`,value:i.eventType,onChange:o,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300 appearance-none cursor-pointer`,children:[(0,X.jsx)(`option`,{value:``,children:`Select Event Type`}),[`Wedding`,`Reception`,`Engagement`,`Birthday Party`,`Corporate Event`,`Family Picnic`,`Hurda Party`,`Resort Stay`,`Other`].map(e=>(0,X.jsx)(`option`,{value:e,children:e},e))]})]}),(0,X.jsxs)(`div`,{className:`relative`,children:[(0,X.jsx)(fm,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]`}),(0,X.jsx)(`input`,{type:`number`,name:`guests`,value:i.guests,onChange:o,placeholder:`Approx. Guest Count`,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`})]}),(0,X.jsxs)(`div`,{className:`relative sm:col-span-2`,children:[(0,X.jsx)(Up,{size:18,className:`absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] z-10`}),(0,X.jsx)(`input`,{type:`date`,name:`date`,value:i.date,onChange:o,className:`w-full pl-11 pr-4 py-3.5 sm:py-4 rounded-xl bg-white/95 text-[#143D28] outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300`})]}),(0,X.jsx)(`textarea`,{name:`message`,value:i.message,onChange:o,rows:`4`,placeholder:`Tell us more about your event...`,className:`sm:col-span-2 p-4 rounded-xl bg-white/95 text-[#143D28] placeholder-gray-400 outline-none border-2 border-transparent focus:border-[#D4AF37] transition-colors duration-300 resize-none`}),(0,X.jsxs)(`div`,{className:`sm:col-span-2 text-center mt-2`,children:[(0,X.jsxs)(`button`,{type:`submit`,className:`group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] px-8 sm:px-10 py-3.5 sm:py-4 font-semibold text-[#143D28] shadow-[0_15px_35px_rgba(212,175,55,.35)] transition-all duration-500 hover:-translate-y-1 hover:scale-105`,children:[(0,X.jsx)(`span`,{className:`absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition duration-700`}),(0,X.jsx)(Zp,{size:20,className:`relative`}),(0,X.jsx)(`span`,{className:`relative`,children:`Send Enquiry`})]}),(0,X.jsx)(`p`,{className:`mt-3 text-gray-400 text-xs sm:text-sm`,children:`Clicking this will open WhatsApp with your details filled in.`})]})]})]}),(0,X.jsxs)(`div`,{className:`mt-16 sm:mt-20 md:mt-24 text-center`,children:[(0,X.jsx)(`h2`,{className:`text-2xl sm:text-3xl md:text-4xl font-bold text-[#143D28]`,children:`Book Your Site Visit Today`}),(0,X.jsx)(`p`,{className:`text-gray-600 mt-4 sm:mt-5 max-w-xl mx-auto px-2`,children:`Visit Vrundawan Celebration & Resort and experience luxury in person.`}),(0,X.jsxs)(`div`,{className:`flex flex-wrap justify-center gap-4 sm:gap-5 mt-8 sm:mt-10`,children:[(0,X.jsx)(`a`,{href:`tel:+918180877750`,children:(0,X.jsxs)(`button`,{className:`flex items-center gap-2 bg-[#143D28] text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-full font-semibold text-sm sm:text-base hover:bg-[#0E2A1C] hover:-translate-y-1 transition-all duration-300 shadow-lg`,children:[(0,X.jsx)(em,{size:18}),`Call Now`]})}),(0,X.jsx)(`a`,{href:`https://wa.me/${Lv}`,target:`_blank`,rel:`noreferrer`,children:(0,X.jsxs)(`button`,{className:`flex items-center gap-2 bg-gradient-to-r from-[#C99A1A] via-[#D4AF37] to-[#F3D98B] text-[#143D28] px-6 sm:px-8 py-3.5 sm:py-4 rounded-full font-semibold text-sm sm:text-base hover:-translate-y-1 transition-all duration-300 shadow-lg`,children:[(0,X.jsx)(Zp,{size:18}),`WhatsApp Now`]})})]})]})]})})]})},zv=()=>{let{pathname:e}=ft();return(0,w.useEffect)(()=>{window.scrollTo(0,0)},[e]),null},Bv=`https://maps.google.com/?q=Vrundawan+Celebration+%26+Resort+Mahapur+Latur`,Vv=()=>(0,X.jsxs)(`div`,{className:`lg:hidden fixed bottom-4 left-4 right-20 z-40 flex gap-2`,style:{paddingBottom:`env(safe-area-inset-bottom)`},children:[(0,X.jsxs)(`a`,{href:`tel:+918180877750`,className:`flex-1 flex items-center justify-center gap-2\r
-        py-2 rounded-xl\r
-        bg-gradient-to-b from-[#123522] to-[#0A2016]\r
-        border border-[#D4AF37]/60\r
-        shadow-[0_8px_20px_-6px_rgba(0,0,0,0.6)]\r
-        text-[#F3D98B]\r
-        font-semibold text-[12px]\r
-        active:scale-95\r
-        transition-transform duration-150`,children:[(0,X.jsx)(`span`,{className:`h-8 w-8 rounded-full bg-[#D4AF37] flex items-center justify-center`,children:(0,X.jsx)(em,{size:15,strokeWidth:2.4,className:`text-[#0A2016]`})}),`Call Now`]}),(0,X.jsxs)(`a`,{href:Bv,target:`_blank`,rel:`noopener noreferrer`,className:`flex-1 flex items-center justify-center gap-2\r
-        py-2 rounded-xl\r
-        bg-gradient-to-b from-[#123522] to-[#0A2016]\r
-        border border-[#D4AF37]/60\r
-        shadow-[0_8px_20px_-6px_rgba(0,0,0,0.6)]\r
-        text-[#F3D98B]\r
-        font-semibold text-[12px]\r
-        active:scale-95\r
-        transition-transform duration-150`,children:[(0,X.jsx)(`span`,{className:`h-8 w-8 rounded-full bg-[#D4AF37] flex items-center justify-center`,children:(0,X.jsx)(Yp,{size:15,strokeWidth:2.4,className:`text-[#0A2016]`})}),`Location`]})]}),Hv=()=>(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(zv,{}),(0,X.jsx)(vm,{}),(0,X.jsxs)(Ht,{children:[(0,X.jsx)(Bt,{path:`/`,element:(0,X.jsx)(Cv,{})}),(0,X.jsx)(Bt,{path:`/about`,element:(0,X.jsx)(Ov,{})}),(0,X.jsx)(Bt,{path:`/services`,element:(0,X.jsx)(Av,{})}),(0,X.jsx)(Bt,{path:`/gallery`,element:(0,X.jsx)(Iv,{})}),(0,X.jsx)(Bt,{path:`/contact`,element:(0,X.jsx)(Rv,{})})]}),(0,X.jsx)(Vv,{}),(0,X.jsx)(Vm,{})]});function Uv(){let[e,t]=(0,w.useState)(!0);return(0,w.useEffect)(()=>{let e=setTimeout(()=>{t(!1)},3e3);return()=>clearTimeout(e)},[]),(0,X.jsx)(X.Fragment,{children:e?(0,X.jsx)(Op,{}):(0,X.jsx)(Hv,{})})}Ep.createRoot(document.getElementById(`root`)).render((0,X.jsx)(An,{basename:`/vrundawan-celebration-resort`,children:(0,X.jsx)(Uv,{})}));
+      `}),e&&(0,X.jsx)(`div`,{className:`vw-overlay`,onClick:()=>t(!1),"aria-hidden":`true`}),(0,X.jsxs)(`div`,{className:`vw-root`,children:[(0,X.jsxs)(`button`,{onClick:()=>t(!e),className:`vw-fab`,"aria-label":e?`Close chat`:`Chat on WhatsApp`,children:[!e&&(0,X.jsx)(`span`,{className:`vw-badge vw-serif`,children:`Ask us`}),e?(0,X.jsx)(_m,{size:26}):(0,X.jsx)(Rv,{size:30})]}),e&&(0,X.jsxs)(`div`,{className:`vw-panel`,role:`dialog`,"aria-label":`Vrundawan Assistant`,children:[(0,X.jsxs)(`div`,{className:`vw-header`,children:[(0,X.jsx)(`div`,{className:`vw-handle`}),(0,X.jsxs)(`div`,{className:`vw-header-row`,children:[(0,X.jsxs)(`div`,{children:[(0,X.jsx)(`div`,{className:`vw-title vw-serif`,children:`Vrundawan Assistant`}),(0,X.jsx)(`div`,{className:`vw-sub`,children:`Namaste 🙏 What are you planning today?`}),(0,X.jsxs)(`div`,{className:`vw-online`,children:[(0,X.jsx)(`span`,{className:`vw-dot`}),`Replies within minutes`]})]}),(0,X.jsx)(`button`,{className:`vw-close`,onClick:()=>t(!1),"aria-label":`Close`,children:(0,X.jsx)(_m,{size:16})})]})]}),(0,X.jsxs)(`div`,{className:`vw-body`,children:[zv.map(({label:e,icon:t})=>(0,X.jsxs)(`button`,{onClick:()=>n(e),className:`vw-opt`,children:[(0,X.jsx)(`span`,{className:`vw-opt-icon`,children:(0,X.jsx)(t,{size:16})}),e]},e)),(0,X.jsxs)(`button`,{onClick:()=>n(`Site Visit`),className:`vw-visit vw-row-full`,children:[(0,X.jsx)(Hp,{size:18}),`Book a Site Visit`]}),(0,X.jsxs)(`button`,{onClick:()=>n(`Talk to Manager`),className:`vw-manager vw-row-full`,children:[(0,X.jsx)(fm,{size:18}),`Talk to Manager`]})]}),(0,X.jsx)(`div`,{className:`vw-footer`,children:(0,X.jsxs)(`button`,{onClick:()=>n(`General Enquiry`),className:`vw-cta`,children:[(0,X.jsx)(am,{size:16}),`Continue on WhatsApp`]})})]})]})]})},Hv=()=>(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(Fv,{}),(0,X.jsx)(vm,{}),(0,X.jsxs)(Ht,{children:[(0,X.jsx)(Bt,{path:`/`,element:(0,X.jsx)(yv,{})}),(0,X.jsx)(Bt,{path:`/about`,element:(0,X.jsx)(wv,{})}),(0,X.jsx)(Bt,{path:`/services`,element:(0,X.jsx)(Ev,{})}),(0,X.jsx)(Bt,{path:`/gallery`,element:(0,X.jsx)(Mv,{})}),(0,X.jsx)(Bt,{path:`/contact`,element:(0,X.jsx)(Pv,{})})]}),(0,X.jsx)(Lv,{}),(0,X.jsx)(Vv,{}),(0,X.jsx)(Vm,{})]});function Uv(){let[e,t]=(0,w.useState)(!0);return(0,w.useEffect)(()=>{let e=setTimeout(()=>{t(!1)},3e3);return()=>clearTimeout(e)},[]),(0,X.jsx)(X.Fragment,{children:e?(0,X.jsx)(Op,{}):(0,X.jsx)(Hv,{})})}Ep.createRoot(document.getElementById(`root`)).render((0,X.jsx)(An,{basename:`/vrundawan-celebration-resort`,children:(0,X.jsx)(Uv,{})}));
