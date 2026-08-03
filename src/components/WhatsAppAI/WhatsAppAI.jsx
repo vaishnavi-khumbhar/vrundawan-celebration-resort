@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   X,
   Send,
@@ -12,6 +12,7 @@ import {
   Home,
   Tent,
   Wheat,
+  ArrowLeft,
 } from "lucide-react";
 
 // Real WhatsApp glyph — lucide-react only has a generic chat bubble (MessageCircle),
@@ -39,6 +40,16 @@ const OPTIONS = [
   { label: "Hurda Party", icon: Wheat },
 ];
 
+// The 5 quick questions the mini "AI assistant" asks after the user
+// picks a category — kept generic so they read naturally for any category.
+const QUESTIONS = [
+  { key: "date", text: "Sure! What date are you planning this for? " },
+  { key: "guests", text: "Nice. Roughly how many guests are you expecting? " },
+  { key: "budget", text: "Got it. What's your approximate budget range? " },
+  { key: "requirements", text: "Any specific requirements — catering, decor, stay, DJ, and other services? " },
+  { key: "contact", text: "Last one — your name & best number to reach you on? " },
+];
+
 // Event name used to open this widget from ANYWHERE else in the app
 // (navbar icon, mobile Call/WhatsApp/Location bar, any custom button, etc.)
 export const VW_OPEN_EVENT = "vrundawan-open-whatsapp-assistant";
@@ -52,6 +63,17 @@ export const openWhatsAppAssistant = () => {
 
 const WhatsAppAI = () => {
   const [open, setOpen] = useState(false);
+
+  // conversation state
+  const [activeType, setActiveType] = useState(null); // which option was picked
+  const [messages, setMessages] = useState([]); // {from:'bot'|'user', text}
+  const [qIndex, setQIndex] = useState(0); // which question we're on
+  const [answers, setAnswers] = useState({}); // collected answers
+  const [inputValue, setInputValue] = useState("");
+  const [typing, setTyping] = useState(false);
+  const [finished, setFinished] = useState(false);
+
+  const scrollRef = useRef(null);
 
   // listen for the global "open" event fired by other buttons on the site
   useEffect(() => {
@@ -72,21 +94,119 @@ const WhatsAppAI = () => {
     };
   }, [open]);
 
-  const sendWhatsApp = (type) => {
-    const message = ` Hello Vrundawan Celebration & Resort,
+  // auto-scroll chat to bottom on new message / typing indicator
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+    }
+  }, [messages, typing]);
+
+  const resetConversation = () => {
+    setActiveType(null);
+    setMessages([]);
+    setQIndex(0);
+    setAnswers({});
+    setInputValue("");
+    setFinished(false);
+    setTyping(false);
+  };
+
+  const closePanel = () => {
+    setOpen(false);
+    // small delay so the closing animation doesn't visibly reset mid-way
+    setTimeout(resetConversation, 300);
+  };
+
+  // fired when the user taps one of the category buttons on the intro screen
+  const startFlow = (type) => {
+    setActiveType(type);
+    setAnswers({});
+    setQIndex(0);
+    setFinished(false);
+    setMessages([
+      { from: "bot", text: `Great choice — ${type}! 🙌 Let me grab a few quick details so our team can help you faster.` },
+    ]);
+    setTyping(true);
+    setTimeout(() => {
+      setTyping(false);
+      setMessages((prev) => [...prev, { from: "bot", text: QUESTIONS[0].text }]);
+    }, 700);
+  };
+
+  // sends the final compiled message to WhatsApp
+  const finishAndSendToWhatsApp = (type, finalAnswers) => {
+  const message = `• Hello Vrundawan Celebration & Resort,
 
 I am interested in:
- ${type}
+• ${type}
+
+• Date: ${finalAnswers.date || "-"}
+• Guests: ${finalAnswers.guests || "-"}
+• Budget: ${finalAnswers.budget || "-"}
+• Requirements: ${finalAnswers.requirements || "-"}
+• Contact: ${finalAnswers.contact || "-"}
 
 Please share complete details, availability and pricing.
 
 Thank you.`;
 
     window.open(
-      `https://wa.me/918180877750?text=${encodeURIComponent(message)}`,
+      `https://wa.me/7083895978?text=${encodeURIComponent(message)}`,
       "_blank"
     );
   };
+
+  // handles both Enter-key and Send-button submissions during the Q&A flow
+  const handleSend = () => {
+    const trimmed = inputValue.trim();
+    if (!trimmed || typing || finished) return;
+
+    const currentKey = QUESTIONS[qIndex].key;
+    const updatedAnswers = { ...answers, [currentKey]: trimmed };
+    setAnswers(updatedAnswers);
+    setMessages((prev) => [...prev, { from: "user", text: trimmed }]);
+    setInputValue("");
+
+    const nextIndex = qIndex + 1;
+
+    setTyping(true);
+    setTimeout(() => {
+      setTyping(false);
+      if (nextIndex < QUESTIONS.length) {
+        setQIndex(nextIndex);
+        setMessages((prev) => [...prev, { from: "bot", text: QUESTIONS[nextIndex].text }]);
+      } else {
+        setFinished(true);
+        setMessages((prev) => [
+          ...prev,
+          {
+            from: "bot",
+            text: "Perfect, that's everything I need! ✅ Opening WhatsApp now so our team can take it from here.",
+          },
+        ]);
+        finishAndSendToWhatsApp(activeType, updatedAnswers);
+      }
+    }, 700);
+  };
+
+  // quick shortcuts that skip the Q&A and go straight to WhatsApp
+  const quickSend = (type) => {
+    const message = `▪️ Hello Vrundawan Celebration & Resort,
+
+I am interested in:
+▪️ ${type}
+
+Please share complete details, availability and pricing.
+
+Thank you.`;
+
+    window.open(
+      `https://wa.me/7083895978?text=${encodeURIComponent(message)}`,
+      "_blank"
+    );
+  };
+
+  const inChat = activeType !== null;
 
   return (
     <>
@@ -142,9 +262,9 @@ Thank you.`;
           z-index: 999;
           right: 22px;
           bottom: 96px;
-          width: 350px;
+          width: 360px;
           max-width: calc(100vw - 24px);
-          max-height: min(600px, calc(100vh - 120px));
+          max-height: min(620px, calc(100vh - 120px));
           background: #FDFBF7;
           border-radius: 22px;
           overflow: hidden;
@@ -175,7 +295,20 @@ Thank you.`;
           border-radius: 20px 20px 0 0;
         }
         .vw-header-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+        .vw-header-left { display: flex; align-items: center; gap: 10px; }
+        .vw-back {
+          background: rgba(255,255,255,0.1);
+          border: none;
+          color: #F4EFE3;
+          width: 30px; height: 30px;
+          border-radius: 999px;
+          display: flex; align-items: center; justify-content: center;
+          cursor: pointer;
+          flex-shrink: 0;
+        }
+        .vw-back:hover { background: rgba(255,255,255,0.18); }
         .vw-title { font-size: 26px; font-weight: 700; line-height: 1.1; letter-spacing: 0.2px; }
+        .vw-title-sm { font-size: 19px; font-weight: 700; line-height: 1.1; }
         .vw-sub { font-size: 13px; color: #C9BFA0; margin-top: 6px; line-height: 1.5; }
         .vw-close {
           background: rgba(255,255,255,0.1);
@@ -198,6 +331,7 @@ Thank you.`;
           color: #9FD8B4;
         }
         .vw-dot { width: 7px; height: 7px; border-radius: 999px; background: #4ADE80; box-shadow: 0 0 0 3px rgba(74,222,128,0.25); }
+        .vw-dot.typing { background: #F3D98B; box-shadow: 0 0 0 3px rgba(243,217,139,0.25); }
 
         .vw-body {
           padding: 14px 16px 6px;
@@ -290,6 +424,117 @@ Thank you.`;
         }
         .vw-cta:hover { transform: scale(1.02); }
 
+        /* ---- chat mode ---- */
+        .vw-chat {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          min-height: 0;
+        }
+        .vw-chat-scroll {
+          flex: 1;
+          overflow-y: auto;
+          padding: 16px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+        .vw-chat-scroll::-webkit-scrollbar { width: 5px; }
+        .vw-chat-scroll::-webkit-scrollbar-thumb { background: #E4DCC5; border-radius: 999px; }
+
+        .vw-msg {
+          max-width: 82%;
+          padding: 10px 13px;
+          border-radius: 16px;
+          font-size: 13.5px;
+          line-height: 1.45;
+          animation: vw-msg-in 0.25s ease;
+        }
+        @keyframes vw-msg-in {
+          from { opacity: 0; transform: translateY(6px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        .vw-msg-bot {
+          align-self: flex-start;
+          background: #F0E9D8;
+          color: #2B2B28;
+          border-bottom-left-radius: 4px;
+        }
+        .vw-msg-user {
+          align-self: flex-end;
+          background: #143D28;
+          color: #F4EFE3;
+          border-bottom-right-radius: 4px;
+        }
+
+        .vw-typing {
+          align-self: flex-start;
+          display: flex;
+          gap: 4px;
+          padding: 12px 14px;
+          background: #F0E9D8;
+          border-radius: 16px;
+          border-bottom-left-radius: 4px;
+        }
+        .vw-typing span {
+          width: 6px; height: 6px;
+          border-radius: 999px;
+          background: #A8802E;
+          animation: vw-bounce 1.2s infinite ease-in-out;
+        }
+        .vw-typing span:nth-child(2) { animation-delay: 0.15s; }
+        .vw-typing span:nth-child(3) { animation-delay: 0.3s; }
+        @keyframes vw-bounce {
+          0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
+          30% { transform: translateY(-4px); opacity: 1; }
+        }
+
+        .vw-chat-input-row {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding: 12px 14px;
+          border-top: 1px solid #EDE6D2;
+          flex-shrink: 0;
+        }
+        .vw-chat-input {
+          flex: 1;
+          border: 1px solid #EDE6D2;
+          background: #FBF8F0;
+          border-radius: 999px;
+          padding: 10px 16px;
+          font-size: 13.5px;
+          color: #2B2B28;
+          outline: none;
+        }
+        .vw-chat-input:focus { border-color: #D4AF37; }
+        .vw-chat-send {
+          flex-shrink: 0;
+          width: 40px; height: 40px;
+          border-radius: 999px;
+          border: none;
+          background: linear-gradient(135deg, #25D366, #1DA851);
+          color: #fff;
+          display: flex; align-items: center; justify-content: center;
+          cursor: pointer;
+          transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+        .vw-chat-send:disabled { opacity: 0.45; cursor: not-allowed; }
+        .vw-chat-send:not(:disabled):active { transform: scale(0.92); }
+
+        .vw-restart {
+          margin: 0 14px 14px;
+          padding: 12px;
+          border-radius: 12px;
+          border: 1px dashed #C9A227;
+          background: #FCF6E4;
+          color: #7A5C0E;
+          font-weight: 600;
+          font-size: 12.5px;
+          text-align: center;
+          cursor: pointer;
+        }
+
         .vw-root {
           display: block;
         }
@@ -327,9 +572,11 @@ Thank you.`;
           }
           .vw-header { padding: 14px 18px 22px; }
           .vw-title { font-size: 22px; }
+          .vw-title-sm { font-size: 17px; }
           .vw-body { grid-template-columns: 1fr 1fr; gap: 10px; padding: 14px 14px 8px; }
           .vw-opt { padding: 14px 11px; font-size: 13px; }
           .vw-footer { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
+          .vw-chat-input-row { padding-bottom: max(12px, env(safe-area-inset-bottom)); }
         }
 
         .vw-handle {
@@ -345,7 +592,7 @@ Thank you.`;
       {open && (
         <div
           className="vw-overlay"
-          onClick={() => setOpen(false)}
+          onClick={closePanel}
           aria-hidden="true"
         />
       )}
@@ -353,7 +600,7 @@ Thank you.`;
       <div className="vw-root">
         {/* Floating Button */}
         <button
-          onClick={() => setOpen(!open)}
+          onClick={() => (open ? closePanel() : setOpen(true))}
           className="vw-fab"
           aria-label={open ? "Close chat" : "Chat on WhatsApp"}
         >
@@ -368,62 +615,116 @@ Thank you.`;
             <div className="vw-header">
               <div className="vw-handle" />
               <div className="vw-header-row">
-                <div>
-                  <div className="vw-title vw-serif">Vrundawan Assistant</div>
-                  <div className="vw-sub">Namaste 🙏 What are you planning today?</div>
-                  <div className="vw-online">
-                    <span className="vw-dot" />
-                    Replies within minutes
+                <div className="vw-header-left">
+                  {inChat && (
+                    <button className="vw-back" onClick={resetConversation} aria-label="Back">
+                      <ArrowLeft size={16} />
+                    </button>
+                  )}
+                  <div>
+                    <div className={inChat ? "vw-title-sm vw-serif" : "vw-title vw-serif"}>
+                      {inChat ? `${activeType}` : "Vrundawan Assistant"}
+                    </div>
+                    {!inChat && (
+                      <div className="vw-sub">Namaste 🙏 What are you planning today?</div>
+                    )}
+                    <div className="vw-online">
+                      <span className={`vw-dot ${typing ? "typing" : ""}`} />
+                      {typing ? "Assistant is typing…" : "Replies within minutes"}
+                    </div>
                   </div>
                 </div>
-                <button className="vw-close" onClick={() => setOpen(false)} aria-label="Close">
+                <button className="vw-close" onClick={closePanel} aria-label="Close">
                   <X size={16} />
                 </button>
               </div>
             </div>
 
-            {/* Body */}
-            <div className="vw-body">
-              {OPTIONS.map(({ label, icon: Icon }) => (
-                <button
-                  key={label}
-                  onClick={() => sendWhatsApp(label)}
-                  className="vw-opt"
-                >
-                  <span className="vw-opt-icon">
-                    <Icon size={16} />
-                  </span>
-                  {label}
-                </button>
-              ))}
+            {!inChat ? (
+              <>
+                {/* Options grid */}
+                <div className="vw-body">
+                  {OPTIONS.map(({ label, icon: Icon }) => (
+                    <button key={label} onClick={() => startFlow(label)} className="vw-opt">
+                      <span className="vw-opt-icon">
+                        <Icon size={16} />
+                      </span>
+                      {label}
+                    </button>
+                  ))}
 
-              <button
-                onClick={() => sendWhatsApp("Site Visit")}
-                className="vw-visit vw-row-full"
-              >
-                <CalendarDays size={18} />
-                Book a Site Visit
-              </button>
+                  <button
+                    onClick={() => startFlow("Site Visit")}
+                    className="vw-visit vw-row-full"
+                  >
+                    <CalendarDays size={18} />
+                    Book a Site Visit
+                  </button>
 
-              <button
-                onClick={() => sendWhatsApp("Talk to Manager")}
-                className="vw-manager vw-row-full"
-              >
-                <Users size={18} />
-                Talk to Manager
-              </button>
-            </div>
+                  <button
+                    onClick={() => quickSend("Talk to Manager")}
+                    className="vw-manager vw-row-full"
+                  >
+                    <Users size={18} />
+                    Talk to Manager
+                  </button>
+                </div>
 
-            {/* Footer */}
-            <div className="vw-footer">
-              <button
-                onClick={() => sendWhatsApp("General Enquiry")}
-                className="vw-cta"
-              >
-                <Send size={16} />
-                Continue on WhatsApp
-              </button>
-            </div>
+                {/* Footer */}
+                <div className="vw-footer">
+                  <button
+                    onClick={() => quickSend("General Enquiry")}
+                    className="vw-cta"
+                  >
+                    <Send size={16} />
+                    Continue on WhatsApp
+                  </button>
+                </div>
+              </>
+            ) : (
+              <div className="vw-chat">
+                <div className="vw-chat-scroll" ref={scrollRef}>
+                  {messages.map((m, i) => (
+                    <div key={i} className={`vw-msg ${m.from === "bot" ? "vw-msg-bot" : "vw-msg-user"}`}>
+                      {m.text}
+                    </div>
+                  ))}
+                  {typing && (
+                    <div className="vw-typing">
+                      <span /><span /><span />
+                    </div>
+                  )}
+                </div>
+
+                {!finished ? (
+                  <div className="vw-chat-input-row">
+                    <input
+                      className="vw-chat-input"
+                      type="text"
+                      placeholder="Type your answer…"
+                      value={inputValue}
+                      onChange={(e) => setInputValue(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter") handleSend();
+                      }}
+                      disabled={typing}
+                    />
+                    <button
+                      className="vw-chat-send"
+                      onClick={handleSend}
+                      disabled={typing || !inputValue.trim()}
+                      aria-label="Send"
+                    >
+                      <Send size={16} />
+                    </button>
+                  </div>
+                ) : (
+                  <button className="vw-restart" onClick={resetConversation}>
+                    Ask about something else →
+                  </button>
+                )}
+              </div>
+            )}
           </div>
         )}
       </div>
