@@ -141,6 +141,7 @@ const closeGallery = () => {
 />
       
 
+
 <section
       className="py-15 bg-[#FAF7F2]"
       id="services"
@@ -376,7 +377,8 @@ const closeGallery = () => {
 
       <WeddingSection />
 
-    
+    <div className="mt-12"></div>
+
 
       <ResortExperience />
       <Activities />
