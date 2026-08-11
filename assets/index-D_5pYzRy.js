@@ -1326,14 +1326,14 @@ I am interested in:
 
 Please share complete details, availability and pricing.
 
-Thank you.`;window.open(`https://wa.me/7083895978?text=${encodeURIComponent(n)}`,`_blank`)},x=()=>{let e=u.trim();if(!e||f||m)return;let t=Vv[o].key,r={...c,[t]:e};l(r),a(t=>[...t,{from:`user`,text:e}]),d(``);let i=o+1;p(!0),setTimeout(()=>{p(!1),i<Vv.length?(s(i),a(e=>[...e,{from:`bot`,text:Vv[i].text}])):(h(!0),a(e=>[...e,{from:`bot`,text:`Perfect, that's everything I need! ✅ Opening WhatsApp now so our team can take it from here.`}]),b(n,r))},700)},S=e=>{let t=`▪️ Hello Vrundawan Celebration & Resort,
+Thank you.`;window.open(`https://wa.me/918180877750?text=${encodeURIComponent(n)}`,`_blank`)},x=()=>{let e=u.trim();if(!e||f||m)return;let t=Vv[o].key,r={...c,[t]:e};l(r),a(t=>[...t,{from:`user`,text:e}]),d(``);let i=o+1;p(!0),setTimeout(()=>{p(!1),i<Vv.length?(s(i),a(e=>[...e,{from:`bot`,text:Vv[i].text}])):(h(!0),a(e=>[...e,{from:`bot`,text:`Perfect, that's everything I need! ✅ Opening WhatsApp now so our team can take it from here.`}]),b(n,r))},700)},S=e=>{let t=`▪️ Hello Vrundawan Celebration & Resort,
 
 I am interested in:
 ▪️ ${e}
 
 Please share complete details, availability and pricing.
 
-Thank you.`;window.open(`https://wa.me/7083895978?text=${encodeURIComponent(t)}`,`_blank`)},C=n!==null;return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(`style`,{children:`
+Thank you.`;window.open(`https://wa.me/918180877750?text=${encodeURIComponent(t)}`,`_blank`)},C=n!==null;return(0,X.jsxs)(X.Fragment,{children:[(0,X.jsx)(`style`,{children:`
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap');
 
         .vw-root * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
