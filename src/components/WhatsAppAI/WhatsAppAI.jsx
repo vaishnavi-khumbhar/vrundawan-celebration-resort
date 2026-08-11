@@ -151,7 +151,7 @@ Please share complete details, availability and pricing.
 Thank you.`;
 
     window.open(
-      `https://wa.me/7083895978?text=${encodeURIComponent(message)}`,
+      `https://wa.me/918180877750?text=${encodeURIComponent(message)}`,
       "_blank"
     );
   };
@@ -201,7 +201,7 @@ Please share complete details, availability and pricing.
 Thank you.`;
 
     window.open(
-      `https://wa.me/7083895978?text=${encodeURIComponent(message)}`,
+      `https://wa.me/918180877750?text=${encodeURIComponent(message)}`,
       "_blank"
     );
   };
